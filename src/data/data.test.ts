@@ -11,7 +11,7 @@ import type { Top10Question, LineupQuestion } from '../types'
  * 아직 채우지 않은 스키마 샘플. 개수 규칙(정답 10개 · 선발 11명 · 등번호 0 금지)만 면제한다.
  * ⚠️ 실제 데이터로 채운 뒤에는 여기서 지울 것 — 남겨 두면 검사가 느슨해진다.
  */
-const SAMPLE_IDS = new Set(['sample-top10', 'salah-liverpool-english', 'ucl-2008-final-manutd'])
+const SAMPLE_IDS = new Set(['sample-top10', 'salah-liverpool-english'])
 
 function uniqueIds(list: { id: string }[], label: string) {
   const seen = new Set<string>()

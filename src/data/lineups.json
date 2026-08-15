@@ -1,23 +1,1501 @@
 [
   {
+    "id": "wc-2002-r16-korea",
+    "title": "2002 월드컵 16강",
+    "subtitle": "대한민국 vs 이탈리아 · 대전",
+    "formation": "3-4-3",
+    "trivia": "안정환은 전반 5분 페널티킥을 부폰에게 막혔지만, 연장 117분 헤딩 골든골로 승부를 끝냈다.",
+    "bonus": {
+      "question": "연장 117분 골든골을 넣은 선수는?",
+      "answers": [
+        "안정환",
+        "Ahn Jung-hwan"
+      ]
+    },
+    "players": [
+      {
+        "number": 1,
+        "row": 1,
+        "col": 1,
+        "name": "이운재",
+        "position": "골키퍼",
+        "nationality": "대한민국",
+        "aliases": [
+          "Lee Woon-jae",
+          "woon-jae"
+        ]
+      },
+      {
+        "number": 4,
+        "row": 2,
+        "col": 1,
+        "name": "최진철",
+        "position": "센터백",
+        "nationality": "대한민국",
+        "aliases": [
+          "Choi Jin-cheul",
+          "jin-cheul"
+        ]
+      },
+      {
+        "number": 20,
+        "row": 2,
+        "col": 2,
+        "name": "홍명보",
+        "position": "센터백",
+        "nationality": "대한민국",
+        "aliases": [
+          "Hong Myung-bo",
+          "myung-bo"
+        ]
+      },
+      {
+        "number": 7,
+        "row": 2,
+        "col": 3,
+        "name": "김태영",
+        "position": "센터백",
+        "nationality": "대한민국",
+        "aliases": [
+          "Kim Tae-young",
+          "tae-young"
+        ]
+      },
+      {
+        "number": 10,
+        "row": 3,
+        "col": 1,
+        "name": "이영표",
+        "position": "왼쪽 미드필더",
+        "nationality": "대한민국",
+        "aliases": [
+          "Lee Young-pyo",
+          "young-pyo"
+        ]
+      },
+      {
+        "number": 6,
+        "row": 3,
+        "col": 2,
+        "name": "유상철",
+        "position": "중앙 미드필더",
+        "nationality": "대한민국",
+        "aliases": [
+          "Yoo Sang-chul",
+          "sang-chul"
+        ]
+      },
+      {
+        "number": 5,
+        "row": 3,
+        "col": 3,
+        "name": "김남일",
+        "position": "중앙 미드필더",
+        "nationality": "대한민국",
+        "aliases": [
+          "Kim Nam-il",
+          "nam-il"
+        ]
+      },
+      {
+        "number": 22,
+        "row": 3,
+        "col": 4,
+        "name": "송종국",
+        "position": "오른쪽 미드필더",
+        "nationality": "대한민국",
+        "aliases": [
+          "Song Chong-gug",
+          "chong-gug"
+        ]
+      },
+      {
+        "number": 9,
+        "row": 4,
+        "col": 1,
+        "name": "설기현",
+        "position": "왼쪽 윙어",
+        "nationality": "대한민국",
+        "aliases": [
+          "Seol Ki-hyeon",
+          "ki-hyeon"
+        ]
+      },
+      {
+        "number": 19,
+        "row": 4,
+        "col": 2,
+        "name": "안정환",
+        "position": "스트라이커",
+        "nationality": "대한민국",
+        "aliases": [
+          "Ahn Jung-hwan",
+          "jung-hwan"
+        ]
+      },
+      {
+        "number": 21,
+        "row": 4,
+        "col": 3,
+        "name": "박지성",
+        "position": "오른쪽 윙어",
+        "nationality": "대한민국",
+        "aliases": [
+          "Park Ji-sung",
+          "ji-sung"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ucl-2005-final-liverpool",
+    "title": "2005 챔피언스리그 결승",
+    "subtitle": "AC 밀란 vs 리버풀 · 이스탄불",
+    "formation": "4-4-1-1",
+    "trivia": "전반 0-3으로 뒤지던 리버풀은 후반 54·56·60분 6분 사이 3골로 동점을 만든 뒤 승부차기로 우승했다('이스탄불의 기적').",
+    "bonus": {
+      "question": "승부차기에서 셰브첸코의 마지막 킥을 막아낸 리버풀 골키퍼는?",
+      "answers": [
+        "두덱",
+        "Jerzy Dudek"
+      ]
+    },
+    "players": [
+      {
+        "number": 1,
+        "row": 1,
+        "col": 1,
+        "name": "두덱",
+        "position": "골키퍼",
+        "nationality": "폴란드",
+        "aliases": [
+          "Jerzy Dudek",
+          "dudek"
+        ]
+      },
+      {
+        "number": 21,
+        "row": 2,
+        "col": 1,
+        "name": "트라오레",
+        "position": "왼쪽 풀백",
+        "nationality": "말리",
+        "aliases": [
+          "Djimi Traoré",
+          "traoré"
+        ]
+      },
+      {
+        "number": 23,
+        "row": 2,
+        "col": 2,
+        "name": "캐러거",
+        "position": "센터백",
+        "nationality": "잉글랜드",
+        "aliases": [
+          "Jamie Carragher",
+          "carragher"
+        ]
+      },
+      {
+        "number": 4,
+        "row": 2,
+        "col": 3,
+        "name": "히피아",
+        "position": "센터백",
+        "nationality": "핀란드",
+        "aliases": [
+          "Sami Hyypiä",
+          "hyypiä"
+        ]
+      },
+      {
+        "number": 3,
+        "row": 2,
+        "col": 4,
+        "name": "피넌",
+        "position": "오른쪽 풀백",
+        "nationality": "아일랜드",
+        "aliases": [
+          "Steve Finnan",
+          "finnan"
+        ]
+      },
+      {
+        "number": 6,
+        "row": 3,
+        "col": 1,
+        "name": "리세",
+        "position": "왼쪽 미드필더",
+        "nationality": "노르웨이",
+        "aliases": [
+          "John Arne Riise",
+          "riise"
+        ]
+      },
+      {
+        "number": 14,
+        "row": 3,
+        "col": 2,
+        "name": "사비 알론소",
+        "position": "수비형 미드필더",
+        "nationality": "스페인",
+        "aliases": [
+          "Xabi Alonso",
+          "alonso",
+          "알론소"
+        ]
+      },
+      {
+        "number": 8,
+        "row": 3,
+        "col": 3,
+        "name": "제라드",
+        "position": "중앙 미드필더",
+        "nationality": "잉글랜드",
+        "aliases": [
+          "Steven Gerrard",
+          "gerrard"
+        ]
+      },
+      {
+        "number": 10,
+        "row": 3,
+        "col": 4,
+        "name": "루이스 가르시아",
+        "position": "오른쪽 미드필더",
+        "nationality": "스페인",
+        "aliases": [
+          "Luis García",
+          "garcía",
+          "가르시아"
+        ]
+      },
+      {
+        "number": 7,
+        "row": 4,
+        "col": 1,
+        "name": "키웰",
+        "position": "세컨드 스트라이커",
+        "nationality": "호주",
+        "aliases": [
+          "Harry Kewell",
+          "kewell"
+        ]
+      },
+      {
+        "number": 5,
+        "row": 4,
+        "col": 2,
+        "name": "바로시",
+        "position": "스트라이커",
+        "nationality": "체코",
+        "aliases": [
+          "Milan Baroš",
+          "baroš"
+        ]
+      }
+    ]
+  },
+  {
     "id": "ucl-2008-final-manutd",
     "title": "2008 챔피언스리그 결승",
     "subtitle": "맨체스터 유나이티드 vs 첼시 · 모스크바",
     "formation": "4-4-2",
-    "trivia": "",
-    "bonus": { "question": "승부차기 결승 키커는?", "answers": ["아넬카"] },
+    "trivia": "챔피언스리그 역사상 첫 잉글랜드 클럽 간 결승이었고, 러시아에서 열린 첫 결승전이었다.",
+    "bonus": {
+      "question": "승부차기에서 유일하게 실축한 맨체스터 유나이티드 선수는?",
+      "answers": [
+        "호날두",
+        "Cristiano Ronaldo"
+      ]
+    },
     "players": [
-      { "number": 1, "row": 1, "col": 1, "name": "판 데르 사르", "position": "골키퍼", "nationality": "네덜란드", "aliases": ["판데르사르", "반데사르", "van der sar", "사르"] },
-      { "number": 0, "row": 2, "col": 1, "name": "TODO 수비1", "position": "TODO", "nationality": "TODO", "aliases": [] },
-      { "number": 0, "row": 2, "col": 2, "name": "TODO 수비2", "position": "TODO", "nationality": "TODO", "aliases": [] },
-      { "number": 0, "row": 2, "col": 3, "name": "TODO 수비3", "position": "TODO", "nationality": "TODO", "aliases": [] },
-      { "number": 0, "row": 2, "col": 4, "name": "TODO 수비4", "position": "TODO", "nationality": "TODO", "aliases": [] },
-      { "number": 0, "row": 3, "col": 1, "name": "TODO 미드1", "position": "TODO", "nationality": "TODO", "aliases": [] },
-      { "number": 0, "row": 3, "col": 2, "name": "TODO 미드2", "position": "TODO", "nationality": "TODO", "aliases": [] },
-      { "number": 0, "row": 3, "col": 3, "name": "TODO 미드3", "position": "TODO", "nationality": "TODO", "aliases": [] },
-      { "number": 0, "row": 3, "col": 4, "name": "TODO 미드4", "position": "TODO", "nationality": "TODO", "aliases": [] },
-      { "number": 0, "row": 4, "col": 1, "name": "TODO 공격1", "position": "TODO", "nationality": "TODO", "aliases": [] },
-      { "number": 0, "row": 4, "col": 2, "name": "TODO 공격2", "position": "TODO", "nationality": "TODO", "aliases": [] }
+      {
+        "number": 1,
+        "row": 1,
+        "col": 1,
+        "name": "판 데르 사르",
+        "position": "골키퍼",
+        "nationality": "네덜란드",
+        "aliases": [
+          "Edwin van der Sar",
+          "사르"
+        ]
+      },
+      {
+        "number": 3,
+        "row": 2,
+        "col": 1,
+        "name": "에브라",
+        "position": "왼쪽 풀백",
+        "nationality": "프랑스",
+        "aliases": [
+          "Patrice Evra",
+          "evra"
+        ]
+      },
+      {
+        "number": 5,
+        "row": 2,
+        "col": 2,
+        "name": "퍼디낸드",
+        "position": "센터백",
+        "nationality": "잉글랜드",
+        "aliases": [
+          "Rio Ferdinand",
+          "ferdinand"
+        ]
+      },
+      {
+        "number": 15,
+        "row": 2,
+        "col": 3,
+        "name": "비디치",
+        "position": "센터백",
+        "nationality": "세르비아",
+        "aliases": [
+          "Nemanja Vidić",
+          "vidić"
+        ]
+      },
+      {
+        "number": 6,
+        "row": 2,
+        "col": 4,
+        "name": "웨스 브라운",
+        "position": "오른쪽 풀백",
+        "nationality": "잉글랜드",
+        "aliases": [
+          "Wes Brown",
+          "brown",
+          "브라운"
+        ]
+      },
+      {
+        "number": 7,
+        "row": 3,
+        "col": 1,
+        "name": "호날두",
+        "position": "왼쪽 미드필더",
+        "nationality": "포르투갈",
+        "aliases": [
+          "Cristiano Ronaldo",
+          "ronaldo"
+        ]
+      },
+      {
+        "number": 18,
+        "row": 3,
+        "col": 2,
+        "name": "스콜스",
+        "position": "중앙 미드필더",
+        "nationality": "잉글랜드",
+        "aliases": [
+          "Paul Scholes",
+          "scholes"
+        ]
+      },
+      {
+        "number": 16,
+        "row": 3,
+        "col": 3,
+        "name": "캐릭",
+        "position": "중앙 미드필더",
+        "nationality": "잉글랜드",
+        "aliases": [
+          "Michael Carrick",
+          "carrick"
+        ]
+      },
+      {
+        "number": 4,
+        "row": 3,
+        "col": 4,
+        "name": "하그리브스",
+        "position": "오른쪽 미드필더",
+        "nationality": "잉글랜드",
+        "aliases": [
+          "Owen Hargreaves",
+          "hargreaves"
+        ]
+      },
+      {
+        "number": 10,
+        "row": 4,
+        "col": 1,
+        "name": "루니",
+        "position": "스트라이커",
+        "nationality": "잉글랜드",
+        "aliases": [
+          "Wayne Rooney",
+          "rooney"
+        ]
+      },
+      {
+        "number": 32,
+        "row": 4,
+        "col": 2,
+        "name": "테베스",
+        "position": "스트라이커",
+        "nationality": "아르헨티나",
+        "aliases": [
+          "Carlos Tevez",
+          "tevez"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "wc-2010-final-spain",
+    "title": "2010 월드컵 결승",
+    "subtitle": "네덜란드 vs 스페인 · 요하네스버그",
+    "formation": "4-2-3-1",
+    "trivia": "이니에스타의 연장 116분 결승골로 스페인은 첫 월드컵 우승을 차지했고, 유럽 팀이 유럽 밖에서 우승한 첫 사례가 됐다.",
+    "bonus": {
+      "question": "연장 116분 결승골을 넣은 스페인 선수는?",
+      "answers": [
+        "이니에스타",
+        "Andrés Iniesta"
+      ]
+    },
+    "players": [
+      {
+        "number": 1,
+        "row": 1,
+        "col": 1,
+        "name": "카시야스",
+        "position": "골키퍼",
+        "nationality": "스페인",
+        "aliases": [
+          "Iker Casillas",
+          "casillas"
+        ]
+      },
+      {
+        "number": 11,
+        "row": 2,
+        "col": 1,
+        "name": "캅데빌라",
+        "position": "왼쪽 풀백",
+        "nationality": "스페인",
+        "aliases": [
+          "Joan Capdevila",
+          "capdevila"
+        ]
+      },
+      {
+        "number": 3,
+        "row": 2,
+        "col": 2,
+        "name": "피케",
+        "position": "센터백",
+        "nationality": "스페인",
+        "aliases": [
+          "Gerard Piqué",
+          "piqué"
+        ]
+      },
+      {
+        "number": 5,
+        "row": 2,
+        "col": 3,
+        "name": "푸욜",
+        "position": "센터백",
+        "nationality": "스페인",
+        "aliases": [
+          "Carles Puyol",
+          "puyol"
+        ]
+      },
+      {
+        "number": 15,
+        "row": 2,
+        "col": 4,
+        "name": "세르히오 라모스",
+        "position": "오른쪽 풀백",
+        "nationality": "스페인",
+        "aliases": [
+          "Sergio Ramos",
+          "ramos",
+          "라모스"
+        ]
+      },
+      {
+        "number": 16,
+        "row": 3,
+        "col": 1,
+        "name": "부스케츠",
+        "position": "수비형 미드필더",
+        "nationality": "스페인",
+        "aliases": [
+          "Sergio Busquets",
+          "busquets"
+        ]
+      },
+      {
+        "number": 14,
+        "row": 3,
+        "col": 2,
+        "name": "사비 알론소",
+        "position": "수비형 미드필더",
+        "nationality": "스페인",
+        "aliases": [
+          "Xabi Alonso",
+          "alonso",
+          "알론소"
+        ]
+      },
+      {
+        "number": 18,
+        "row": 4,
+        "col": 1,
+        "name": "페드로",
+        "position": "왼쪽 윙어",
+        "nationality": "스페인",
+        "aliases": [
+          "Pedro"
+        ]
+      },
+      {
+        "number": 8,
+        "row": 4,
+        "col": 2,
+        "name": "사비",
+        "position": "중앙 미드필더",
+        "nationality": "스페인",
+        "aliases": [
+          "Xavi"
+        ]
+      },
+      {
+        "number": 7,
+        "row": 4,
+        "col": 3,
+        "name": "다비드 비야",
+        "position": "스트라이커",
+        "nationality": "스페인",
+        "aliases": [
+          "David Villa",
+          "villa",
+          "비야"
+        ]
+      },
+      {
+        "number": 6,
+        "row": 4,
+        "col": 4,
+        "name": "이니에스타",
+        "position": "오른쪽 윙어",
+        "nationality": "스페인",
+        "aliases": [
+          "Andrés Iniesta",
+          "iniesta"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "wc-2014-final-germany",
+    "title": "2014 월드컵 결승",
+    "subtitle": "독일 vs 아르헨티나 · 리우데자네이루",
+    "formation": "4-3-3",
+    "trivia": "케디라가 워밍업 중 종아리 부상으로 빠져 크라머가 급히 선발됐고, 그 크라머도 32분 만에 교체됐다.",
+    "bonus": {
+      "question": "연장 113분 결승골을 넣은 독일 교체 선수는?",
+      "answers": [
+        "괴체",
+        "Mario Götze",
+        "괴체",
+        "마리오 괴체"
+      ]
+    },
+    "players": [
+      {
+        "number": 1,
+        "row": 1,
+        "col": 1,
+        "name": "노이어",
+        "position": "골키퍼",
+        "nationality": "독일",
+        "aliases": [
+          "Manuel Neuer",
+          "neuer"
+        ]
+      },
+      {
+        "number": 4,
+        "row": 2,
+        "col": 1,
+        "name": "회베데스",
+        "position": "왼쪽 풀백",
+        "nationality": "독일",
+        "aliases": [
+          "Benedikt Höwedes",
+          "höwedes"
+        ]
+      },
+      {
+        "number": 20,
+        "row": 2,
+        "col": 2,
+        "name": "보아텡",
+        "position": "센터백",
+        "nationality": "독일",
+        "aliases": [
+          "Jérôme Boateng",
+          "boateng"
+        ]
+      },
+      {
+        "number": 5,
+        "row": 2,
+        "col": 3,
+        "name": "후멜스",
+        "position": "센터백",
+        "nationality": "독일",
+        "aliases": [
+          "Mats Hummels",
+          "hummels"
+        ]
+      },
+      {
+        "number": 16,
+        "row": 2,
+        "col": 4,
+        "name": "람",
+        "position": "오른쪽 풀백",
+        "nationality": "독일",
+        "aliases": [
+          "Philipp Lahm",
+          "lahm"
+        ]
+      },
+      {
+        "number": 18,
+        "row": 3,
+        "col": 1,
+        "name": "크로스",
+        "position": "왼쪽 미드필더",
+        "nationality": "독일",
+        "aliases": [
+          "Toni Kroos",
+          "kroos"
+        ]
+      },
+      {
+        "number": 7,
+        "row": 3,
+        "col": 2,
+        "name": "슈바인슈타이거",
+        "position": "중앙 미드필더",
+        "nationality": "독일",
+        "aliases": [
+          "Bastian Schweinsteiger",
+          "schweinsteiger"
+        ]
+      },
+      {
+        "number": 23,
+        "row": 3,
+        "col": 3,
+        "name": "크라머",
+        "position": "오른쪽 미드필더",
+        "nationality": "독일",
+        "aliases": [
+          "Christoph Kramer",
+          "kramer"
+        ]
+      },
+      {
+        "number": 8,
+        "row": 4,
+        "col": 1,
+        "name": "외질",
+        "position": "왼쪽 윙어",
+        "nationality": "독일",
+        "aliases": [
+          "Mesut Özil",
+          "özil"
+        ]
+      },
+      {
+        "number": 11,
+        "row": 4,
+        "col": 2,
+        "name": "클로제",
+        "position": "스트라이커",
+        "nationality": "독일",
+        "aliases": [
+          "Miroslav Klose",
+          "klose"
+        ]
+      },
+      {
+        "number": 13,
+        "row": 4,
+        "col": 3,
+        "name": "뮐러",
+        "position": "오른쪽 윙어",
+        "nationality": "독일",
+        "aliases": [
+          "Thomas Müller",
+          "müller"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "wc-2022-final-argentina",
+    "title": "2022 월드컵 결승",
+    "subtitle": "아르헨티나 vs 프랑스 · 루사일",
+    "formation": "4-3-3",
+    "trivia": "음바페는 1966년 제프 허스트 이후 월드컵 결승에서 해트트릭을 기록한 두 번째 선수가 됐지만 아르헨티나가 승부차기 4-2로 우승했다.",
+    "bonus": {
+      "question": "승부차기에서 우승을 확정짓는 4번째 킥을 성공시킨 아르헨티나 선수는?",
+      "answers": [
+        "몬티엘",
+        "Gonzalo Montiel",
+        "곤살로 몬티엘"
+      ]
+    },
+    "players": [
+      {
+        "number": 23,
+        "row": 1,
+        "col": 1,
+        "name": "에밀리아노 마르티네스",
+        "position": "골키퍼",
+        "nationality": "아르헨티나",
+        "aliases": [
+          "Emiliano Martínez",
+          "martínez",
+          "마르티네스"
+        ]
+      },
+      {
+        "number": 3,
+        "row": 2,
+        "col": 1,
+        "name": "타글리아피코",
+        "position": "왼쪽 풀백",
+        "nationality": "아르헨티나",
+        "aliases": [
+          "Nicolás Tagliafico",
+          "tagliafico"
+        ]
+      },
+      {
+        "number": 13,
+        "row": 2,
+        "col": 2,
+        "name": "크리스티안 로메로",
+        "position": "센터백",
+        "nationality": "아르헨티나",
+        "aliases": [
+          "Cristian Romero",
+          "romero",
+          "로메로"
+        ]
+      },
+      {
+        "number": 19,
+        "row": 2,
+        "col": 3,
+        "name": "오타멘디",
+        "position": "센터백",
+        "nationality": "아르헨티나",
+        "aliases": [
+          "Nicolás Otamendi",
+          "otamendi"
+        ]
+      },
+      {
+        "number": 26,
+        "row": 2,
+        "col": 4,
+        "name": "몰리나",
+        "position": "오른쪽 풀백",
+        "nationality": "아르헨티나",
+        "aliases": [
+          "Nahuel Molina",
+          "molina"
+        ]
+      },
+      {
+        "number": 24,
+        "row": 3,
+        "col": 1,
+        "name": "엔소 페르난데스",
+        "position": "수비형 미드필더",
+        "nationality": "아르헨티나",
+        "aliases": [
+          "Enzo Fernández",
+          "fernández",
+          "페르난데스"
+        ]
+      },
+      {
+        "number": 20,
+        "row": 3,
+        "col": 2,
+        "name": "맥 앨리스터",
+        "position": "중앙 미드필더",
+        "nationality": "아르헨티나",
+        "aliases": [
+          "Alexis Mac Allister",
+          "allister",
+          "앨리스터"
+        ]
+      },
+      {
+        "number": 7,
+        "row": 3,
+        "col": 3,
+        "name": "데 파울",
+        "position": "중앙 미드필더",
+        "nationality": "아르헨티나",
+        "aliases": [
+          "Rodrigo De Paul",
+          "paul",
+          "파울"
+        ]
+      },
+      {
+        "number": 11,
+        "row": 4,
+        "col": 1,
+        "name": "디 마리아",
+        "position": "왼쪽 윙어",
+        "nationality": "아르헨티나",
+        "aliases": [
+          "Ángel Di María",
+          "maría",
+          "마리아"
+        ]
+      },
+      {
+        "number": 9,
+        "row": 4,
+        "col": 2,
+        "name": "훌리안 알바레스",
+        "position": "스트라이커",
+        "nationality": "아르헨티나",
+        "aliases": [
+          "Julián Álvarez",
+          "álvarez",
+          "알바레스"
+        ]
+      },
+      {
+        "number": 10,
+        "row": 4,
+        "col": 3,
+        "name": "메시",
+        "position": "오른쪽 윙어",
+        "nationality": "아르헨티나",
+        "aliases": [
+          "Lionel Messi",
+          "messi"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ucl-2019-final-liverpool",
+    "title": "2019 챔피언스리그 결승",
+    "subtitle": "토트넘 홋스퍼 vs 리버풀 · 마드리드",
+    "formation": "4-3-3",
+    "trivia": "살라는 경기 시작 2분 만에 페널티킥으로 선제골을 넣었고, 교체 투입된 오리기가 87분에 쐐기골을 넣었다.",
+    "bonus": {
+      "question": "87분 리버풀의 두 번째 골을 넣은 교체 선수는?",
+      "answers": [
+        "오리기",
+        "Divock Origi",
+        "디보크 오리기"
+      ]
+    },
+    "players": [
+      {
+        "number": 13,
+        "row": 1,
+        "col": 1,
+        "name": "알리송",
+        "position": "골키퍼",
+        "nationality": "브라질",
+        "aliases": [
+          "Alisson"
+        ]
+      },
+      {
+        "number": 26,
+        "row": 2,
+        "col": 1,
+        "name": "로버트슨",
+        "position": "왼쪽 풀백",
+        "nationality": "스코틀랜드",
+        "aliases": [
+          "Andy Robertson",
+          "robertson"
+        ]
+      },
+      {
+        "number": 32,
+        "row": 2,
+        "col": 2,
+        "name": "마팁",
+        "position": "센터백",
+        "nationality": "카메룬",
+        "aliases": [
+          "Joël Matip",
+          "matip"
+        ]
+      },
+      {
+        "number": 4,
+        "row": 2,
+        "col": 3,
+        "name": "판 데이크",
+        "position": "센터백",
+        "nationality": "네덜란드",
+        "aliases": [
+          "Virgil van Dijk",
+          "dijk",
+          "데이크"
+        ]
+      },
+      {
+        "number": 66,
+        "row": 2,
+        "col": 4,
+        "name": "알렉산더아널드",
+        "position": "오른쪽 풀백",
+        "nationality": "잉글랜드",
+        "aliases": [
+          "Trent Alexander-Arnold",
+          "alexander-arnold"
+        ]
+      },
+      {
+        "number": 14,
+        "row": 3,
+        "col": 1,
+        "name": "헨더슨",
+        "position": "중앙 미드필더",
+        "nationality": "잉글랜드",
+        "aliases": [
+          "Jordan Henderson",
+          "henderson"
+        ]
+      },
+      {
+        "number": 3,
+        "row": 3,
+        "col": 2,
+        "name": "파비뉴",
+        "position": "중앙 미드필더",
+        "nationality": "브라질",
+        "aliases": [
+          "Fabinho"
+        ]
+      },
+      {
+        "number": 5,
+        "row": 3,
+        "col": 3,
+        "name": "베이날뒴",
+        "position": "중앙 미드필더",
+        "nationality": "네덜란드",
+        "aliases": [
+          "Georginio Wijnaldum",
+          "wijnaldum"
+        ]
+      },
+      {
+        "number": 10,
+        "row": 4,
+        "col": 1,
+        "name": "마네",
+        "position": "왼쪽 윙어",
+        "nationality": "세네갈",
+        "aliases": [
+          "Sadio Mané",
+          "mané"
+        ]
+      },
+      {
+        "number": 9,
+        "row": 4,
+        "col": 2,
+        "name": "피르미누",
+        "position": "스트라이커",
+        "nationality": "브라질",
+        "aliases": [
+          "Roberto Firmino",
+          "firmino"
+        ]
+      },
+      {
+        "number": 11,
+        "row": 4,
+        "col": 3,
+        "name": "살라",
+        "position": "오른쪽 윙어",
+        "nationality": "이집트",
+        "aliases": [
+          "Mohamed Salah",
+          "salah"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ucl-2012-final-chelsea",
+    "title": "2012 챔피언스리그 결승",
+    "subtitle": "바이에른 뮌헨 vs 첼시 · 뮌헨",
+    "formation": "4-2-3-1",
+    "trivia": "결승은 바이에른의 홈구장 알리안츠 아레나에서 열렸다 — 자기 홈에서 유러피언컵/챔피언스리그 결승을 치른 네 번째 사례였다.",
+    "bonus": {
+      "question": "88분 동점골을 넣고 승부차기 마지막 키커로 우승을 확정지은 첼시 선수는?",
+      "answers": [
+        "드로그바",
+        "Didier Drogba"
+      ]
+    },
+    "players": [
+      {
+        "number": 1,
+        "row": 1,
+        "col": 1,
+        "name": "체흐",
+        "position": "골키퍼",
+        "nationality": "체코",
+        "aliases": [
+          "Petr Čech",
+          "čech"
+        ]
+      },
+      {
+        "number": 3,
+        "row": 2,
+        "col": 1,
+        "name": "애슐리 콜",
+        "position": "왼쪽 풀백",
+        "nationality": "잉글랜드",
+        "aliases": [
+          "Ashley Cole",
+          "cole"
+        ]
+      },
+      {
+        "number": 4,
+        "row": 2,
+        "col": 2,
+        "name": "다비드 루이스",
+        "position": "센터백",
+        "nationality": "브라질",
+        "aliases": [
+          "David Luiz",
+          "luiz",
+          "루이스"
+        ]
+      },
+      {
+        "number": 24,
+        "row": 2,
+        "col": 3,
+        "name": "케이힐",
+        "position": "센터백",
+        "nationality": "잉글랜드",
+        "aliases": [
+          "Gary Cahill",
+          "cahill"
+        ]
+      },
+      {
+        "number": 17,
+        "row": 2,
+        "col": 4,
+        "name": "보싱와",
+        "position": "오른쪽 풀백",
+        "nationality": "포르투갈",
+        "aliases": [
+          "José Bosingwa",
+          "bosingwa"
+        ]
+      },
+      {
+        "number": 12,
+        "row": 3,
+        "col": 1,
+        "name": "미켈",
+        "position": "수비형 미드필더",
+        "nationality": "나이지리아",
+        "aliases": [
+          "Mikel John Obi"
+        ]
+      },
+      {
+        "number": 8,
+        "row": 3,
+        "col": 2,
+        "name": "램파드",
+        "position": "중앙 미드필더",
+        "nationality": "잉글랜드",
+        "aliases": [
+          "Frank Lampard",
+          "lampard"
+        ]
+      },
+      {
+        "number": 34,
+        "row": 4,
+        "col": 1,
+        "name": "버트런드",
+        "position": "왼쪽 윙어",
+        "nationality": "잉글랜드",
+        "aliases": [
+          "Ryan Bertrand",
+          "bertrand"
+        ]
+      },
+      {
+        "number": 10,
+        "row": 4,
+        "col": 2,
+        "name": "마타",
+        "position": "공격형 미드필더",
+        "nationality": "스페인",
+        "aliases": [
+          "Juan Mata",
+          "mata"
+        ]
+      },
+      {
+        "number": 11,
+        "row": 4,
+        "col": 3,
+        "name": "드로그바",
+        "position": "스트라이커",
+        "nationality": "코트디부아르",
+        "aliases": [
+          "Didier Drogba",
+          "drogba"
+        ]
+      },
+      {
+        "number": 21,
+        "row": 4,
+        "col": 4,
+        "name": "칼루",
+        "position": "오른쪽 윙어",
+        "nationality": "코트디부아르",
+        "aliases": [
+          "Salomon Kalou",
+          "kalou"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "wc-2002-sf-korea",
+    "title": "2002 월드컵 4강",
+    "subtitle": "독일 vs 대한민국 · 서울",
+    "formation": "3-4-3",
+    "trivia": "발락은 71분에 경고를 받고 4분 뒤인 75분에 결승골을 넣었으며, 이 경기의 맨 오브 더 매치로 선정됐다.",
+    "bonus": {
+      "question": "75분 결승골을 넣은 독일 선수는?",
+      "answers": [
+        "발락",
+        "Michael Ballack",
+        "미하엘 발락"
+      ]
+    },
+    "players": [
+      {
+        "number": 1,
+        "row": 1,
+        "col": 1,
+        "name": "이운재",
+        "position": "골키퍼",
+        "nationality": "대한민국",
+        "aliases": [
+          "Lee Woon-jae",
+          "woon-jae"
+        ]
+      },
+      {
+        "number": 4,
+        "row": 2,
+        "col": 1,
+        "name": "최진철",
+        "position": "센터백",
+        "nationality": "대한민국",
+        "aliases": [
+          "Choi Jin-cheul",
+          "jin-cheul"
+        ]
+      },
+      {
+        "number": 20,
+        "row": 2,
+        "col": 2,
+        "name": "홍명보",
+        "position": "센터백",
+        "nationality": "대한민국",
+        "aliases": [
+          "Hong Myung-bo",
+          "myung-bo"
+        ]
+      },
+      {
+        "number": 7,
+        "row": 2,
+        "col": 3,
+        "name": "김태영",
+        "position": "센터백",
+        "nationality": "대한민국",
+        "aliases": [
+          "Kim Tae-young",
+          "tae-young"
+        ]
+      },
+      {
+        "number": 10,
+        "row": 3,
+        "col": 1,
+        "name": "이영표",
+        "position": "왼쪽 미드필더",
+        "nationality": "대한민국",
+        "aliases": [
+          "Lee Young-pyo",
+          "young-pyo"
+        ]
+      },
+      {
+        "number": 6,
+        "row": 3,
+        "col": 2,
+        "name": "유상철",
+        "position": "중앙 미드필더",
+        "nationality": "대한민국",
+        "aliases": [
+          "Yoo Sang-chul",
+          "sang-chul"
+        ]
+      },
+      {
+        "number": 21,
+        "row": 3,
+        "col": 3,
+        "name": "박지성",
+        "position": "중앙 미드필더",
+        "nationality": "대한민국",
+        "aliases": [
+          "Park Ji-sung",
+          "ji-sung"
+        ]
+      },
+      {
+        "number": 22,
+        "row": 3,
+        "col": 4,
+        "name": "송종국",
+        "position": "오른쪽 미드필더",
+        "nationality": "대한민국",
+        "aliases": [
+          "Song Chong-gug",
+          "chong-gug"
+        ]
+      },
+      {
+        "number": 14,
+        "row": 4,
+        "col": 1,
+        "name": "이천수",
+        "position": "왼쪽 윙어",
+        "nationality": "대한민국",
+        "aliases": [
+          "Lee Chun-soo",
+          "chun-soo"
+        ]
+      },
+      {
+        "number": 18,
+        "row": 4,
+        "col": 2,
+        "name": "황선홍",
+        "position": "스트라이커",
+        "nationality": "대한민국",
+        "aliases": [
+          "Hwang Sun-hong",
+          "sun-hong"
+        ]
+      },
+      {
+        "number": 16,
+        "row": 4,
+        "col": 3,
+        "name": "차두리",
+        "position": "오른쪽 윙어",
+        "nationality": "대한민국",
+        "aliases": [
+          "Cha Du-ri",
+          "du-ri"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ucl-1999-final-manutd",
+    "title": "1999 챔피언스리그 결승",
+    "subtitle": "맨체스터 유나이티드 vs 바이에른 뮌헨 · 바르셀로나",
+    "formation": "4-4-2",
+    "trivia": "후반 추가시간 교체 선수 셰링엄(90+1분)과 솔샤르(90+3분)의 골로 역전하며 프리미어리그·FA컵에 이어 트레블을 완성했다.",
+    "bonus": {
+      "question": "후반 추가시간 3분에 결승골을 넣은 맨유 교체 선수는?",
+      "answers": [
+        "솔샤르",
+        "Ole Gunnar Solskjær",
+        "솔샤르",
+        "올레 군나르 솔샤르",
+        "솔샤에르"
+      ]
+    },
+    "players": [
+      {
+        "number": 1,
+        "row": 1,
+        "col": 1,
+        "name": "슈마이켈",
+        "position": "골키퍼",
+        "nationality": "덴마크",
+        "aliases": [
+          "Peter Schmeichel",
+          "schmeichel"
+        ]
+      },
+      {
+        "number": 3,
+        "row": 2,
+        "col": 1,
+        "name": "어윈",
+        "position": "왼쪽 풀백",
+        "nationality": "아일랜드",
+        "aliases": [
+          "Denis Irwin",
+          "irwin"
+        ]
+      },
+      {
+        "number": 5,
+        "row": 2,
+        "col": 2,
+        "name": "욘센",
+        "position": "센터백",
+        "nationality": "노르웨이",
+        "aliases": [
+          "Ronny Johnsen",
+          "johnsen"
+        ]
+      },
+      {
+        "number": 6,
+        "row": 2,
+        "col": 3,
+        "name": "스탐",
+        "position": "센터백",
+        "nationality": "네덜란드",
+        "aliases": [
+          "Jaap Stam",
+          "stam"
+        ]
+      },
+      {
+        "number": 2,
+        "row": 2,
+        "col": 4,
+        "name": "게리 네빌",
+        "position": "오른쪽 풀백",
+        "nationality": "잉글랜드",
+        "aliases": [
+          "Gary Neville",
+          "neville",
+          "네빌"
+        ]
+      },
+      {
+        "number": 15,
+        "row": 3,
+        "col": 1,
+        "name": "블롬크비스트",
+        "position": "왼쪽 미드필더",
+        "nationality": "스웨덴",
+        "aliases": [
+          "Jesper Blomqvist",
+          "blomqvist"
+        ]
+      },
+      {
+        "number": 7,
+        "row": 3,
+        "col": 2,
+        "name": "베컴",
+        "position": "중앙 미드필더",
+        "nationality": "잉글랜드",
+        "aliases": [
+          "David Beckham",
+          "beckham"
+        ]
+      },
+      {
+        "number": 8,
+        "row": 3,
+        "col": 3,
+        "name": "버트",
+        "position": "중앙 미드필더",
+        "nationality": "잉글랜드",
+        "aliases": [
+          "Nicky Butt",
+          "butt"
+        ]
+      },
+      {
+        "number": 11,
+        "row": 3,
+        "col": 4,
+        "name": "긱스",
+        "position": "오른쪽 미드필더",
+        "nationality": "웨일스",
+        "aliases": [
+          "Ryan Giggs",
+          "giggs"
+        ]
+      },
+      {
+        "number": 19,
+        "row": 4,
+        "col": 1,
+        "name": "요크",
+        "position": "스트라이커",
+        "nationality": "트리니다드 토바고",
+        "aliases": [
+          "Dwight Yorke",
+          "yorke"
+        ]
+      },
+      {
+        "number": 9,
+        "row": 4,
+        "col": 2,
+        "name": "앤디 콜",
+        "position": "스트라이커",
+        "nationality": "잉글랜드",
+        "aliases": [
+          "Andy Cole",
+          "cole"
+        ]
+      }
     ]
   }
 ]

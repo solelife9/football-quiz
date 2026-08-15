@@ -1,0 +1,16 @@
+[
+  {
+    "id": "salah-liverpool-english",
+    "title": "리버풀에서 살라와 가장 많이 함께 뛴 잉글랜드 선수 TOP 10",
+    "trivia": "",
+    "answers": [
+      {
+        "rank": 1,
+        "name": "트렌트 알렉산더-아널드",
+        "value": "250경기",
+        "hint": { "club": "리버풀", "nationality": "잉글랜드" },
+        "aliases": ["알렉산더아널드", "트렌트", "TAA", "trent"]
+      }
+    ]
+  }
+]

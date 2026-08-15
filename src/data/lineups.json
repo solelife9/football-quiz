@@ -1,0 +1,23 @@
+[
+  {
+    "id": "ucl-2008-final-manutd",
+    "title": "2008 챔피언스리그 결승",
+    "subtitle": "맨체스터 유나이티드 vs 첼시 · 모스크바",
+    "formation": "4-4-2",
+    "trivia": "",
+    "bonus": { "question": "승부차기 결승 키커는?", "answers": ["아넬카"] },
+    "players": [
+      { "number": 1, "row": 1, "col": 1, "name": "판 데르 사르", "position": "골키퍼", "nationality": "네덜란드", "aliases": ["판데르사르", "반데사르", "van der sar", "사르"] },
+      { "number": 0, "row": 2, "col": 1, "name": "TODO 수비1", "position": "TODO", "nationality": "TODO", "aliases": [] },
+      { "number": 0, "row": 2, "col": 2, "name": "TODO 수비2", "position": "TODO", "nationality": "TODO", "aliases": [] },
+      { "number": 0, "row": 2, "col": 3, "name": "TODO 수비3", "position": "TODO", "nationality": "TODO", "aliases": [] },
+      { "number": 0, "row": 2, "col": 4, "name": "TODO 수비4", "position": "TODO", "nationality": "TODO", "aliases": [] },
+      { "number": 0, "row": 3, "col": 1, "name": "TODO 미드1", "position": "TODO", "nationality": "TODO", "aliases": [] },
+      { "number": 0, "row": 3, "col": 2, "name": "TODO 미드2", "position": "TODO", "nationality": "TODO", "aliases": [] },
+      { "number": 0, "row": 3, "col": 3, "name": "TODO 미드3", "position": "TODO", "nationality": "TODO", "aliases": [] },
+      { "number": 0, "row": 3, "col": 4, "name": "TODO 미드4", "position": "TODO", "nationality": "TODO", "aliases": [] },
+      { "number": 0, "row": 4, "col": 1, "name": "TODO 공격1", "position": "TODO", "nationality": "TODO", "aliases": [] },
+      { "number": 0, "row": 4, "col": 2, "name": "TODO 공격2", "position": "TODO", "nationality": "TODO", "aliases": [] }
+    ]
+  }
+]

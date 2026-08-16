@@ -1,6 +1,7 @@
 import type { Route } from '../hooks/useHashRoute'
 import { Header } from '../components/Header'
 import { InstallBanner } from '../components/InstallBanner'
+import { UpdateBanner } from '../components/UpdateBanner'
 
 export interface GameCard {
   route: Exclude<Route, 'home'>
@@ -19,6 +20,7 @@ export function Home({ games, onSelect }: Props) {
     <>
       <Header title="축구 퀴즈" />
       <main className="screen home">
+        <UpdateBanner />
         <InstallBanner />
         <ul className="game-list">
           {games.map((g) => (

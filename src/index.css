@@ -294,3 +294,13 @@ ol, ul { padding: 0; list-style: none; }
 .chip:active { transform: scale(0.96); }
 .chip.used { opacity: 0.25; cursor: default; }
 .chip.shake { animation: shake 0.4s ease; border-color: var(--danger); color: var(--danger); }
+
+/* ── 새 버전 알림 ─────────────────────────── */
+.update-banner {
+  display: flex; align-items: center; justify-content: space-between; gap: 12px;
+  padding: 12px 14px; border-radius: var(--radius);
+  background: color-mix(in srgb, var(--accent) 16%, var(--surface));
+  border: 1px solid color-mix(in srgb, var(--accent) 45%, var(--line));
+  font-weight: 600;
+}
+.update-banner .btn { min-height: 40px; }

@@ -4133,6 +4133,2962 @@
     ]
   },
   {
+    "id": "ucl-2005-final-liverpool-xi",
+    "title": "2005 챔피언스리그 결승(이스탄불) 리버풀 선발 11명",
+    "trivia": "전반에 0-3으로 끌려가다 후반 6분 사이에 3골을 몰아넣어 3-3을 만들었고, 승부차기 3-2로 이겼다.",
+    "answers": [
+      {
+        "rank": 1,
+        "name": "예지 두덱",
+        "value": "GK",
+        "hint": {
+          "club": "리버풀",
+          "nationality": "폴란드"
+        },
+        "aliases": [
+          "두덱",
+          "Dudek",
+          "Jerzy Dudek"
+        ]
+      },
+      {
+        "rank": 2,
+        "name": "스티브 피넌",
+        "value": "RB (46분 교체)",
+        "hint": {
+          "club": "리버풀",
+          "nationality": "아일랜드"
+        },
+        "aliases": [
+          "피넌",
+          "Finnan",
+          "Steve Finnan"
+        ]
+      },
+      {
+        "rank": 3,
+        "name": "제이미 캐러거",
+        "value": "CB",
+        "hint": {
+          "club": "리버풀",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "캐러거",
+          "커래거",
+          "Carragher",
+          "Jamie Carragher"
+        ]
+      },
+      {
+        "rank": 4,
+        "name": "사미 히피아",
+        "value": "CB",
+        "hint": {
+          "club": "리버풀",
+          "nationality": "핀란드"
+        },
+        "aliases": [
+          "히피아",
+          "히피애",
+          "Hyypia",
+          "Hyypiä",
+          "Sami Hyypiä"
+        ]
+      },
+      {
+        "rank": 5,
+        "name": "지미 트라오레",
+        "value": "LB",
+        "hint": {
+          "club": "리버풀",
+          "nationality": "말리"
+        },
+        "aliases": [
+          "트라오레",
+          "Traore",
+          "Traoré",
+          "Djimi Traoré"
+        ]
+      },
+      {
+        "rank": 6,
+        "name": "사비 알론소",
+        "value": "DM",
+        "hint": {
+          "club": "리버풀",
+          "nationality": "스페인"
+        },
+        "aliases": [
+          "샤비 알론소",
+          "알론소",
+          "Xabi Alonso",
+          "alonso"
+        ]
+      },
+      {
+        "rank": 7,
+        "name": "루이스 가르시아",
+        "value": "RM",
+        "hint": {
+          "club": "리버풀",
+          "nationality": "스페인"
+        },
+        "aliases": [
+          "가르시아",
+          "Luis Garcia",
+          "Luis García",
+          "garcía"
+        ]
+      },
+      {
+        "rank": 8,
+        "name": "스티븐 제라드",
+        "value": "CM (주장)",
+        "hint": {
+          "club": "리버풀",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "제라드",
+          "Gerrard",
+          "Steven Gerrard"
+        ]
+      },
+      {
+        "rank": 9,
+        "name": "욘 아르네 리세",
+        "value": "LM",
+        "hint": {
+          "club": "리버풀",
+          "nationality": "노르웨이"
+        },
+        "aliases": [
+          "리세",
+          "Riise",
+          "John Arne Riise"
+        ]
+      },
+      {
+        "rank": 10,
+        "name": "해리 큐얼",
+        "value": "SS (23분 교체)",
+        "hint": {
+          "club": "리버풀",
+          "nationality": "호주"
+        },
+        "aliases": [
+          "큐얼",
+          "케웰",
+          "Kewell",
+          "Harry Kewell"
+        ]
+      },
+      {
+        "rank": 11,
+        "name": "밀란 바로시",
+        "value": "CF (85분 교체)",
+        "hint": {
+          "club": "리버풀",
+          "nationality": "체코"
+        },
+        "aliases": [
+          "바로시",
+          "바로스",
+          "Baros",
+          "Baroš",
+          "Milan Baroš"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ucl-2018-final-liverpool-xi",
+    "title": "2018 챔피언스리그 결승(키이우) 리버풀 선발 11명",
+    "trivia": "전반 31분 살라가 라모스와 엉켜 어깨를 다쳐 교체됐고, 리버풀은 1-3으로 졌다.",
+    "answers": [
+      {
+        "rank": 1,
+        "name": "로리스 카리우스",
+        "value": "GK",
+        "hint": {
+          "club": "리버풀",
+          "nationality": "독일"
+        },
+        "aliases": [
+          "카리우스",
+          "Karius",
+          "Loris Karius"
+        ]
+      },
+      {
+        "rank": 2,
+        "name": "트렌트 알렉산더-아널드",
+        "value": "RB",
+        "hint": {
+          "club": "리버풀",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "알렉산더아널드",
+          "알렉산더-아놀드",
+          "트렌트",
+          "TAA",
+          "Trent Alexander-Arnold",
+          "alexander-arnold"
+        ]
+      },
+      {
+        "rank": 3,
+        "name": "데얀 로브렌",
+        "value": "CB",
+        "hint": {
+          "club": "리버풀",
+          "nationality": "크로아티아"
+        },
+        "aliases": [
+          "로브렌",
+          "Lovren",
+          "Dejan Lovren"
+        ]
+      },
+      {
+        "rank": 4,
+        "name": "버질 반 다이크",
+        "value": "CB",
+        "hint": {
+          "club": "리버풀",
+          "nationality": "네덜란드"
+        },
+        "aliases": [
+          "반 다이크",
+          "판 다이크",
+          "van Dijk",
+          "Virgil van Dijk",
+          "dijk",
+          "다이크"
+        ]
+      },
+      {
+        "rank": 5,
+        "name": "앤디 로버트슨",
+        "value": "LB",
+        "hint": {
+          "club": "리버풀",
+          "nationality": "스코틀랜드"
+        },
+        "aliases": [
+          "로버트슨",
+          "Robertson",
+          "Andy Robertson"
+        ]
+      },
+      {
+        "rank": 6,
+        "name": "제임스 밀너",
+        "value": "CM (83분 교체)",
+        "hint": {
+          "club": "리버풀",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "밀너",
+          "Milner",
+          "James Milner"
+        ]
+      },
+      {
+        "rank": 7,
+        "name": "조던 헨더슨",
+        "value": "CM (주장)",
+        "hint": {
+          "club": "리버풀",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "헨더슨",
+          "Henderson",
+          "Jordan Henderson"
+        ]
+      },
+      {
+        "rank": 8,
+        "name": "조르지니오 바이날뒴",
+        "value": "CM",
+        "hint": {
+          "club": "리버풀",
+          "nationality": "네덜란드"
+        },
+        "aliases": [
+          "바이날둠",
+          "비날둠",
+          "Wijnaldum",
+          "Georginio Wijnaldum",
+          "바이날뒴"
+        ]
+      },
+      {
+        "rank": 9,
+        "name": "모하메드 살라",
+        "value": "RF (31분 교체)",
+        "hint": {
+          "club": "리버풀",
+          "nationality": "이집트"
+        },
+        "aliases": [
+          "살라",
+          "Salah",
+          "Mohamed Salah"
+        ]
+      },
+      {
+        "rank": 10,
+        "name": "호베르투 피르미누",
+        "value": "CF",
+        "hint": {
+          "club": "리버풀",
+          "nationality": "브라질"
+        },
+        "aliases": [
+          "피르미누",
+          "Firmino",
+          "Roberto Firmino"
+        ]
+      },
+      {
+        "rank": 11,
+        "name": "사디오 마네",
+        "value": "LF",
+        "hint": {
+          "club": "리버풀",
+          "nationality": "세네갈"
+        },
+        "aliases": [
+          "마네",
+          "Mane",
+          "Mané",
+          "Sadio Mané"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ucl-2012-final-chelsea-xi",
+    "title": "2012 챔피언스리그 결승(뮌헨) 첼시 선발 11명",
+    "trivia": "상대 홈구장인 알리안츠 아레나에서 1-1 뒤 승부차기 4-3으로 이겨 첼시의 첫 유럽 정상에 올랐다.",
+    "answers": [
+      {
+        "rank": 1,
+        "name": "페트르 체흐",
+        "value": "GK",
+        "hint": {
+          "club": "첼시",
+          "nationality": "체코"
+        },
+        "aliases": [
+          "체흐",
+          "체크",
+          "Cech",
+          "Čech",
+          "Petr Čech"
+        ]
+      },
+      {
+        "rank": 2,
+        "name": "주제 보싱와",
+        "value": "RB",
+        "hint": {
+          "club": "첼시",
+          "nationality": "포르투갈"
+        },
+        "aliases": [
+          "보싱와",
+          "Bosingwa",
+          "José Bosingwa"
+        ]
+      },
+      {
+        "rank": 3,
+        "name": "다비드 루이스",
+        "value": "CB",
+        "hint": {
+          "club": "첼시",
+          "nationality": "브라질"
+        },
+        "aliases": [
+          "다비드 루이즈",
+          "David Luiz",
+          "luiz",
+          "루이스"
+        ]
+      },
+      {
+        "rank": 4,
+        "name": "게리 케이힐",
+        "value": "CB",
+        "hint": {
+          "club": "첼시",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "케이힐",
+          "카힐",
+          "Cahill",
+          "Gary Cahill"
+        ]
+      },
+      {
+        "rank": 5,
+        "name": "애슐리 콜",
+        "value": "LB",
+        "hint": {
+          "club": "첼시",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "Ashley Cole",
+          "cole"
+        ]
+      },
+      {
+        "rank": 6,
+        "name": "존 오비 미켈",
+        "value": "DM",
+        "hint": {
+          "club": "첼시",
+          "nationality": "나이지리아"
+        },
+        "aliases": [
+          "미켈",
+          "오비 미켈",
+          "Mikel",
+          "John Obi Mikel"
+        ]
+      },
+      {
+        "rank": 7,
+        "name": "프랭크 램파드",
+        "value": "CM (주장)",
+        "hint": {
+          "club": "첼시",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "램파드",
+          "램퍼드",
+          "Lampard",
+          "Frank Lampard"
+        ]
+      },
+      {
+        "rank": 8,
+        "name": "살로몬 칼루",
+        "value": "RW (84분 교체)",
+        "hint": {
+          "club": "첼시",
+          "nationality": "코트디부아르"
+        },
+        "aliases": [
+          "칼루",
+          "Kalou",
+          "Salomon Kalou"
+        ]
+      },
+      {
+        "rank": 9,
+        "name": "후안 마타",
+        "value": "AM",
+        "hint": {
+          "club": "첼시",
+          "nationality": "스페인"
+        },
+        "aliases": [
+          "마타",
+          "Mata",
+          "Juan Mata"
+        ]
+      },
+      {
+        "rank": 10,
+        "name": "라이언 버트런드",
+        "value": "LW (73분 교체)",
+        "hint": {
+          "club": "첼시",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "버트런드",
+          "베르트랑",
+          "Bertrand",
+          "Ryan Bertrand"
+        ]
+      },
+      {
+        "rank": 11,
+        "name": "디디에 드로그바",
+        "value": "CF",
+        "hint": {
+          "club": "첼시",
+          "nationality": "코트디부아르"
+        },
+        "aliases": [
+          "드로그바",
+          "Drogba",
+          "Didier Drogba"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ucl-2011-final-manutd-xi",
+    "title": "2011 챔피언스리그 결승(웸블리) 맨체스터 유나이티드 선발 11명",
+    "trivia": "웸블리에서 바르셀로나에 1-3으로 졌고, 2년 전 로마 결승에 이은 같은 상대 두 번째 패배였다.",
+    "answers": [
+      {
+        "rank": 1,
+        "name": "에드빈 판 데르 사르",
+        "value": "GK",
+        "hint": {
+          "club": "맨체스터 유나이티드",
+          "nationality": "네덜란드"
+        },
+        "aliases": [
+          "판 데르 사르",
+          "반 데르 사르",
+          "van der Sar",
+          "Edwin van der Sar",
+          "사르"
+        ]
+      },
+      {
+        "rank": 2,
+        "name": "파비우 다 실바",
+        "value": "RB (69분 교체)",
+        "hint": {
+          "club": "맨체스터 유나이티드",
+          "nationality": "브라질"
+        },
+        "aliases": [
+          "파비우",
+          "파비오",
+          "Fabio",
+          "Fábio da Silva",
+          "silva",
+          "실바"
+        ]
+      },
+      {
+        "rank": 3,
+        "name": "리오 퍼디난드",
+        "value": "CB",
+        "hint": {
+          "club": "맨체스터 유나이티드",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "퍼디난드",
+          "페르디난드",
+          "Ferdinand",
+          "Rio Ferdinand"
+        ]
+      },
+      {
+        "rank": 4,
+        "name": "네마냐 비디치",
+        "value": "CB (주장)",
+        "hint": {
+          "club": "맨체스터 유나이티드",
+          "nationality": "세르비아"
+        },
+        "aliases": [
+          "비디치",
+          "Vidic",
+          "Vidić",
+          "Nemanja Vidić"
+        ]
+      },
+      {
+        "rank": 5,
+        "name": "파트리스 에브라",
+        "value": "LB",
+        "hint": {
+          "club": "맨체스터 유나이티드",
+          "nationality": "프랑스"
+        },
+        "aliases": [
+          "에브라",
+          "Evra",
+          "Patrice Evra"
+        ]
+      },
+      {
+        "rank": 6,
+        "name": "안토니오 발렌시아",
+        "value": "RM",
+        "hint": {
+          "club": "맨체스터 유나이티드",
+          "nationality": "에콰도르"
+        },
+        "aliases": [
+          "발렌시아",
+          "Valencia",
+          "Antonio Valencia"
+        ]
+      },
+      {
+        "rank": 7,
+        "name": "마이클 캐릭",
+        "value": "CM (77분 교체)",
+        "hint": {
+          "club": "맨체스터 유나이티드",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "캐릭",
+          "Carrick",
+          "Michael Carrick"
+        ]
+      },
+      {
+        "rank": 8,
+        "name": "라이언 긱스",
+        "value": "CM",
+        "hint": {
+          "club": "맨체스터 유나이티드",
+          "nationality": "웨일스"
+        },
+        "aliases": [
+          "긱스",
+          "Giggs",
+          "Ryan Giggs"
+        ]
+      },
+      {
+        "rank": 9,
+        "name": "박지성",
+        "value": "LM",
+        "hint": {
+          "club": "맨체스터 유나이티드",
+          "nationality": "대한민국"
+        },
+        "aliases": [
+          "Park Ji-sung",
+          "ji-sung"
+        ]
+      },
+      {
+        "rank": 10,
+        "name": "웨인 루니",
+        "value": "SS (동점골)",
+        "hint": {
+          "club": "맨체스터 유나이티드",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "루니",
+          "Rooney",
+          "Wayne Rooney"
+        ]
+      },
+      {
+        "rank": 11,
+        "name": "하비에르 에르난데스",
+        "value": "CF",
+        "hint": {
+          "club": "맨체스터 유나이티드",
+          "nationality": "멕시코"
+        },
+        "aliases": [
+          "치차리토",
+          "에르난데스",
+          "Chicharito",
+          "Hernandez",
+          "Javier Hernández",
+          "hernández"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ucl-2006-final-arsenal-xi",
+    "title": "2006 챔피언스리그 결승(파리) 아스널 선발 11명",
+    "trivia": "전반 18분 레만이 퇴장당해 10명으로 싸우다 1-2로 졌다. 아스널의 유일한 챔피언스리그 결승이 이 경기였고, 두 번째는 20년 뒤인 2026년이었다.",
+    "answers": [
+      {
+        "rank": 1,
+        "name": "옌스 레만",
+        "value": "GK (18분 퇴장)",
+        "hint": {
+          "club": "아스널",
+          "nationality": "독일"
+        },
+        "aliases": [
+          "레만",
+          "Lehmann",
+          "Jens Lehmann"
+        ]
+      },
+      {
+        "rank": 2,
+        "name": "에마뉘엘 에부에",
+        "value": "RB",
+        "hint": {
+          "club": "아스널",
+          "nationality": "코트디부아르"
+        },
+        "aliases": [
+          "에부에",
+          "Eboue",
+          "Eboué",
+          "Emmanuel Eboué"
+        ]
+      },
+      {
+        "rank": 3,
+        "name": "콜로 투레",
+        "value": "CB",
+        "hint": {
+          "club": "아스널",
+          "nationality": "코트디부아르"
+        },
+        "aliases": [
+          "투레",
+          "Toure",
+          "Touré",
+          "Kolo Touré"
+        ]
+      },
+      {
+        "rank": 4,
+        "name": "솔 캠벨",
+        "value": "CB (선제골)",
+        "hint": {
+          "club": "아스널",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "캠벨",
+          "Campbell",
+          "Sol Campbell"
+        ]
+      },
+      {
+        "rank": 5,
+        "name": "애슐리 콜",
+        "value": "LB",
+        "hint": {
+          "club": "아스널",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "Cole",
+          "Ashley Cole"
+        ]
+      },
+      {
+        "rank": 6,
+        "name": "로베르 피레스",
+        "value": "RM (18분 교체)",
+        "hint": {
+          "club": "아스널",
+          "nationality": "프랑스"
+        },
+        "aliases": [
+          "피레스",
+          "피레",
+          "Pires",
+          "Robert Pires"
+        ]
+      },
+      {
+        "rank": 7,
+        "name": "지우베르투 시우바",
+        "value": "CM",
+        "hint": {
+          "club": "아스널",
+          "nationality": "브라질"
+        },
+        "aliases": [
+          "질베르투 실바",
+          "지우베르투",
+          "Gilberto",
+          "Gilberto Silva",
+          "silva",
+          "시우바"
+        ]
+      },
+      {
+        "rank": 8,
+        "name": "세스크 파브레가스",
+        "value": "CM (74분 교체)",
+        "hint": {
+          "club": "아스널",
+          "nationality": "스페인"
+        },
+        "aliases": [
+          "파브레가스",
+          "세스크",
+          "Fabregas",
+          "Cesc Fàbregas",
+          "fàbregas"
+        ]
+      },
+      {
+        "rank": 9,
+        "name": "알렉산드르 흘렙",
+        "value": "LM (85분 교체)",
+        "hint": {
+          "club": "아스널",
+          "nationality": "벨라루스"
+        },
+        "aliases": [
+          "흘렙",
+          "흘레브",
+          "Hleb",
+          "Alexander Hleb"
+        ]
+      },
+      {
+        "rank": 10,
+        "name": "프레디 융베리",
+        "value": "SS",
+        "hint": {
+          "club": "아스널",
+          "nationality": "스웨덴"
+        },
+        "aliases": [
+          "융베리",
+          "륭베리",
+          "Ljungberg",
+          "Freddie Ljungberg"
+        ]
+      },
+      {
+        "rank": 11,
+        "name": "티에리 앙리",
+        "value": "CF (주장)",
+        "hint": {
+          "club": "아스널",
+          "nationality": "프랑스"
+        },
+        "aliases": [
+          "앙리",
+          "Henry",
+          "Thierry Henry"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "euro-2020-final-england-xi",
+    "title": "유로 2020 결승(웸블리) 잉글랜드 선발 11명",
+    "trivia": "루크 쇼가 전반 2분에 넣은 골은 유럽선수권 결승 사상 가장 빠른 골이었고, 1-1 뒤 승부차기 2-3으로 졌다.",
+    "answers": [
+      {
+        "rank": 1,
+        "name": "조던 픽퍼드",
+        "value": "GK",
+        "hint": {
+          "club": "에버턴",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "픽퍼드",
+          "픽포드",
+          "Pickford",
+          "Jordan Pickford"
+        ]
+      },
+      {
+        "rank": 2,
+        "name": "카일 워커",
+        "value": "CB",
+        "hint": {
+          "club": "맨체스터 시티",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "워커",
+          "Walker",
+          "Kyle Walker"
+        ]
+      },
+      {
+        "rank": 3,
+        "name": "존 스톤스",
+        "value": "CB",
+        "hint": {
+          "club": "맨체스터 시티",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "스톤스",
+          "Stones",
+          "John Stones"
+        ]
+      },
+      {
+        "rank": 4,
+        "name": "해리 매과이어",
+        "value": "CB",
+        "hint": {
+          "club": "맨체스터 유나이티드",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "매과이어",
+          "맥과이어",
+          "Maguire",
+          "Harry Maguire"
+        ]
+      },
+      {
+        "rank": 5,
+        "name": "키어런 트리피어",
+        "value": "RWB (71분 교체)",
+        "hint": {
+          "club": "아틀레티코 마드리드",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "트리피어",
+          "Trippier",
+          "Kieran Trippier"
+        ]
+      },
+      {
+        "rank": 6,
+        "name": "루크 쇼",
+        "value": "LWB (선제골)",
+        "hint": {
+          "club": "맨체스터 유나이티드",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "Shaw",
+          "Luke Shaw"
+        ]
+      },
+      {
+        "rank": 7,
+        "name": "칼빈 필립스",
+        "value": "CM",
+        "hint": {
+          "club": "리즈 유나이티드",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "필립스",
+          "Phillips",
+          "Kalvin Phillips"
+        ]
+      },
+      {
+        "rank": 8,
+        "name": "데클란 라이스",
+        "value": "CM (74분 교체)",
+        "hint": {
+          "club": "웨스트햄",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "라이스",
+          "Rice",
+          "Declan Rice"
+        ]
+      },
+      {
+        "rank": 9,
+        "name": "라힘 스털링",
+        "value": "RW",
+        "hint": {
+          "club": "맨체스터 시티",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "스털링",
+          "스터링",
+          "Sterling",
+          "Raheem Sterling"
+        ]
+      },
+      {
+        "rank": 10,
+        "name": "메이슨 마운트",
+        "value": "LW (99분 교체)",
+        "hint": {
+          "club": "첼시",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "마운트",
+          "Mount",
+          "Mason Mount"
+        ]
+      },
+      {
+        "rank": 11,
+        "name": "해리 케인",
+        "value": "CF (주장)",
+        "hint": {
+          "club": "토트넘",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "케인",
+          "Kane",
+          "Harry Kane"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "wc-2014-final-germany-xi",
+    "title": "2014 월드컵 결승(마라카낭) 독일 선발 11명",
+    "trivia": "연장 후반 쉬를레의 크로스를 괴체가 발리로 마무리해 1-0으로 이겼다. 통일 독일의 첫 월드컵 우승이었다.",
+    "answers": [
+      {
+        "rank": 1,
+        "name": "마누엘 노이어",
+        "value": "GK",
+        "hint": {
+          "club": "바이에른 뮌헨",
+          "nationality": "독일"
+        },
+        "aliases": [
+          "노이어",
+          "Neuer",
+          "Manuel Neuer"
+        ]
+      },
+      {
+        "rank": 2,
+        "name": "필립 람",
+        "value": "RB (주장)",
+        "hint": {
+          "club": "바이에른 뮌헨",
+          "nationality": "독일"
+        },
+        "aliases": [
+          "Lahm",
+          "Philipp Lahm"
+        ]
+      },
+      {
+        "rank": 3,
+        "name": "제롬 보아텡",
+        "value": "CB",
+        "hint": {
+          "club": "바이에른 뮌헨",
+          "nationality": "독일"
+        },
+        "aliases": [
+          "보아텡",
+          "Boateng",
+          "Jérôme Boateng"
+        ]
+      },
+      {
+        "rank": 4,
+        "name": "마츠 후멜스",
+        "value": "CB",
+        "hint": {
+          "club": "보루시아 도르트문트",
+          "nationality": "독일"
+        },
+        "aliases": [
+          "후멜스",
+          "훔멜스",
+          "Hummels",
+          "Mats Hummels"
+        ]
+      },
+      {
+        "rank": 5,
+        "name": "베네딕트 회베데스",
+        "value": "LB",
+        "hint": {
+          "club": "샬케 04",
+          "nationality": "독일"
+        },
+        "aliases": [
+          "회베데스",
+          "Howedes",
+          "Höwedes",
+          "Benedikt Höwedes"
+        ]
+      },
+      {
+        "rank": 6,
+        "name": "크리스토프 크라머",
+        "value": "RM (32분 교체)",
+        "hint": {
+          "club": "보루시아 묀헨글라트바흐",
+          "nationality": "독일"
+        },
+        "aliases": [
+          "크라머",
+          "Kramer",
+          "Christoph Kramer"
+        ]
+      },
+      {
+        "rank": 7,
+        "name": "바스티안 슈바인슈타이거",
+        "value": "CM",
+        "hint": {
+          "club": "바이에른 뮌헨",
+          "nationality": "독일"
+        },
+        "aliases": [
+          "슈바인슈타이거",
+          "슈바이니",
+          "Schweinsteiger",
+          "Bastian Schweinsteiger"
+        ]
+      },
+      {
+        "rank": 8,
+        "name": "토니 크로스",
+        "value": "LM",
+        "hint": {
+          "club": "바이에른 뮌헨",
+          "nationality": "독일"
+        },
+        "aliases": [
+          "크로스",
+          "크로토스",
+          "Kroos",
+          "Toni Kroos"
+        ]
+      },
+      {
+        "rank": 9,
+        "name": "토마스 뮐러",
+        "value": "RF",
+        "hint": {
+          "club": "바이에른 뮌헨",
+          "nationality": "독일"
+        },
+        "aliases": [
+          "뮐러",
+          "Muller",
+          "Müller",
+          "Thomas Müller"
+        ]
+      },
+      {
+        "rank": 10,
+        "name": "미로슬라프 클로제",
+        "value": "CF (88분 교체)",
+        "hint": {
+          "club": "라치오",
+          "nationality": "독일"
+        },
+        "aliases": [
+          "클로제",
+          "클로세",
+          "Klose",
+          "Miroslav Klose"
+        ]
+      },
+      {
+        "rank": 11,
+        "name": "메수트 외질",
+        "value": "LF",
+        "hint": {
+          "club": "아스널",
+          "nationality": "독일"
+        },
+        "aliases": [
+          "외질",
+          "오질",
+          "Ozil",
+          "Özil",
+          "Mesut Özil"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "leicester-2015-16-league-apps",
+    "title": "레스터 시티 2015-16 우승 시즌 리그 25경기 이상 출전 선수 (13명)",
+    "trivia": "슈마이켈·모건·올브라이턴 세 명은 38경기 전부에 나섰고, 우승 배당은 시즌 전 5000배 1이었다.",
+    "answers": [
+      {
+        "rank": 1,
+        "name": "카스퍼 슈마이켈",
+        "value": "38경기",
+        "hint": {
+          "club": "레스터 시티",
+          "nationality": "덴마크"
+        },
+        "aliases": [
+          "슈마이켈",
+          "슈마이헬",
+          "Schmeichel",
+          "Kasper Schmeichel"
+        ]
+      },
+      {
+        "rank": 2,
+        "name": "웨스 모건",
+        "value": "38경기",
+        "hint": {
+          "club": "레스터 시티",
+          "nationality": "자메이카"
+        },
+        "aliases": [
+          "모건",
+          "Morgan",
+          "Wes Morgan"
+        ]
+      },
+      {
+        "rank": 3,
+        "name": "마크 올브라이턴",
+        "value": "38경기 (34선발+4교체)",
+        "hint": {
+          "club": "레스터 시티",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "올브라이턴",
+          "알브라이턴",
+          "Albrighton",
+          "Marc Albrighton"
+        ]
+      },
+      {
+        "rank": 4,
+        "name": "리야드 마레즈",
+        "value": "37경기 · 17골",
+        "hint": {
+          "club": "레스터 시티",
+          "nationality": "알제리"
+        },
+        "aliases": [
+          "마레즈",
+          "마흐레즈",
+          "Mahrez",
+          "Riyad Mahrez"
+        ]
+      },
+      {
+        "rank": 5,
+        "name": "은골로 캉테",
+        "value": "37경기",
+        "hint": {
+          "club": "레스터 시티",
+          "nationality": "프랑스"
+        },
+        "aliases": [
+          "캉테",
+          "깡테",
+          "Kante",
+          "Kanté",
+          "N'Golo Kanté"
+        ]
+      },
+      {
+        "rank": 6,
+        "name": "제이미 바디",
+        "value": "36경기 · 24골",
+        "hint": {
+          "club": "레스터 시티",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "바디",
+          "Vardy",
+          "Jamie Vardy"
+        ]
+      },
+      {
+        "rank": 7,
+        "name": "오카자키 신지",
+        "value": "36경기",
+        "hint": {
+          "club": "레스터 시티",
+          "nationality": "일본"
+        },
+        "aliases": [
+          "오카자키",
+          "Okazaki",
+          "Shinji Okazaki",
+          "신지"
+        ]
+      },
+      {
+        "rank": 8,
+        "name": "대니 드링크워터",
+        "value": "35경기",
+        "hint": {
+          "club": "레스터 시티",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "드링크워터",
+          "Drinkwater",
+          "Danny Drinkwater"
+        ]
+      },
+      {
+        "rank": 9,
+        "name": "로베르트 후트",
+        "value": "35경기",
+        "hint": {
+          "club": "레스터 시티",
+          "nationality": "독일"
+        },
+        "aliases": [
+          "후트",
+          "후스",
+          "Huth",
+          "Robert Huth"
+        ]
+      },
+      {
+        "rank": 10,
+        "name": "크리스티안 푹스",
+        "value": "32경기",
+        "hint": {
+          "club": "레스터 시티",
+          "nationality": "오스트리아"
+        },
+        "aliases": [
+          "푹스",
+          "Fuchs",
+          "Christian Fuchs"
+        ]
+      },
+      {
+        "rank": 11,
+        "name": "대니 심슨",
+        "value": "30경기",
+        "hint": {
+          "club": "레스터 시티",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "심슨",
+          "Simpson",
+          "Danny Simpson"
+        ]
+      },
+      {
+        "rank": 12,
+        "name": "레오나르도 울로아",
+        "value": "29경기 (7선발+22교체)",
+        "hint": {
+          "club": "레스터 시티",
+          "nationality": "아르헨티나"
+        },
+        "aliases": [
+          "울로아",
+          "우요아",
+          "Ulloa",
+          "Leonardo Ulloa"
+        ]
+      },
+      {
+        "rank": 13,
+        "name": "앤디 킹",
+        "value": "25경기 (9선발+16교체)",
+        "hint": {
+          "club": "레스터 시티",
+          "nationality": "웨일스"
+        },
+        "aliases": [
+          "King",
+          "Andy King"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "chelsea-abramovich-permanent-managers",
+    "title": "아브라모비치 시대(2003-2022) 첼시 정식 감독 전원 (11명)",
+    "trivia": "19년 동안 정식 감독만 11명이 거쳐 갔고, 모리뉴는 두 차례 지휘했다.",
+    "answers": [
+      {
+        "rank": 1,
+        "name": "클라우디오 라니에리",
+        "value": "2000-2004",
+        "hint": {
+          "club": "첼시",
+          "nationality": "이탈리아"
+        },
+        "aliases": [
+          "라니에리",
+          "Ranieri",
+          "Claudio Ranieri"
+        ]
+      },
+      {
+        "rank": 2,
+        "name": "조제 모리뉴",
+        "value": "2004-2007, 2013-2015",
+        "hint": {
+          "club": "첼시",
+          "nationality": "포르투갈"
+        },
+        "aliases": [
+          "무리뉴",
+          "모리뉴",
+          "Mourinho",
+          "José Mourinho"
+        ]
+      },
+      {
+        "rank": 3,
+        "name": "아브람 그란트",
+        "value": "2007-2008",
+        "hint": {
+          "club": "첼시",
+          "nationality": "이스라엘"
+        },
+        "aliases": [
+          "그란트",
+          "그랜트",
+          "Grant",
+          "Avram Grant"
+        ]
+      },
+      {
+        "rank": 4,
+        "name": "루이스 펠리페 스콜라리",
+        "value": "2008-2009",
+        "hint": {
+          "club": "첼시",
+          "nationality": "브라질"
+        },
+        "aliases": [
+          "스콜라리",
+          "펠리팡",
+          "Scolari",
+          "Luiz Felipe Scolari"
+        ]
+      },
+      {
+        "rank": 5,
+        "name": "카를로 안첼로티",
+        "value": "2009-2011",
+        "hint": {
+          "club": "첼시",
+          "nationality": "이탈리아"
+        },
+        "aliases": [
+          "안첼로티",
+          "Ancelotti",
+          "Carlo Ancelotti"
+        ]
+      },
+      {
+        "rank": 6,
+        "name": "안드레 빌라스보아스",
+        "value": "2011-2012",
+        "hint": {
+          "club": "첼시",
+          "nationality": "포르투갈"
+        },
+        "aliases": [
+          "빌라스보아스",
+          "Villas-Boas",
+          "André Villas-Boas"
+        ]
+      },
+      {
+        "rank": 7,
+        "name": "로베르토 디 마테오",
+        "value": "2012",
+        "hint": {
+          "club": "첼시",
+          "nationality": "이탈리아"
+        },
+        "aliases": [
+          "디 마테오",
+          "Di Matteo",
+          "Roberto Di Matteo",
+          "matteo",
+          "마테오"
+        ]
+      },
+      {
+        "rank": 8,
+        "name": "안토니오 콘테",
+        "value": "2016-2018",
+        "hint": {
+          "club": "첼시",
+          "nationality": "이탈리아"
+        },
+        "aliases": [
+          "콘테",
+          "Conte",
+          "Antonio Conte"
+        ]
+      },
+      {
+        "rank": 9,
+        "name": "마우리치오 사리",
+        "value": "2018-2019",
+        "hint": {
+          "club": "첼시",
+          "nationality": "이탈리아"
+        },
+        "aliases": [
+          "사리",
+          "Sarri",
+          "Maurizio Sarri"
+        ]
+      },
+      {
+        "rank": 10,
+        "name": "프랭크 램파드",
+        "value": "2019-2021",
+        "hint": {
+          "club": "첼시",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "램파드",
+          "램퍼드",
+          "Lampard",
+          "Frank Lampard"
+        ]
+      },
+      {
+        "rank": 11,
+        "name": "토마스 투헬",
+        "value": "2021-2022",
+        "hint": {
+          "club": "첼시",
+          "nationality": "독일"
+        },
+        "aliases": [
+          "투헬",
+          "투쉘",
+          "Tuchel",
+          "Thomas Tuchel"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "liverpool-managers-since-1991",
+    "title": "1991년 이후 리버풀 감독 전원 (최근 10명)",
+    "trivia": "클롭이 2015년부터 2024년까지 9년 가까이 맡았고, 그 뒤 슬롯이 첫 시즌에 리그를 우승했다.",
+    "answers": [
+      {
+        "rank": 1,
+        "name": "그레임 수네스",
+        "value": "1991-1994",
+        "hint": {
+          "club": "리버풀",
+          "nationality": "스코틀랜드"
+        },
+        "aliases": [
+          "수네스",
+          "souness",
+          "Graeme Souness"
+        ]
+      },
+      {
+        "rank": 2,
+        "name": "로이 에번스",
+        "value": "1994-1998",
+        "hint": {
+          "club": "리버풀",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "에번스",
+          "에반스",
+          "Evans",
+          "Roy Evans"
+        ]
+      },
+      {
+        "rank": 3,
+        "name": "제라르 울리에",
+        "value": "1998-2004",
+        "hint": {
+          "club": "리버풀",
+          "nationality": "프랑스"
+        },
+        "aliases": [
+          "울리에",
+          "호울리에",
+          "Houllier",
+          "Gérard Houllier"
+        ]
+      },
+      {
+        "rank": 4,
+        "name": "라파엘 베니테스",
+        "value": "2004-2010",
+        "hint": {
+          "club": "리버풀",
+          "nationality": "스페인"
+        },
+        "aliases": [
+          "베니테스",
+          "라파 베니테스",
+          "Benitez",
+          "Benítez",
+          "Rafael Benítez"
+        ]
+      },
+      {
+        "rank": 5,
+        "name": "로이 호지슨",
+        "value": "2010-2011",
+        "hint": {
+          "club": "리버풀",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "호지슨",
+          "Hodgson",
+          "Roy Hodgson"
+        ]
+      },
+      {
+        "rank": 6,
+        "name": "케니 달글리시",
+        "value": "1985-1991, 2011-2012",
+        "hint": {
+          "club": "리버풀",
+          "nationality": "스코틀랜드"
+        },
+        "aliases": [
+          "달글리시",
+          "달글리쉬",
+          "Dalglish",
+          "Kenny Dalglish"
+        ]
+      },
+      {
+        "rank": 7,
+        "name": "브렌던 로저스",
+        "value": "2012-2015",
+        "hint": {
+          "club": "리버풀",
+          "nationality": "북아일랜드"
+        },
+        "aliases": [
+          "로저스",
+          "Rodgers",
+          "Brendan Rodgers"
+        ]
+      },
+      {
+        "rank": 8,
+        "name": "위르겐 클롭",
+        "value": "2015-2024",
+        "hint": {
+          "club": "리버풀",
+          "nationality": "독일"
+        },
+        "aliases": [
+          "클롭",
+          "Klopp",
+          "Jürgen Klopp"
+        ]
+      },
+      {
+        "rank": 9,
+        "name": "아르네 슬롯",
+        "value": "2024-2026",
+        "hint": {
+          "club": "리버풀",
+          "nationality": "네덜란드"
+        },
+        "aliases": [
+          "슬롯",
+          "Slot",
+          "Arne Slot"
+        ]
+      },
+      {
+        "rank": 10,
+        "name": "안도니 이라올라",
+        "value": "2026-",
+        "hint": {
+          "club": "리버풀",
+          "nationality": "스페인"
+        },
+        "aliases": [
+          "이라올라",
+          "Iraola",
+          "Andoni Iraola"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "arsenal-managers-premier-league-era",
+    "title": "프리미어리그 시대(1992년~) 아스널 감독 전원 (8명)",
+    "trivia": "벵거 혼자 1996년부터 2018년까지 21년 7개월을 맡았고, 아르테타는 2025-26 시즌 아스널에 21년 만의 리그 우승을 안겼다.",
+    "answers": [
+      {
+        "rank": 1,
+        "name": "조지 그레이엄",
+        "value": "1986-1995",
+        "hint": {
+          "club": "아스널",
+          "nationality": "스코틀랜드"
+        },
+        "aliases": [
+          "그레이엄",
+          "그레이험",
+          "Graham",
+          "George Graham"
+        ]
+      },
+      {
+        "rank": 2,
+        "name": "스튜어트 휴스턴",
+        "value": "1995, 1996 (대행)",
+        "hint": {
+          "club": "아스널",
+          "nationality": "스코틀랜드"
+        },
+        "aliases": [
+          "휴스턴",
+          "Houston",
+          "Stewart Houston"
+        ]
+      },
+      {
+        "rank": 3,
+        "name": "브루스 리오크",
+        "value": "1995-1996",
+        "hint": {
+          "club": "아스널",
+          "nationality": "스코틀랜드"
+        },
+        "aliases": [
+          "리오크",
+          "라이오크",
+          "Rioch",
+          "Bruce Rioch"
+        ]
+      },
+      {
+        "rank": 4,
+        "name": "팻 라이스",
+        "value": "1996 (대행)",
+        "hint": {
+          "club": "아스널",
+          "nationality": "북아일랜드"
+        },
+        "aliases": [
+          "라이스",
+          "Rice",
+          "Pat Rice"
+        ]
+      },
+      {
+        "rank": 5,
+        "name": "아르센 벵거",
+        "value": "1996-2018",
+        "hint": {
+          "club": "아스널",
+          "nationality": "프랑스"
+        },
+        "aliases": [
+          "벵거",
+          "웽거",
+          "Wenger",
+          "Arsène Wenger"
+        ]
+      },
+      {
+        "rank": 6,
+        "name": "우나이 에메리",
+        "value": "2018-2019",
+        "hint": {
+          "club": "아스널",
+          "nationality": "스페인"
+        },
+        "aliases": [
+          "에메리",
+          "Emery",
+          "Unai Emery"
+        ]
+      },
+      {
+        "rank": 7,
+        "name": "프레디 융베리",
+        "value": "2019 (임시)",
+        "hint": {
+          "club": "아스널",
+          "nationality": "스웨덴"
+        },
+        "aliases": [
+          "융베리",
+          "륭베리",
+          "Ljungberg",
+          "Freddie Ljungberg"
+        ]
+      },
+      {
+        "rank": 8,
+        "name": "미켈 아르테타",
+        "value": "2019-",
+        "hint": {
+          "club": "아스널",
+          "nationality": "스페인"
+        },
+        "aliases": [
+          "아르테타",
+          "Arteta",
+          "Mikel Arteta"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "manutd-managers-after-ferguson",
+    "title": "퍼거슨 이후(2013년~) 맨체스터 유나이티드 감독 전원 (11명)",
+    "trivia": "퍼거슨이 26년 반을 지휘한 자리에 그 뒤 13년 동안 11명이 앉았다.",
+    "answers": [
+      {
+        "rank": 1,
+        "name": "데이비드 모예스",
+        "value": "2013-2014",
+        "hint": {
+          "club": "맨체스터 유나이티드",
+          "nationality": "스코틀랜드"
+        },
+        "aliases": [
+          "모예스",
+          "모이스",
+          "Moyes",
+          "David Moyes"
+        ]
+      },
+      {
+        "rank": 2,
+        "name": "라이언 긱스",
+        "value": "2014 (대행)",
+        "hint": {
+          "club": "맨체스터 유나이티드",
+          "nationality": "웨일스"
+        },
+        "aliases": [
+          "긱스",
+          "Giggs",
+          "Ryan Giggs"
+        ]
+      },
+      {
+        "rank": 3,
+        "name": "루이 판 할",
+        "value": "2014-2016",
+        "hint": {
+          "club": "맨체스터 유나이티드",
+          "nationality": "네덜란드"
+        },
+        "aliases": [
+          "판 할",
+          "반 할",
+          "van Gaal",
+          "Louis van Gaal",
+          "gaal"
+        ]
+      },
+      {
+        "rank": 4,
+        "name": "조제 모리뉴",
+        "value": "2016-2018",
+        "hint": {
+          "club": "맨체스터 유나이티드",
+          "nationality": "포르투갈"
+        },
+        "aliases": [
+          "무리뉴",
+          "모리뉴",
+          "Mourinho",
+          "José Mourinho"
+        ]
+      },
+      {
+        "rank": 5,
+        "name": "올레 군나르 솔샤르",
+        "value": "2018-2021",
+        "hint": {
+          "club": "맨체스터 유나이티드",
+          "nationality": "노르웨이"
+        },
+        "aliases": [
+          "솔샤르",
+          "솔스캬르",
+          "Solskjaer",
+          "Solskjær",
+          "Ole Gunnar Solskjær"
+        ]
+      },
+      {
+        "rank": 6,
+        "name": "마이클 캐릭",
+        "value": "2021 (대행), 2026-",
+        "hint": {
+          "club": "맨체스터 유나이티드",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "캐릭",
+          "Carrick",
+          "Michael Carrick"
+        ]
+      },
+      {
+        "rank": 7,
+        "name": "랄프 랑닉",
+        "value": "2021-2022 (임시)",
+        "hint": {
+          "club": "맨체스터 유나이티드",
+          "nationality": "독일"
+        },
+        "aliases": [
+          "랑닉",
+          "Rangnick",
+          "Ralf Rangnick"
+        ]
+      },
+      {
+        "rank": 8,
+        "name": "에릭 텐 하흐",
+        "value": "2022-2024",
+        "hint": {
+          "club": "맨체스터 유나이티드",
+          "nationality": "네덜란드"
+        },
+        "aliases": [
+          "텐 하흐",
+          "텐 하그",
+          "ten Hag",
+          "Erik ten Hag",
+          "하흐"
+        ]
+      },
+      {
+        "rank": 9,
+        "name": "뤼트 판 니스텔로이",
+        "value": "2024 (대행)",
+        "hint": {
+          "club": "맨체스터 유나이티드",
+          "nationality": "네덜란드"
+        },
+        "aliases": [
+          "판 니스텔로이",
+          "반 니스텔루이",
+          "van Nistelrooy",
+          "Ruud van Nistelrooy",
+          "nistelrooy",
+          "니스텔로이"
+        ]
+      },
+      {
+        "rank": 10,
+        "name": "후벵 아모림",
+        "value": "2024-2026",
+        "hint": {
+          "club": "맨체스터 유나이티드",
+          "nationality": "포르투갈"
+        },
+        "aliases": [
+          "아모림",
+          "아모링",
+          "Amorim",
+          "Ruben Amorim"
+        ]
+      },
+      {
+        "rank": 11,
+        "name": "대런 플레처",
+        "value": "2026 (임시)",
+        "hint": {
+          "club": "맨체스터 유나이티드",
+          "nationality": "스코틀랜드"
+        },
+        "aliases": [
+          "플레처",
+          "Fletcher",
+          "Darren Fletcher"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "pl-500-appearances",
+    "title": "프리미어리그 통산 500경기 이상 출전한 선수 전원 (13명)",
+    "trivia": "긱스·제라드·캐러거 세 명만 한 클럽에서만 500경기를 채웠고, 영국·아일랜드 밖 출신은 호주 골키퍼 슈워처가 유일하다.",
+    "answers": [
+      {
+        "rank": 1,
+        "name": "제임스 밀너",
+        "value": "658경기",
+        "hint": {
+          "club": "리버풀·맨시티 등 6개 클럽",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "밀너",
+          "Milner",
+          "James Milner"
+        ]
+      },
+      {
+        "rank": 2,
+        "name": "개러스 배리",
+        "value": "653경기",
+        "hint": {
+          "club": "애스턴 빌라·맨시티·에버턴",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "배리",
+          "Barry",
+          "Gareth Barry"
+        ]
+      },
+      {
+        "rank": 3,
+        "name": "라이언 긱스",
+        "value": "632경기",
+        "hint": {
+          "club": "맨체스터 유나이티드",
+          "nationality": "웨일스"
+        },
+        "aliases": [
+          "긱스",
+          "Giggs",
+          "Ryan Giggs"
+        ]
+      },
+      {
+        "rank": 4,
+        "name": "프랭크 램파드",
+        "value": "609경기",
+        "hint": {
+          "club": "첼시·웨스트햄·맨시티",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "램파드",
+          "램퍼드",
+          "Lampard",
+          "Frank Lampard"
+        ]
+      },
+      {
+        "rank": 5,
+        "name": "데이비드 제임스",
+        "value": "572경기",
+        "hint": {
+          "club": "리버풀·포츠머스 등",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "제임스",
+          "David James",
+          "james"
+        ]
+      },
+      {
+        "rank": 6,
+        "name": "게리 스피드",
+        "value": "535경기",
+        "hint": {
+          "club": "뉴캐슬·리즈·볼턴·에버턴",
+          "nationality": "웨일스"
+        },
+        "aliases": [
+          "스피드",
+          "Speed",
+          "Gary Speed"
+        ]
+      },
+      {
+        "rank": 7,
+        "name": "에밀 헤스키",
+        "value": "516경기",
+        "hint": {
+          "club": "리버풀·레스터 등",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "헤스키",
+          "Heskey",
+          "Emile Heskey"
+        ]
+      },
+      {
+        "rank": 8,
+        "name": "마크 슈워처",
+        "value": "514경기",
+        "hint": {
+          "club": "미들즈브러·풀럼",
+          "nationality": "호주"
+        },
+        "aliases": [
+          "슈워처",
+          "슈바르처",
+          "Schwarzer",
+          "Mark Schwarzer"
+        ]
+      },
+      {
+        "rank": 9,
+        "name": "제이미 캐러거",
+        "value": "508경기",
+        "hint": {
+          "club": "리버풀",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "캐러거",
+          "커래거",
+          "Carragher",
+          "Jamie Carragher"
+        ]
+      },
+      {
+        "rank": 10,
+        "name": "필 네빌",
+        "value": "505경기",
+        "hint": {
+          "club": "맨유·에버턴",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "네빌",
+          "Phil Neville",
+          "neville"
+        ]
+      },
+      {
+        "rank": 11,
+        "name": "리오 퍼디난드",
+        "value": "504경기",
+        "hint": {
+          "club": "맨유·웨스트햄·리즈",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "퍼디난드",
+          "페르디난드",
+          "Ferdinand",
+          "Rio Ferdinand"
+        ]
+      },
+      {
+        "rank": 12,
+        "name": "스티븐 제라드",
+        "value": "504경기",
+        "hint": {
+          "club": "리버풀",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "제라드",
+          "Gerrard",
+          "Steven Gerrard"
+        ]
+      },
+      {
+        "rank": 13,
+        "name": "솔 캠벨",
+        "value": "503경기",
+        "hint": {
+          "club": "토트넘·아스널·포츠머스",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "캠벨",
+          "Campbell",
+          "Sol Campbell"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ucl-2008-final-chelsea-xi",
+    "title": "2008 챔피언스리그 결승(모스크바) 첼시 선발 11명",
+    "trivia": "에시엔이 오른쪽 수비수로 나섰고, 연장 후반 드로그바가 퇴장당한 뒤 승부차기 5-6으로 졌다.",
+    "answers": [
+      {
+        "rank": 1,
+        "name": "페트르 체흐",
+        "value": "GK",
+        "hint": {
+          "club": "첼시",
+          "nationality": "체코"
+        },
+        "aliases": [
+          "체흐",
+          "체크",
+          "Cech",
+          "Čech",
+          "Petr Čech"
+        ]
+      },
+      {
+        "rank": 2,
+        "name": "미하엘 에시엔",
+        "value": "RB",
+        "hint": {
+          "club": "첼시",
+          "nationality": "가나"
+        },
+        "aliases": [
+          "에시엔",
+          "Essien",
+          "Michael Essien"
+        ]
+      },
+      {
+        "rank": 3,
+        "name": "히카르두 카르발류",
+        "value": "CB",
+        "hint": {
+          "club": "첼시",
+          "nationality": "포르투갈"
+        },
+        "aliases": [
+          "카르발류",
+          "카르발호",
+          "Carvalho",
+          "Ricardo Carvalho"
+        ]
+      },
+      {
+        "rank": 4,
+        "name": "존 테리",
+        "value": "CB (주장)",
+        "hint": {
+          "club": "첼시",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "테리",
+          "Terry",
+          "John Terry"
+        ]
+      },
+      {
+        "rank": 5,
+        "name": "애슐리 콜",
+        "value": "LB",
+        "hint": {
+          "club": "첼시",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "Ashley Cole"
+        ]
+      },
+      {
+        "rank": 6,
+        "name": "클로드 마켈렐레",
+        "value": "DM",
+        "hint": {
+          "club": "첼시",
+          "nationality": "프랑스"
+        },
+        "aliases": [
+          "마켈렐레",
+          "Makelele",
+          "Makélélé",
+          "Claude Makélélé"
+        ]
+      },
+      {
+        "rank": 7,
+        "name": "미하엘 발라크",
+        "value": "CM",
+        "hint": {
+          "club": "첼시",
+          "nationality": "독일"
+        },
+        "aliases": [
+          "발라크",
+          "발락",
+          "Ballack",
+          "Michael Ballack"
+        ]
+      },
+      {
+        "rank": 8,
+        "name": "프랭크 램파드",
+        "value": "CM (동점골)",
+        "hint": {
+          "club": "첼시",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "램파드",
+          "램퍼드",
+          "Lampard",
+          "Frank Lampard"
+        ]
+      },
+      {
+        "rank": 9,
+        "name": "조 콜",
+        "value": "RW (99분 교체)",
+        "hint": {
+          "club": "첼시",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "Joe Cole"
+        ]
+      },
+      {
+        "rank": 10,
+        "name": "플로랑 말루다",
+        "value": "LW (92분 교체)",
+        "hint": {
+          "club": "첼시",
+          "nationality": "프랑스"
+        },
+        "aliases": [
+          "말루다",
+          "Malouda",
+          "Florent Malouda"
+        ]
+      },
+      {
+        "rank": 11,
+        "name": "디디에 드로그바",
+        "value": "CF (연장 후반 퇴장)",
+        "hint": {
+          "club": "첼시",
+          "nationality": "코트디부아르"
+        },
+        "aliases": [
+          "드로그바",
+          "Drogba",
+          "Didier Drogba"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "premier-league-title-winning-clubs",
+    "title": "프리미어리그(1992년~) 우승을 차지한 클럽 전원 (7명)",
+    "trivia": "맨유 13회·맨시티 8회·첼시 5회·아스널 4회로 이 넷이 30회를 가져갔고, 블랙번과 레스터가 각각 한 번씩 끼어들었다.",
+    "answers": [
+      {
+        "rank": 1,
+        "name": "맨체스터 유나이티드",
+        "value": "13회",
+        "hint": {
+          "club": "올드 트래퍼드",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "맨유",
+          "Man Utd",
+          "Manchester United",
+          "united",
+          "유나이티드"
+        ]
+      },
+      {
+        "rank": 2,
+        "name": "맨체스터 시티",
+        "value": "8회",
+        "hint": {
+          "club": "에티하드",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "맨시티",
+          "Man City",
+          "Manchester City"
+        ]
+      },
+      {
+        "rank": 3,
+        "name": "첼시",
+        "value": "5회",
+        "hint": {
+          "club": "스탬퍼드 브리지",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "Chelsea"
+        ]
+      },
+      {
+        "rank": 4,
+        "name": "아스널",
+        "value": "4회",
+        "hint": {
+          "club": "에미레이츠",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "아스날",
+          "아세널",
+          "Arsenal"
+        ]
+      },
+      {
+        "rank": 5,
+        "name": "리버풀",
+        "value": "2회",
+        "hint": {
+          "club": "안필드",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "Liverpool"
+        ]
+      },
+      {
+        "rank": 6,
+        "name": "블랙번 로버스",
+        "value": "1회 (1994-95)",
+        "hint": {
+          "club": "이우드 파크",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "블랙번",
+          "Blackburn",
+          "Blackburn Rovers",
+          "rovers",
+          "로버스"
+        ]
+      },
+      {
+        "rank": 7,
+        "name": "레스터 시티",
+        "value": "1회 (2015-16)",
+        "hint": {
+          "club": "킹 파워",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "레스터",
+          "Leicester",
+          "Leicester City"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "english-clubs-ucl-finals-since-2005",
+    "title": "2005년 이후 챔피언스리그 결승에 오른 잉글랜드 클럽 (6명)",
+    "trivia": "이 기간 잉글랜드 클럽끼리 맞붙은 결승이 세 번(2008·2019·2021) 나왔고, 아스널은 2006년과 2026년 두 번 모두 패했다.",
+    "answers": [
+      {
+        "rank": 1,
+        "name": "리버풀",
+        "value": "5회 (2005·2007·2018·2019·2022)",
+        "hint": {
+          "club": "우승 2회",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "Liverpool"
+        ]
+      },
+      {
+        "rank": 2,
+        "name": "맨체스터 유나이티드",
+        "value": "3회 (2008·2009·2011)",
+        "hint": {
+          "club": "우승 1회",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "맨유",
+          "Man Utd",
+          "Manchester United",
+          "united",
+          "유나이티드"
+        ]
+      },
+      {
+        "rank": 3,
+        "name": "첼시",
+        "value": "3회 (2008·2012·2021)",
+        "hint": {
+          "club": "우승 2회",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "Chelsea"
+        ]
+      },
+      {
+        "rank": 4,
+        "name": "아스널",
+        "value": "2회 (2006·2026)",
+        "hint": {
+          "club": "우승 0회",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "아스날",
+          "Arsenal"
+        ]
+      },
+      {
+        "rank": 5,
+        "name": "맨체스터 시티",
+        "value": "2회 (2021·2023)",
+        "hint": {
+          "club": "우승 1회",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "맨시티",
+          "Man City",
+          "Manchester City",
+          "city",
+          "시티"
+        ]
+      },
+      {
+        "rank": 6,
+        "name": "토트넘 홋스퍼",
+        "value": "1회 (2019)",
+        "hint": {
+          "club": "우승 0회",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "토트넘",
+          "스퍼스",
+          "Spurs",
+          "Tottenham Hotspur",
+          "hotspur",
+          "홋스퍼"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "world-cup-winning-nations",
+    "title": "역대 월드컵 우승 국가 전원 (8명)",
+    "trivia": "결승에 올라 본 나라는 13개국뿐이고, 우승은 유럽과 남미 밖에서 나온 적이 없다.",
+    "answers": [
+      {
+        "rank": 1,
+        "name": "브라질",
+        "value": "5회",
+        "hint": {
+          "club": "남미",
+          "nationality": "브라질"
+        },
+        "aliases": [
+          "Brazil"
+        ]
+      },
+      {
+        "rank": 2,
+        "name": "독일",
+        "value": "4회 (서독 포함)",
+        "hint": {
+          "club": "유럽",
+          "nationality": "독일"
+        },
+        "aliases": [
+          "서독",
+          "Germany"
+        ]
+      },
+      {
+        "rank": 3,
+        "name": "이탈리아",
+        "value": "4회",
+        "hint": {
+          "club": "유럽",
+          "nationality": "이탈리아"
+        },
+        "aliases": [
+          "이태리",
+          "Italy"
+        ]
+      },
+      {
+        "rank": 4,
+        "name": "아르헨티나",
+        "value": "3회",
+        "hint": {
+          "club": "남미",
+          "nationality": "아르헨티나"
+        },
+        "aliases": [
+          "아르헨",
+          "Argentina"
+        ]
+      },
+      {
+        "rank": 5,
+        "name": "프랑스",
+        "value": "2회 (1998·2018)",
+        "hint": {
+          "club": "유럽",
+          "nationality": "프랑스"
+        },
+        "aliases": [
+          "France"
+        ]
+      },
+      {
+        "rank": 6,
+        "name": "우루과이",
+        "value": "2회 (1930·1950)",
+        "hint": {
+          "club": "남미",
+          "nationality": "우루과이"
+        },
+        "aliases": [
+          "Uruguay"
+        ]
+      },
+      {
+        "rank": 7,
+        "name": "스페인",
+        "value": "2회 (2010·2026)",
+        "hint": {
+          "club": "유럽",
+          "nationality": "스페인"
+        },
+        "aliases": [
+          "España",
+          "Spain"
+        ]
+      },
+      {
+        "rank": 8,
+        "name": "잉글랜드",
+        "value": "1회 (1966)",
+        "hint": {
+          "club": "유럽",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "England"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "pl-four-assists-in-a-match",
+    "title": "프리미어리그 한 경기 4도움을 기록한 선수 전원 (9명)",
+    "trivia": "네 번의 도움이 모두 한 선수에게 간 유일한 사례는 케인이 손흥민에게 몰아준 2020년 사우샘프턴전이다.",
+    "answers": [
+      {
+        "rank": 1,
+        "name": "데니스 베르캄프",
+        "value": "1999년 vs 레스터 (아스널 5-0)",
+        "hint": {
+          "club": "아스널",
+          "nationality": "네덜란드"
+        },
+        "aliases": [
+          "베르캄프",
+          "베르흐캄프",
+          "Bergkamp",
+          "Dennis Bergkamp"
+        ]
+      },
+      {
+        "rank": 2,
+        "name": "호세 안토니오 레예스",
+        "value": "2006년 vs 미들즈브러 (아스널 7-0)",
+        "hint": {
+          "club": "아스널",
+          "nationality": "스페인"
+        },
+        "aliases": [
+          "레예스",
+          "레이에스",
+          "Reyes",
+          "José Antonio Reyes"
+        ]
+      },
+      {
+        "rank": 3,
+        "name": "세스크 파브레가스",
+        "value": "2009년 vs 블랙번 (아스널 6-2)",
+        "hint": {
+          "club": "아스널",
+          "nationality": "스페인"
+        },
+        "aliases": [
+          "파브레가스",
+          "세스크",
+          "Fabregas",
+          "Cesc Fàbregas",
+          "fàbregas"
+        ]
+      },
+      {
+        "rank": 4,
+        "name": "에마뉘엘 아데바요르",
+        "value": "2012년 vs 뉴캐슬 (토트넘 5-0)",
+        "hint": {
+          "club": "토트넘",
+          "nationality": "토고"
+        },
+        "aliases": [
+          "아데바요르",
+          "아데바요",
+          "Adebayor",
+          "Emmanuel Adebayor"
+        ]
+      },
+      {
+        "rank": 5,
+        "name": "산티 카솔라",
+        "value": "2013년 vs 위건 (아스널 4-1)",
+        "hint": {
+          "club": "아스널",
+          "nationality": "스페인"
+        },
+        "aliases": [
+          "카솔라",
+          "카소를라",
+          "Cazorla",
+          "Santi Cazorla"
+        ]
+      },
+      {
+        "rank": 6,
+        "name": "두샨 타디치",
+        "value": "2014년 vs 선덜랜드 (사우샘프턴 8-0)",
+        "hint": {
+          "club": "사우샘프턴",
+          "nationality": "세르비아"
+        },
+        "aliases": [
+          "타디치",
+          "타디취",
+          "Tadic",
+          "Tadić",
+          "Dušan Tadić"
+        ]
+      },
+      {
+        "rank": 7,
+        "name": "해리 케인",
+        "value": "2020년 vs 사우샘프턴 (토트넘 5-2)",
+        "hint": {
+          "club": "토트넘",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "케인",
+          "Kane",
+          "Harry Kane"
+        ]
+      },
+      {
+        "rank": 8,
+        "name": "폴 포그바",
+        "value": "2021년 vs 리즈 (맨유 5-1)",
+        "hint": {
+          "club": "맨체스터 유나이티드",
+          "nationality": "프랑스"
+        },
+        "aliases": [
+          "포그바",
+          "Pogba",
+          "Paul Pogba"
+        ]
+      },
+      {
+        "rank": 9,
+        "name": "제레미 도쿠",
+        "value": "2023년 vs 본머스 (맨시티 6-1)",
+        "hint": {
+          "club": "맨체스터 시티",
+          "nationality": "벨기에"
+        },
+        "aliases": [
+          "도쿠",
+          "도큐",
+          "Doku",
+          "Jérémy Doku"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "world-cup-finalists-since-2010",
+    "title": "2010년 이후 월드컵 결승에 오른 국가 전원 (6명)",
+    "trivia": "이 다섯 대회에서 아르헨티나만 세 번 결승에 올라 한 번 이기고 두 번 졌고, 스페인은 두 번 올라 두 번 다 우승했다.",
+    "answers": [
+      {
+        "rank": 1,
+        "name": "아르헨티나",
+        "value": "결승 3회 — 우승 2022, 준우승 2014·2026",
+        "hint": {
+          "club": "남미",
+          "nationality": "아르헨티나"
+        },
+        "aliases": [
+          "아르헨",
+          "Argentina"
+        ]
+      },
+      {
+        "rank": 2,
+        "name": "스페인",
+        "value": "결승 2회 — 우승 2010·2026",
+        "hint": {
+          "club": "유럽",
+          "nationality": "스페인"
+        },
+        "aliases": [
+          "España",
+          "Spain"
+        ]
+      },
+      {
+        "rank": 3,
+        "name": "프랑스",
+        "value": "결승 2회 — 우승 2018, 준우승 2022",
+        "hint": {
+          "club": "유럽",
+          "nationality": "프랑스"
+        },
+        "aliases": [
+          "France"
+        ]
+      },
+      {
+        "rank": 4,
+        "name": "독일",
+        "value": "결승 1회 — 우승 2014",
+        "hint": {
+          "club": "유럽",
+          "nationality": "독일"
+        },
+        "aliases": [
+          "Germany"
+        ]
+      },
+      {
+        "rank": 5,
+        "name": "네덜란드",
+        "value": "결승 1회 — 준우승 2010",
+        "hint": {
+          "club": "유럽",
+          "nationality": "네덜란드"
+        },
+        "aliases": [
+          "홀란드",
+          "Netherlands"
+        ]
+      },
+      {
+        "rank": 6,
+        "name": "크로아티아",
+        "value": "결승 1회 — 준우승 2018",
+        "hint": {
+          "club": "유럽",
+          "nationality": "크로아티아"
+        },
+        "aliases": [
+          "Croatia"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "pl-five-goals-in-a-match",
+    "title": "프리미어리그 한 경기 5골을 넣은 선수 전원 (5명)",
+    "trivia": "데포는 이 5골을 모두 전반에만 넣어, 한 경기 한 하프 최다 득점 기록도 함께 갖고 있다.",
+    "answers": [
+      {
+        "rank": 1,
+        "name": "앤디 콜",
+        "value": "1995년 vs 입스위치 (맨유 9-0)",
+        "hint": {
+          "club": "맨체스터 유나이티드",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "Andy Cole",
+          "cole"
+        ]
+      },
+      {
+        "rank": 2,
+        "name": "앨런 시어러",
+        "value": "1999년 vs 셰필드 웬즈데이 (뉴캐슬 8-0)",
+        "hint": {
+          "club": "뉴캐슬 유나이티드",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "시어러",
+          "쉬어러",
+          "Shearer",
+          "Alan Shearer"
+        ]
+      },
+      {
+        "rank": 3,
+        "name": "저메인 데포",
+        "value": "2009년 vs 위건 (토트넘 9-1)",
+        "hint": {
+          "club": "토트넘",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "데포",
+          "디포",
+          "Defoe",
+          "Jermain Defoe"
+        ]
+      },
+      {
+        "rank": 4,
+        "name": "디미타르 베르바토프",
+        "value": "2010년 vs 블랙번 (맨유 7-1)",
+        "hint": {
+          "club": "맨체스터 유나이티드",
+          "nationality": "불가리아"
+        },
+        "aliases": [
+          "베르바토프",
+          "베르바토브",
+          "Berbatov",
+          "Dimitar Berbatov"
+        ]
+      },
+      {
+        "rank": 5,
+        "name": "세르히오 아궤로",
+        "value": "2015년 vs 뉴캐슬 (맨시티 6-1)",
+        "hint": {
+          "club": "맨체스터 시티",
+          "nationality": "아르헨티나"
+        },
+        "aliases": [
+          "아궤로",
+          "아구에로",
+          "Aguero",
+          "Agüero",
+          "Sergio Agüero"
+        ]
+      }
+    ]
+  },
+  {
     "id": "pl-korean-players",
     "title": "프리미어리그에서 뛴 대한민국 선수 전부 (15명)",
     "trivia": "손흥민은 프리미어리그 333경기로 한국인 최다 출전이며, 2023년 아시아 선수 최초로 통산 100골을 넘겼다.",

@@ -304,3 +304,24 @@ ol, ul { padding: 0; list-style: none; }
   font-weight: 600;
 }
 .update-banner .btn { min-height: 40px; }
+
+/* ── 단서 타워형 문제 ─────────────────────── */
+.slots.clued .slot { grid-template-columns: minmax(88px, 42%) 1fr; align-items: center; }
+.slot .clue {
+  font-weight: 700; color: var(--warn); font-size: 14px; line-height: 1.3;
+  overflow-wrap: anywhere;
+}
+.slot.open .clue { color: var(--muted); font-weight: 600; }
+
+/* ── 점수 사다리 ─────────────────────────── */
+.header-stack { display: flex; flex-direction: column; align-items: flex-end; gap: 2px; }
+.session-score { font-size: 12px; font-weight: 700; color: var(--muted); font-variant-numeric: tabular-nums; }
+.ladder { display: flex; flex-direction: column; gap: 4px; }
+.ladder-bar { position: relative; display: block; height: 6px; border-radius: 3px; background: var(--surface-2); overflow: hidden; }
+.ladder-bar .fill { position: absolute; left: 0; top: 0; bottom: 0; background: var(--muted); transition: width 0.3s ease; }
+.ladder.reached .fill { background: var(--accent); }
+.ladder.perfect .fill { background: var(--warn); }
+.ladder-bar .mark { position: absolute; top: -2px; bottom: -2px; width: 2px; background: var(--text); opacity: 0.55; }
+.ladder-text { min-height: 20px; font-size: 14px; font-variant-numeric: tabular-nums; }
+.ladder.reached .ladder-text strong { color: var(--accent); }
+.ladder.perfect .ladder-text strong { color: var(--warn); }

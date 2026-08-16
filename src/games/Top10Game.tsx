@@ -12,11 +12,16 @@ import { Feedback, type FeedbackMsg } from '../components/Feedback'
 import { ConfirmButton } from '../components/ConfirmButton'
 import { QuestionEnd } from '../components/QuestionEnd'
 import { Header } from '../components/Header'
+import { ScoreLadder } from '../components/ScoreLadder'
+import { useSessionScore } from '../hooks/useSessionScore'
+import { formatScore, scoreFor } from '../lib/score'
 
 interface Props {
   /** localStorage 키·문제 풀 분리용 */
   gameKey: string
   title: string
+  /** 입력창 안내문 — 정답이 선수가 아닌 문제(구단·국가)도 있다 */
+  placeholder?: string
   questions: readonly Top10Question[]
   rules: GameRules
   onBack: () => void
@@ -25,8 +30,9 @@ interface Props {
 type Status = 'playing' | 'won' | 'lost' | 'revealed'
 
 /** 게임 1·2 공용. 데이터만 다르다. */
-export function Top10Game({ gameKey, title, questions, rules, onBack }: Props) {
+export function Top10Game({ gameKey, title, questions, rules, onBack, placeholder = '선수 이름' }: Props) {
   const { current, next, roundKey } = useQuestionQueue(gameKey, questions)
+  const score = useSessionScore(gameKey)
   if (!current) {
     return (
       <>
@@ -37,7 +43,18 @@ export function Top10Game({ gameKey, title, questions, rules, onBack }: Props) {
       </>
     )
   }
-  return <Top10Round key={roundKey} q={current} title={title} rules={rules} onNext={next} onBack={onBack} />
+  return (
+    <Top10Round
+      key={roundKey}
+      q={current}
+      title={title}
+      rules={rules}
+      onNext={next}
+      onBack={onBack}
+      score={score}
+      placeholder={placeholder}
+    />
+  )
 }
 
 interface RoundProps {
@@ -46,10 +63,12 @@ interface RoundProps {
   rules: GameRules
   onNext: () => void
   onBack: () => void
+  score: ReturnType<typeof useSessionScore>
+  placeholder: string
 }
 
 /** 문제 하나 = 컴포넌트 하나(key=id). 문제 바뀌면 상태가 통째로 초기화된다. */
-function Top10Round({ q, title, rules, onNext, onBack }: RoundProps) {
+function Top10Round({ q, title, rules, onNext, onBack, score, placeholder }: RoundProps) {
   const { lives, hintsLeft, loseLife, spendHint, maxLives, maxHints } = useLives(rules)
   const [found, setFound] = useState<Set<number>>(() => new Set())   // 인덱스
   const [hinted, setHinted] = useState<Set<number>>(() => new Set()) // 인덱스
@@ -57,6 +76,8 @@ function Top10Round({ q, title, rules, onNext, onBack }: RoundProps) {
   const [msg, setMsg] = useState<FeedbackMsg | null>(null)
 
   const hasRanks = useMemo(() => q.answers.some((a) => a.value && a.value.trim() !== ''), [q])
+  /** 단서 타워형: 모든 칸에 단서가 미리 떠 있고, 맞히면 단서가 정답으로 바뀐다 */
+  const isClueTower = useMemo(() => q.answers.every((a) => (a.clue ?? '').trim() !== ''), [q])
   // 식별자는 rank 가 아니라 배열 인덱스다 — 10위 동률처럼 같은 rank 가 둘일 수 있다.
   const candidates = useMemo<Candidate[]>(
     () => q.answers.map((a, i) => ({ id: String(i), name: a.name, aliases: a.aliases })),
@@ -66,6 +87,15 @@ function Top10Round({ q, title, rules, onNext, onBack }: RoundProps) {
   useEffect(() => {
     if (status === 'playing' && lives === 0) setStatus('lost')
   }, [lives, status])
+
+  const earned = scoreFor(found.size, q.answers.length)
+  const [banked, setBanked] = useState(false)
+  useEffect(() => {
+    if (status !== 'playing' && !banked) {
+      setBanked(true)
+      score.add(earned)
+    }
+  }, [status, banked, earned, score])
 
   const handleSubmit = useCallback(
     (raw: string): SubmitOutcome => {
@@ -115,18 +145,31 @@ function Top10Round({ q, title, rules, onNext, onBack }: RoundProps) {
 
   return (
     <>
-      <Header title={title} onBack={onBack} right={<Hearts lives={lives} max={maxLives} />} />
+      <Header
+        title={title}
+        onBack={onBack}
+        right={
+          <div className="header-stack">
+            <Hearts lives={lives} max={maxLives} />
+            <span className="session-score">{formatScore(score.total)}점</span>
+          </div>
+        }
+      />
       <main className="screen">
         <h2 className="q-title">{q.title}</h2>
 
-        <ol className={`slots ${hasRanks ? 'ranked' : 'unranked'}`}>
+        <ol className={`slots ${isClueTower ? 'clued' : hasRanks ? 'ranked' : 'unranked'}`}>
           {q.answers.map((a, i) => {
             const open = found.has(i)
             const showHint = !open && hinted.has(i) && hasHintText(a)
             const missed = ended && !open
             return (
               <li key={i} className={`slot ${open ? 'open' : ''} ${missed ? 'missed' : ''}`}>
-                {hasRanks && <span className="rank">{a.rank}</span>}
+                {isClueTower ? (
+                  <span className="clue">{a.clue}</span>
+                ) : (
+                  hasRanks && <span className="rank">{a.rank}</span>
+                )}
                 <span className="name">
                   {open || ended ? (
                     a.name
@@ -148,7 +191,8 @@ function Top10Round({ q, title, rules, onNext, onBack }: RoundProps) {
 
         {!ended && (
           <>
-            <AnswerForm onSubmit={handleSubmit} placeholder="선수 이름" />
+            <ScoreLadder found={found.size} total={q.answers.length} />
+            <AnswerForm onSubmit={handleSubmit} placeholder={placeholder} />
             <Feedback msg={msg} />
             <div className="toolbar">
               <HintButton left={hintsLeft} max={maxHints} disabled={hintable.length === 0} onClick={handleHint} />
@@ -161,9 +205,11 @@ function Top10Round({ q, title, rules, onNext, onBack }: RoundProps) {
           <QuestionEnd
             status={status as 'won' | 'lost' | 'revealed'}
             summary={
-              status === 'won'
+              (status === 'won'
                 ? `${q.answers.length}개 전부 맞혔어요`
-                : `${found.size}/${q.answers.length} 맞힘 · 못 맞힌 ${missedCount}개는 표시해 뒀어요`
+                : `${found.size}/${q.answers.length} 맞힘 · 못 맞힌 ${missedCount}개는 표시해 뒀어요`) +
+              ` · ${formatScore(earned)}점` +
+              (score.best > 0 ? ` (최고 ${formatScore(score.best)}점)` : '')
             }
             trivia={q.trivia?.trim() || undefined}
             onNext={onNext}

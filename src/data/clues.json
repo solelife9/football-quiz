@@ -1,0 +1,1822 @@
+[
+  {
+    "id": "clue-pl-stadiums",
+    "title": "홈구장을 보고 구단 맞히기 (2025-26 프리미어리그)",
+    "trivia": "2025-26 시즌 20개 구장 중 가장 큰 곳은 올드 트래퍼드(74,244석)였다.",
+    "answers": [
+      {
+        "rank": 1,
+        "name": "리버풀",
+        "clue": "안필드",
+        "value": "",
+        "hint": {
+          "club": "",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "Liverpool",
+          "리버풀 FC"
+        ]
+      },
+      {
+        "rank": 2,
+        "name": "맨체스터 유나이티드",
+        "clue": "올드 트래퍼드",
+        "value": "",
+        "hint": {
+          "club": "",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "맨유",
+          "Manchester United",
+          "맨 유나이티드",
+          "Man Utd",
+          "맨체스터 U"
+        ]
+      },
+      {
+        "rank": 3,
+        "name": "아스널",
+        "clue": "에미레이츠 스타디움",
+        "value": "",
+        "hint": {
+          "club": "",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "Arsenal",
+          "아스날",
+          "아스널 FC",
+          "아스날 FC"
+        ]
+      },
+      {
+        "rank": 4,
+        "name": "첼시",
+        "clue": "스탬퍼드 브리지",
+        "value": "",
+        "hint": {
+          "club": "",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "Chelsea",
+          "첼시 FC"
+        ]
+      },
+      {
+        "rank": 5,
+        "name": "맨체스터 시티",
+        "clue": "에티하드 스타디움",
+        "value": "",
+        "hint": {
+          "club": "",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "맨시티",
+          "Manchester City",
+          "Man City",
+          "city",
+          "시티"
+        ]
+      },
+      {
+        "rank": 6,
+        "name": "애스턴 빌라",
+        "clue": "빌라 파크",
+        "value": "",
+        "hint": {
+          "club": "",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "아스톤 빌라",
+          "Aston Villa",
+          "애스톤 빌라",
+          "빌라",
+          "villa"
+        ]
+      },
+      {
+        "rank": 7,
+        "name": "뉴캐슬 유나이티드",
+        "clue": "세인트 제임스 파크",
+        "value": "",
+        "hint": {
+          "club": "",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "뉴캐슬",
+          "Newcastle United",
+          "Newcastle"
+        ]
+      },
+      {
+        "rank": 8,
+        "name": "크리스털 팰리스",
+        "clue": "셀허스트 파크",
+        "value": "",
+        "hint": {
+          "club": "",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "크리스탈 팰리스",
+          "Crystal Palace",
+          "크리스탈 팔라스",
+          "팰리스",
+          "palace"
+        ]
+      },
+      {
+        "rank": 9,
+        "name": "울버햄프턴 원더러스",
+        "clue": "몰리뉴",
+        "value": "",
+        "hint": {
+          "club": "",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "울버햄프턴",
+          "울버햄튼",
+          "울브스",
+          "Wolves",
+          "Wolverhampton Wanderers",
+          "wanderers",
+          "원더러스"
+        ]
+      },
+      {
+        "rank": 10,
+        "name": "선덜랜드",
+        "clue": "스타디움 오브 라이트",
+        "value": "",
+        "hint": {
+          "club": "",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "Sunderland",
+          "썬덜랜드",
+          "선덜랜드 AFC"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "clue-euro-stadiums",
+    "title": "홈구장을 보고 구단 맞히기 (유럽 빅클럽)",
+    "trivia": "캄프 누는 2023년부터 개보수로 비워 뒀다가 2025년 바르셀로나가 복귀했다.",
+    "answers": [
+      {
+        "rank": 1,
+        "name": "바르셀로나",
+        "clue": "캄프 누",
+        "value": "",
+        "hint": {
+          "club": "",
+          "nationality": "스페인"
+        },
+        "aliases": [
+          "FC 바르셀로나",
+          "Barcelona",
+          "FC Barcelona",
+          "바르사",
+          "Barça",
+          "바르셀로나 FC"
+        ]
+      },
+      {
+        "rank": 2,
+        "name": "레알 마드리드",
+        "clue": "산티아고 베르나베우",
+        "value": "",
+        "hint": {
+          "club": "",
+          "nationality": "스페인"
+        },
+        "aliases": [
+          "Real Madrid",
+          "레알",
+          "Real Madrid CF"
+        ]
+      },
+      {
+        "rank": 3,
+        "name": "바이에른 뮌헨",
+        "clue": "알리안츠 아레나",
+        "value": "",
+        "hint": {
+          "club": "",
+          "nationality": "독일"
+        },
+        "aliases": [
+          "바이에른",
+          "Bayern Munich",
+          "FC Bayern",
+          "뮌헨",
+          "바이언 뮌헨",
+          "FC 바이에른 뮌헨",
+          "munich"
+        ]
+      },
+      {
+        "rank": 4,
+        "name": "보루시아 도르트문트",
+        "clue": "지그날 이두나 파크",
+        "value": "",
+        "hint": {
+          "club": "",
+          "nationality": "독일"
+        },
+        "aliases": [
+          "도르트문트",
+          "Borussia Dortmund",
+          "Dortmund"
+        ]
+      },
+      {
+        "rank": 5,
+        "name": "파리 생제르맹",
+        "clue": "파르크 데 프랭스",
+        "value": "",
+        "hint": {
+          "club": "",
+          "nationality": "프랑스"
+        },
+        "aliases": [
+          "Paris Saint-Germain",
+          "파리 SG",
+          "saint-germain",
+          "생제르맹"
+        ]
+      },
+      {
+        "rank": 6,
+        "name": "아틀레티코 마드리드",
+        "clue": "메트로폴리타노",
+        "value": "",
+        "hint": {
+          "club": "",
+          "nationality": "스페인"
+        },
+        "aliases": [
+          "아틀레티코",
+          "Atletico Madrid",
+          "Atlético Madrid",
+          "아틀레치코 마드리드"
+        ]
+      },
+      {
+        "rank": 7,
+        "name": "아약스",
+        "clue": "요한 크라위프 아레나",
+        "value": "",
+        "hint": {
+          "club": "",
+          "nationality": "네덜란드"
+        },
+        "aliases": [
+          "Ajax",
+          "AFC Ajax",
+          "아약스 암스테르담",
+          "아안스"
+        ]
+      },
+      {
+        "rank": 8,
+        "name": "벤피카",
+        "clue": "에스타디우 다 루스",
+        "value": "",
+        "hint": {
+          "club": "",
+          "nationality": "포르투갈"
+        },
+        "aliases": [
+          "Benfica",
+          "SL 벤피카",
+          "S.L. Benfica",
+          "벤피까"
+        ]
+      },
+      {
+        "rank": 9,
+        "name": "포르투",
+        "clue": "에스타디우 두 드라강",
+        "value": "",
+        "hint": {
+          "club": "",
+          "nationality": "포르투갈"
+        },
+        "aliases": [
+          "FC 포르투",
+          "Porto",
+          "FC Porto",
+          "포르투갈 포르투"
+        ]
+      },
+      {
+        "rank": 10,
+        "name": "발렌시아",
+        "clue": "메스타야",
+        "value": "",
+        "hint": {
+          "club": "",
+          "nationality": "스페인"
+        },
+        "aliases": [
+          "Valencia",
+          "발렌시아 CF",
+          "Valencia CF",
+          "발렌씨아"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "clue-pl-nicknames",
+    "title": "별명을 보고 프리미어리그 구단 맞히기",
+    "trivia": "에버턴은 '더 블루스'·'토피스'·'피플스 클럽'·'스쿨 오브 사이언스'까지 별명이 네 개 등재돼 있다.",
+    "answers": [
+      {
+        "rank": 1,
+        "name": "아스널",
+        "clue": "거너스",
+        "value": "",
+        "hint": {
+          "club": "",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "Arsenal",
+          "아스날",
+          "아스널 FC"
+        ]
+      },
+      {
+        "rank": 2,
+        "name": "리버풀",
+        "clue": "레즈",
+        "value": "",
+        "hint": {
+          "club": "",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "Liverpool",
+          "리버풀 FC"
+        ]
+      },
+      {
+        "rank": 3,
+        "name": "토트넘 홋스퍼",
+        "clue": "스퍼스",
+        "value": "",
+        "hint": {
+          "club": "",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "토트넘",
+          "Tottenham",
+          "Tottenham Hotspur",
+          "토트넘 훗스퍼",
+          "토튼햄",
+          "hotspur",
+          "홋스퍼"
+        ]
+      },
+      {
+        "rank": 4,
+        "name": "맨체스터 유나이티드",
+        "clue": "레드 데블스",
+        "value": "",
+        "hint": {
+          "club": "",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "맨유",
+          "Manchester United",
+          "맨 유나이티드",
+          "Man Utd"
+        ]
+      },
+      {
+        "rank": 5,
+        "name": "맨체스터 시티",
+        "clue": "시티즌스",
+        "value": "",
+        "hint": {
+          "club": "",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "맨시티",
+          "Manchester City",
+          "Man City",
+          "city",
+          "시티"
+        ]
+      },
+      {
+        "rank": 6,
+        "name": "에버턴",
+        "clue": "토피스",
+        "value": "",
+        "hint": {
+          "club": "",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "Everton",
+          "에버튼",
+          "에버턴 FC"
+        ]
+      },
+      {
+        "rank": 7,
+        "name": "뉴캐슬 유나이티드",
+        "clue": "매그파이스",
+        "value": "",
+        "hint": {
+          "club": "",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "뉴캐슬",
+          "Newcastle United",
+          "Newcastle"
+        ]
+      },
+      {
+        "rank": 8,
+        "name": "웨스트햄 유나이티드",
+        "clue": "해머스",
+        "value": "",
+        "hint": {
+          "club": "",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "웨스트햄",
+          "West Ham",
+          "West Ham United"
+        ]
+      },
+      {
+        "rank": 9,
+        "name": "선덜랜드",
+        "clue": "블랙 캣츠",
+        "value": "",
+        "hint": {
+          "club": "",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "Sunderland",
+          "썬덜랜드"
+        ]
+      },
+      {
+        "rank": 10,
+        "name": "크리스털 팰리스",
+        "clue": "이글스",
+        "value": "",
+        "hint": {
+          "club": "",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "크리스탈 팰리스",
+          "Crystal Palace",
+          "팰리스",
+          "palace"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "clue-liverpool-1819-numbers",
+    "title": "등번호를 보고 선수 맞히기 (2018-19 리버풀)",
+    "trivia": "이 스쿼드는 2019년 결승에서 토트넘을 2-0으로 꺾고 챔피언스리그 우승을 차지했다.",
+    "answers": [
+      {
+        "rank": 1,
+        "name": "알리송",
+        "clue": "13번",
+        "value": "",
+        "hint": {
+          "club": "리버풀",
+          "nationality": "브라질"
+        },
+        "aliases": [
+          "알리송 베케르",
+          "Alisson",
+          "Alisson Becker",
+          "알리손"
+        ]
+      },
+      {
+        "rank": 2,
+        "name": "버질 반 다이크",
+        "clue": "4번",
+        "value": "",
+        "hint": {
+          "club": "리버풀",
+          "nationality": "네덜란드"
+        },
+        "aliases": [
+          "반 다이크",
+          "Virgil van Dijk",
+          "van Dijk",
+          "판 다이크",
+          "버질 판 다이크",
+          "dijk",
+          "다이크"
+        ]
+      },
+      {
+        "rank": 3,
+        "name": "트렌트 알렉산더-아널드",
+        "clue": "66번",
+        "value": "",
+        "hint": {
+          "club": "리버풀",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "알렉산더-아널드",
+          "Trent Alexander-Arnold",
+          "Alexander-Arnold",
+          "알렉산더 아놀드",
+          "트렌트"
+        ]
+      },
+      {
+        "rank": 4,
+        "name": "앤드루 로버트슨",
+        "clue": "26번",
+        "value": "",
+        "hint": {
+          "club": "리버풀",
+          "nationality": "스코틀랜드"
+        },
+        "aliases": [
+          "로버트슨",
+          "Andy Robertson",
+          "Andrew Robertson",
+          "앤디 로버트슨",
+          "robertson"
+        ]
+      },
+      {
+        "rank": 5,
+        "name": "파비뉴",
+        "clue": "3번",
+        "value": "",
+        "hint": {
+          "club": "리버풀",
+          "nationality": "브라질"
+        },
+        "aliases": [
+          "Fabinho",
+          "파비니뉴"
+        ]
+      },
+      {
+        "rank": 6,
+        "name": "조르지니오 바이날둠",
+        "clue": "5번",
+        "value": "",
+        "hint": {
+          "club": "리버풀",
+          "nationality": "네덜란드"
+        },
+        "aliases": [
+          "바이날둠",
+          "Georginio Wijnaldum",
+          "Wijnaldum",
+          "베이날둠",
+          "지니 바이날둠"
+        ]
+      },
+      {
+        "rank": 7,
+        "name": "조던 헨더슨",
+        "clue": "14번",
+        "value": "",
+        "hint": {
+          "club": "리버풀",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "헨더슨",
+          "Jordan Henderson",
+          "Henderson",
+          "조단 헨더슨"
+        ]
+      },
+      {
+        "rank": 8,
+        "name": "호베르투 피르미누",
+        "clue": "9번",
+        "value": "",
+        "hint": {
+          "club": "리버풀",
+          "nationality": "브라질"
+        },
+        "aliases": [
+          "피르미누",
+          "Roberto Firmino",
+          "Firmino",
+          "피르미노",
+          "호베르토 피르미누"
+        ]
+      },
+      {
+        "rank": 9,
+        "name": "사디오 마네",
+        "clue": "10번",
+        "value": "",
+        "hint": {
+          "club": "리버풀",
+          "nationality": "세네갈"
+        },
+        "aliases": [
+          "마네",
+          "Sadio Mane",
+          "Sadio Mané",
+          "싸디오 마네",
+          "mané"
+        ]
+      },
+      {
+        "rank": 10,
+        "name": "모하메드 살라",
+        "clue": "11번",
+        "value": "",
+        "hint": {
+          "club": "리버풀",
+          "nationality": "이집트"
+        },
+        "aliases": [
+          "살라",
+          "Mohamed Salah",
+          "Salah",
+          "모하메드 살라흐"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "clue-ucl-winning-managers",
+    "title": "챔피언스리그 우승 감독을 보고 그 우승 구단 맞히기",
+    "trivia": "무리뉴는 서로 다른 두 클럽으로 이 대회를 우승한 7명의 감독 중 하나다.",
+    "answers": [
+      {
+        "rank": 1,
+        "name": "포르투",
+        "clue": "조제 무리뉴 (2004)",
+        "value": "",
+        "hint": {
+          "club": "",
+          "nationality": "포르투갈"
+        },
+        "aliases": [
+          "FC 포르투",
+          "Porto",
+          "FC Porto"
+        ]
+      },
+      {
+        "rank": 2,
+        "name": "AC 밀란",
+        "clue": "카를로 안첼로티 (2007)",
+        "value": "",
+        "hint": {
+          "club": "",
+          "nationality": "이탈리아"
+        },
+        "aliases": [
+          "AC Milan",
+          "에이씨 밀란",
+          "밀란 AC"
+        ]
+      },
+      {
+        "rank": 3,
+        "name": "맨체스터 유나이티드",
+        "clue": "알렉스 퍼거슨 (2008)",
+        "value": "",
+        "hint": {
+          "club": "",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "맨유",
+          "Manchester United",
+          "Man Utd",
+          "united",
+          "유나이티드"
+        ]
+      },
+      {
+        "rank": 4,
+        "name": "바르셀로나",
+        "clue": "펩 과르디올라 (2009)",
+        "value": "",
+        "hint": {
+          "club": "",
+          "nationality": "스페인"
+        },
+        "aliases": [
+          "FC 바르셀로나",
+          "Barcelona",
+          "바르사",
+          "Barça",
+          "FC Barcelona"
+        ]
+      },
+      {
+        "rank": 5,
+        "name": "인테르 밀란",
+        "clue": "조제 무리뉴 (2010)",
+        "value": "",
+        "hint": {
+          "club": "",
+          "nationality": "이탈리아"
+        },
+        "aliases": [
+          "인테르",
+          "Inter",
+          "Inter Milan",
+          "인터밀란"
+        ]
+      },
+      {
+        "rank": 6,
+        "name": "첼시",
+        "clue": "로베르토 디 마테오 (2012)",
+        "value": "",
+        "hint": {
+          "club": "",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "Chelsea",
+          "첼시 FC"
+        ]
+      },
+      {
+        "rank": 7,
+        "name": "바이에른 뮌헨",
+        "clue": "유프 하인케스 (2013)",
+        "value": "",
+        "hint": {
+          "club": "",
+          "nationality": "독일"
+        },
+        "aliases": [
+          "바이에른",
+          "Bayern Munich",
+          "FC Bayern",
+          "뮌헨",
+          "munich"
+        ]
+      },
+      {
+        "rank": 8,
+        "name": "레알 마드리드",
+        "clue": "지네딘 지단 (2017)",
+        "value": "",
+        "hint": {
+          "club": "",
+          "nationality": "스페인"
+        },
+        "aliases": [
+          "레알",
+          "Real Madrid",
+          "madrid",
+          "마드리드"
+        ]
+      },
+      {
+        "rank": 9,
+        "name": "리버풀",
+        "clue": "위르겐 클롭 (2019)",
+        "value": "",
+        "hint": {
+          "club": "",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "Liverpool",
+          "리버풀 FC"
+        ]
+      },
+      {
+        "rank": 10,
+        "name": "파리 생제르맹",
+        "clue": "루이스 엔리케 (2025)",
+        "value": "",
+        "hint": {
+          "club": "",
+          "nationality": "프랑스"
+        },
+        "aliases": [
+          "Paris Saint-Germain",
+          "파리 SG",
+          "saint-germain",
+          "생제르맹"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "clue-ucl-winners-by-year",
+    "title": "연도를 보고 그 해 챔피언스리그 우승팀 맞히기",
+    "trivia": "레알 마드리드가 통산 15회로 이 대회 최다 우승 클럽이다.",
+    "answers": [
+      {
+        "rank": 1,
+        "name": "AC 밀란",
+        "clue": "2007",
+        "value": "",
+        "hint": {
+          "club": "",
+          "nationality": "이탈리아"
+        },
+        "aliases": [
+          "AC Milan",
+          "에이씨 밀란"
+        ]
+      },
+      {
+        "rank": 2,
+        "name": "맨체스터 유나이티드",
+        "clue": "2008",
+        "value": "",
+        "hint": {
+          "club": "",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "맨유",
+          "Manchester United",
+          "Man Utd",
+          "united",
+          "유나이티드"
+        ]
+      },
+      {
+        "rank": 3,
+        "name": "인테르 밀란",
+        "clue": "2010",
+        "value": "",
+        "hint": {
+          "club": "",
+          "nationality": "이탈리아"
+        },
+        "aliases": [
+          "인테르",
+          "Inter",
+          "Inter Milan",
+          "인터밀란"
+        ]
+      },
+      {
+        "rank": 4,
+        "name": "바르셀로나",
+        "clue": "2011",
+        "value": "",
+        "hint": {
+          "club": "",
+          "nationality": "스페인"
+        },
+        "aliases": [
+          "FC 바르셀로나",
+          "Barcelona",
+          "바르사",
+          "Barça",
+          "FC Barcelona"
+        ]
+      },
+      {
+        "rank": 5,
+        "name": "첼시",
+        "clue": "2012",
+        "value": "",
+        "hint": {
+          "club": "",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "Chelsea",
+          "첼시 FC"
+        ]
+      },
+      {
+        "rank": 6,
+        "name": "바이에른 뮌헨",
+        "clue": "2013",
+        "value": "",
+        "hint": {
+          "club": "",
+          "nationality": "독일"
+        },
+        "aliases": [
+          "바이에른",
+          "Bayern Munich",
+          "FC Bayern",
+          "뮌헨",
+          "munich"
+        ]
+      },
+      {
+        "rank": 7,
+        "name": "레알 마드리드",
+        "clue": "2014",
+        "value": "",
+        "hint": {
+          "club": "",
+          "nationality": "스페인"
+        },
+        "aliases": [
+          "레알",
+          "Real Madrid",
+          "madrid",
+          "마드리드"
+        ]
+      },
+      {
+        "rank": 8,
+        "name": "리버풀",
+        "clue": "2019",
+        "value": "",
+        "hint": {
+          "club": "",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "Liverpool",
+          "리버풀 FC"
+        ]
+      },
+      {
+        "rank": 9,
+        "name": "맨체스터 시티",
+        "clue": "2023",
+        "value": "",
+        "hint": {
+          "club": "",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "맨시티",
+          "Manchester City",
+          "Man City",
+          "city",
+          "시티"
+        ]
+      },
+      {
+        "rank": 10,
+        "name": "파리 생제르맹",
+        "clue": "2026",
+        "value": "",
+        "hint": {
+          "club": "",
+          "nationality": "프랑스"
+        },
+        "aliases": [
+          "Paris Saint-Germain",
+          "파리 SG",
+          "saint-germain",
+          "생제르맹"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "clue-ballondor-by-year",
+    "title": "연도를 보고 그 해 발롱도르 수상자 맞히기",
+    "trivia": "2020년은 코로나19로 발롱도르 시상 자체가 없었다.",
+    "answers": [
+      {
+        "rank": 1,
+        "name": "지네딘 지단",
+        "clue": "1998",
+        "value": "",
+        "hint": {
+          "club": "유벤투스",
+          "nationality": "프랑스"
+        },
+        "aliases": [
+          "지단",
+          "Zinedine Zidane",
+          "Zidane",
+          "지네딘 지단느"
+        ]
+      },
+      {
+        "rank": 2,
+        "name": "호나우두",
+        "clue": "2002",
+        "value": "",
+        "hint": {
+          "club": "레알 마드리드",
+          "nationality": "브라질"
+        },
+        "aliases": [
+          "호나우도",
+          "Ronaldo Nazario",
+          "Ronaldo Nazário",
+          "호나우두 나자리우",
+          "외계인 호나우두"
+        ]
+      },
+      {
+        "rank": 3,
+        "name": "호나우지뉴",
+        "clue": "2005",
+        "value": "",
+        "hint": {
+          "club": "바르셀로나",
+          "nationality": "브라질"
+        },
+        "aliases": [
+          "Ronaldinho",
+          "호나울지뉴",
+          "호나우징요"
+        ]
+      },
+      {
+        "rank": 4,
+        "name": "카카",
+        "clue": "2007",
+        "value": "",
+        "hint": {
+          "club": "AC 밀란",
+          "nationality": "브라질"
+        },
+        "aliases": [
+          "Kaka",
+          "Kaká",
+          "카카 히카르두"
+        ]
+      },
+      {
+        "rank": 5,
+        "name": "리오넬 메시",
+        "clue": "2010",
+        "value": "",
+        "hint": {
+          "club": "바르셀로나",
+          "nationality": "아르헨티나"
+        },
+        "aliases": [
+          "메시",
+          "Lionel Messi",
+          "Messi",
+          "리오넬 멧시"
+        ]
+      },
+      {
+        "rank": 6,
+        "name": "크리스티아누 호날두",
+        "clue": "2013",
+        "value": "",
+        "hint": {
+          "club": "레알 마드리드",
+          "nationality": "포르투갈"
+        },
+        "aliases": [
+          "호날두",
+          "Cristiano Ronaldo",
+          "CR7",
+          "크리스티아누",
+          "크리스티아누 호나우두"
+        ]
+      },
+      {
+        "rank": 7,
+        "name": "루카 모드리치",
+        "clue": "2018",
+        "value": "",
+        "hint": {
+          "club": "레알 마드리드",
+          "nationality": "크로아티아"
+        },
+        "aliases": [
+          "모드리치",
+          "Luka Modric",
+          "Luka Modrić",
+          "모드리취",
+          "modrić"
+        ]
+      },
+      {
+        "rank": 8,
+        "name": "카림 벤제마",
+        "clue": "2022",
+        "value": "",
+        "hint": {
+          "club": "레알 마드리드",
+          "nationality": "프랑스"
+        },
+        "aliases": [
+          "벤제마",
+          "Karim Benzema",
+          "Benzema",
+          "벤제마 카림"
+        ]
+      },
+      {
+        "rank": 9,
+        "name": "로드리",
+        "clue": "2024",
+        "value": "",
+        "hint": {
+          "club": "맨체스터 시티",
+          "nationality": "스페인"
+        },
+        "aliases": [
+          "Rodri",
+          "로드리 에르난데스",
+          "Rodrigo Hernandez"
+        ]
+      },
+      {
+        "rank": 10,
+        "name": "우스만 뎀벨레",
+        "clue": "2025",
+        "value": "",
+        "hint": {
+          "club": "파리 생제르맹",
+          "nationality": "프랑스"
+        },
+        "aliases": [
+          "뎀벨레",
+          "Ousmane Dembele",
+          "Ousmane Dembélé",
+          "뎀벨레 우스만",
+          "dembélé"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "clue-worldcup-hosts",
+    "title": "연도를 보고 그 해 월드컵 개최국 맞히기",
+    "trivia": "2002년 대회는 사상 첫 공동 개최였고, 2026년에는 캐나다·멕시코·미국 3개국이 함께 열었다.",
+    "answers": [
+      {
+        "rank": 1,
+        "name": "멕시코",
+        "clue": "1986",
+        "value": "",
+        "hint": {
+          "club": "",
+          "nationality": "북중미"
+        },
+        "aliases": [
+          "Mexico",
+          "맥시코"
+        ]
+      },
+      {
+        "rank": 2,
+        "name": "이탈리아",
+        "clue": "1990",
+        "value": "",
+        "hint": {
+          "club": "",
+          "nationality": "유럽"
+        },
+        "aliases": [
+          "Italy",
+          "이태리",
+          "이탈리아공화국"
+        ]
+      },
+      {
+        "rank": 3,
+        "name": "미국",
+        "clue": "1994",
+        "value": "",
+        "hint": {
+          "club": "",
+          "nationality": "북중미"
+        },
+        "aliases": [
+          "United States",
+          "미합중국",
+          "아메리카",
+          "states"
+        ]
+      },
+      {
+        "rank": 4,
+        "name": "프랑스",
+        "clue": "1998",
+        "value": "",
+        "hint": {
+          "club": "",
+          "nationality": "유럽"
+        },
+        "aliases": [
+          "France",
+          "불란서"
+        ]
+      },
+      {
+        "rank": 5,
+        "name": "한국·일본",
+        "clue": "2002",
+        "value": "",
+        "hint": {
+          "club": "",
+          "nationality": "아시아"
+        },
+        "aliases": [
+          "대한민국·일본",
+          "대한민국과 일본",
+          "한일",
+          "한국과 일본",
+          "South Korea and Japan",
+          "Korea Japan",
+          "japan"
+        ]
+      },
+      {
+        "rank": 6,
+        "name": "독일",
+        "clue": "2006",
+        "value": "",
+        "hint": {
+          "club": "",
+          "nationality": "유럽"
+        },
+        "aliases": [
+          "Germany",
+          "도이칠란트",
+          "독일연방공화국"
+        ]
+      },
+      {
+        "rank": 7,
+        "name": "남아프리카공화국",
+        "clue": "2010",
+        "value": "",
+        "hint": {
+          "club": "",
+          "nationality": "아프리카"
+        },
+        "aliases": [
+          "남아공",
+          "South Africa",
+          "africa"
+        ]
+      },
+      {
+        "rank": 8,
+        "name": "브라질",
+        "clue": "2014",
+        "value": "",
+        "hint": {
+          "club": "",
+          "nationality": "남미"
+        },
+        "aliases": [
+          "Brazil",
+          "브라질연방공화국"
+        ]
+      },
+      {
+        "rank": 9,
+        "name": "러시아",
+        "clue": "2018",
+        "value": "",
+        "hint": {
+          "club": "",
+          "nationality": "유럽"
+        },
+        "aliases": [
+          "Russia",
+          "러시아연방"
+        ]
+      },
+      {
+        "rank": 10,
+        "name": "카타르",
+        "clue": "2022",
+        "value": "",
+        "hint": {
+          "club": "",
+          "nationality": "아시아"
+        },
+        "aliases": [
+          "Qatar",
+          "까따르"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "clue-national-team-nicknames",
+    "title": "별명을 보고 축구 국가대표팀 맞히기",
+    "trivia": "일본의 '사무라이 블루'는 2009년 일본축구협회가 정한 공식 애칭이다.",
+    "answers": [
+      {
+        "rank": 1,
+        "name": "스페인",
+        "clue": "라 로하",
+        "value": "",
+        "hint": {
+          "club": "",
+          "nationality": "유럽"
+        },
+        "aliases": [
+          "Spain",
+          "에스파냐",
+          "스페인 대표팀"
+        ]
+      },
+      {
+        "rank": 2,
+        "name": "이탈리아",
+        "clue": "아주리",
+        "value": "",
+        "hint": {
+          "club": "",
+          "nationality": "유럽"
+        },
+        "aliases": [
+          "Italy",
+          "이태리",
+          "이탈리아 대표팀"
+        ]
+      },
+      {
+        "rank": 3,
+        "name": "잉글랜드",
+        "clue": "삼사자 군단",
+        "value": "",
+        "hint": {
+          "club": "",
+          "nationality": "유럽"
+        },
+        "aliases": [
+          "England",
+          "잉글랜드 대표팀",
+          "영국 잉글랜드"
+        ]
+      },
+      {
+        "rank": 4,
+        "name": "네덜란드",
+        "clue": "오라녜",
+        "value": "",
+        "hint": {
+          "club": "",
+          "nationality": "유럽"
+        },
+        "aliases": [
+          "Netherlands",
+          "홀란드",
+          "네델란드"
+        ]
+      },
+      {
+        "rank": 5,
+        "name": "독일",
+        "clue": "디 만샤프트",
+        "value": "",
+        "hint": {
+          "club": "",
+          "nationality": "유럽"
+        },
+        "aliases": [
+          "Germany",
+          "도이칠란트",
+          "독일 대표팀"
+        ]
+      },
+      {
+        "rank": 6,
+        "name": "프랑스",
+        "clue": "레 블뢰",
+        "value": "",
+        "hint": {
+          "club": "",
+          "nationality": "유럽"
+        },
+        "aliases": [
+          "France",
+          "불란서",
+          "프랑스 대표팀"
+        ]
+      },
+      {
+        "rank": 7,
+        "name": "브라질",
+        "clue": "셀레상",
+        "value": "",
+        "hint": {
+          "club": "",
+          "nationality": "남미"
+        },
+        "aliases": [
+          "Brazil",
+          "브라질 대표팀"
+        ]
+      },
+      {
+        "rank": 8,
+        "name": "아르헨티나",
+        "clue": "알비셀레스테",
+        "value": "",
+        "hint": {
+          "club": "",
+          "nationality": "남미"
+        },
+        "aliases": [
+          "Argentina",
+          "아르젠티나",
+          "아르헨티나 대표팀"
+        ]
+      },
+      {
+        "rank": 9,
+        "name": "일본",
+        "clue": "사무라이 블루",
+        "value": "",
+        "hint": {
+          "club": "",
+          "nationality": "아시아"
+        },
+        "aliases": [
+          "Japan",
+          "일본 대표팀",
+          "니혼"
+        ]
+      },
+      {
+        "rank": 10,
+        "name": "대한민국",
+        "clue": "태극전사",
+        "value": "",
+        "hint": {
+          "club": "",
+          "nationality": "아시아"
+        },
+        "aliases": [
+          "한국",
+          "South Korea",
+          "Korea",
+          "코리아",
+          "대한민국 대표팀"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "clue-player-nicknames",
+    "title": "별명을 보고 선수 맞히기",
+    "trivia": "차범근은 독일에서 이름과 강력한 슈팅 때문에 '차 붐(Tscha Bum)'으로 불렸다.",
+    "answers": [
+      {
+        "rank": 1,
+        "name": "페르난도 토레스",
+        "clue": "엘 니뇨",
+        "value": "",
+        "hint": {
+          "club": "리버풀",
+          "nationality": "스페인"
+        },
+        "aliases": [
+          "토레스",
+          "Fernando Torres",
+          "Torres",
+          "페르난도 토레즈"
+        ]
+      },
+      {
+        "rank": 2,
+        "name": "세르히오 아구에로",
+        "clue": "쿤",
+        "value": "",
+        "hint": {
+          "club": "맨체스터 시티",
+          "nationality": "아르헨티나"
+        },
+        "aliases": [
+          "아구에로",
+          "Sergio Aguero",
+          "Sergio Agüero",
+          "아게로",
+          "세르히오 아게로",
+          "agüero"
+        ]
+      },
+      {
+        "rank": 3,
+        "name": "리오넬 메시",
+        "clue": "라 풀가 (벼룩)",
+        "value": "",
+        "hint": {
+          "club": "바르셀로나",
+          "nationality": "아르헨티나"
+        },
+        "aliases": [
+          "메시",
+          "Lionel Messi",
+          "Messi"
+        ]
+      },
+      {
+        "rank": 4,
+        "name": "하비에르 에르난데스",
+        "clue": "치차리토",
+        "value": "",
+        "hint": {
+          "club": "맨체스터 유나이티드",
+          "nationality": "멕시코"
+        },
+        "aliases": [
+          "에르난데스",
+          "Javier Hernandez",
+          "Javier Hernández",
+          "하비에르 에르난데즈",
+          "hernández"
+        ]
+      },
+      {
+        "rank": 5,
+        "name": "호나우두",
+        "clue": "오 페노메노 (현상)",
+        "value": "",
+        "hint": {
+          "club": "레알 마드리드",
+          "nationality": "브라질"
+        },
+        "aliases": [
+          "호나우도",
+          "Ronaldo Nazario",
+          "Ronaldo Nazário",
+          "호나우두 나자리우",
+          "Ronaldo"
+        ]
+      },
+      {
+        "rank": 6,
+        "name": "디에고 마라도나",
+        "clue": "엘 피베 데 오로 (황금소년)",
+        "value": "",
+        "hint": {
+          "club": "나폴리",
+          "nationality": "아르헨티나"
+        },
+        "aliases": [
+          "마라도나",
+          "Diego Maradona",
+          "Maradona",
+          "마라도나 디에고"
+        ]
+      },
+      {
+        "rank": 7,
+        "name": "프란츠 베켄바워",
+        "clue": "데어 카이저 (황제)",
+        "value": "",
+        "hint": {
+          "club": "바이에른 뮌헨",
+          "nationality": "독일"
+        },
+        "aliases": [
+          "베켄바워",
+          "Franz Beckenbauer",
+          "Beckenbauer",
+          "베켄바우어"
+        ]
+      },
+      {
+        "rank": 8,
+        "name": "레프 야신",
+        "clue": "검은 거미",
+        "value": "",
+        "hint": {
+          "club": "디나모 모스크바",
+          "nationality": "소련"
+        },
+        "aliases": [
+          "야신",
+          "Lev Yashin",
+          "Yashin",
+          "레프 야쉰"
+        ]
+      },
+      {
+        "rank": 9,
+        "name": "게르트 뮐러",
+        "clue": "데어 봄버 (폭격기)",
+        "value": "",
+        "hint": {
+          "club": "바이에른 뮌헨",
+          "nationality": "독일"
+        },
+        "aliases": [
+          "뮐러",
+          "Gerd Muller",
+          "Gerd Müller",
+          "게르트 뮬러",
+          "müller"
+        ]
+      },
+      {
+        "rank": 10,
+        "name": "차범근",
+        "clue": "차붐",
+        "value": "",
+        "hint": {
+          "club": "레버쿠젠",
+          "nationality": "대한민국"
+        },
+        "aliases": [
+          "Cha Bum-kun",
+          "Cha Bum",
+          "Tscha Bum",
+          "bum-kun"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "clue-euro-club-nicknames",
+    "title": "별명을 보고 유럽 빅클럽 맞히기",
+    "trivia": "유벤투스의 '라 베키아 시뇨라'는 '늙은 부인'이라는 뜻이다.",
+    "answers": [
+      {
+        "rank": 1,
+        "name": "바르셀로나",
+        "clue": "블라우그라나",
+        "value": "",
+        "hint": {
+          "club": "",
+          "nationality": "스페인"
+        },
+        "aliases": [
+          "FC 바르셀로나",
+          "Barcelona",
+          "바르사",
+          "Barça",
+          "FC Barcelona"
+        ]
+      },
+      {
+        "rank": 2,
+        "name": "레알 마드리드",
+        "clue": "로스 블랑코스",
+        "value": "",
+        "hint": {
+          "club": "",
+          "nationality": "스페인"
+        },
+        "aliases": [
+          "레알",
+          "Real Madrid"
+        ]
+      },
+      {
+        "rank": 3,
+        "name": "AC 밀란",
+        "clue": "로소네리",
+        "value": "",
+        "hint": {
+          "club": "",
+          "nationality": "이탈리아"
+        },
+        "aliases": [
+          "AC Milan",
+          "에이씨 밀란"
+        ]
+      },
+      {
+        "rank": 4,
+        "name": "인테르 밀란",
+        "clue": "네라추리",
+        "value": "",
+        "hint": {
+          "club": "",
+          "nationality": "이탈리아"
+        },
+        "aliases": [
+          "인테르",
+          "Inter",
+          "Inter Milan",
+          "인터밀란"
+        ]
+      },
+      {
+        "rank": 5,
+        "name": "유벤투스",
+        "clue": "라 베키아 시뇨라",
+        "value": "",
+        "hint": {
+          "club": "",
+          "nationality": "이탈리아"
+        },
+        "aliases": [
+          "Juventus",
+          "유벤",
+          "유베",
+          "Juve"
+        ]
+      },
+      {
+        "rank": 6,
+        "name": "아틀레티코 마드리드",
+        "clue": "콜초네로스",
+        "value": "",
+        "hint": {
+          "club": "",
+          "nationality": "스페인"
+        },
+        "aliases": [
+          "아틀레티코",
+          "Atletico Madrid",
+          "Atlético Madrid",
+          "아틀레치코"
+        ]
+      },
+      {
+        "rank": 7,
+        "name": "바이에른 뮌헨",
+        "clue": "디 로텐",
+        "value": "",
+        "hint": {
+          "club": "",
+          "nationality": "독일"
+        },
+        "aliases": [
+          "바이에른",
+          "Bayern Munich",
+          "FC Bayern",
+          "뮌헨",
+          "munich"
+        ]
+      },
+      {
+        "rank": 8,
+        "name": "벤피카",
+        "clue": "아스 아기아스 (독수리)",
+        "value": "",
+        "hint": {
+          "club": "",
+          "nationality": "포르투갈"
+        },
+        "aliases": [
+          "Benfica",
+          "SL 벤피카",
+          "S.L. Benfica"
+        ]
+      },
+      {
+        "rank": 9,
+        "name": "포르투",
+        "clue": "드라궁이스 (용)",
+        "value": "",
+        "hint": {
+          "club": "",
+          "nationality": "포르투갈"
+        },
+        "aliases": [
+          "FC 포르투",
+          "Porto",
+          "FC Porto"
+        ]
+      },
+      {
+        "rank": 10,
+        "name": "파리 생제르맹",
+        "clue": "레 파리지앵",
+        "value": "",
+        "hint": {
+          "club": "",
+          "nationality": "프랑스"
+        },
+        "aliases": [
+          "Paris Saint-Germain",
+          "파리 SG",
+          "saint-germain",
+          "생제르맹"
+        ]
+      }
+    ]
+  }
+]

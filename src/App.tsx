@@ -1,6 +1,6 @@
 import { useHashRoute } from './hooks/useHashRoute'
 import { GAME_RULES } from './config'
-import { COMBO10, LINEUPS, CAREERS, HONOURS, OXQUIZ } from './data'
+import { COMBO10, CLUES, LINEUPS, CAREERS, HONOURS, OXQUIZ } from './data'
 import { Home, type GameCard } from './games/Home'
 import { Top10Game } from './games/Top10Game'
 import { LineupGame } from './games/LineupGame'
@@ -14,6 +14,7 @@ const ORDERABLE = CAREERS.filter((c) => c.clubs.length >= 4 && c.clubs.length <=
 
 const GAMES: GameCard[] = [
   { route: 'combo10', name: '조건 겹치기', desc: '조건에 맞는 선수·감독을 전부 맞히기', count: COMBO10.length },
+  { route: 'clues', name: '단서 맞히기', desc: '구장·별명·연도를 보고 답 맞히기', count: CLUES.length },
   { route: 'lineup', name: '라인업 맞히기', desc: '등번호만 보고 선발 11명 채우기', count: LINEUPS.length },
   { route: 'career', name: '이적 경로', desc: '소속팀 이력만 보고 누구인지', count: CAREERS.length },
   { route: 'honours', name: '커리어 맞히기', desc: '우승·수상 이력만 보고 누구인지', count: HONOURS.length },
@@ -29,6 +30,17 @@ export default function App() {
     case 'combo10':
       return (
         <Top10Game gameKey="combo10" title="조건 겹치기" questions={COMBO10} rules={GAME_RULES.combo10} onBack={back} />
+      )
+    case 'clues':
+      return (
+        <Top10Game
+          gameKey="clues"
+          title="단서 맞히기"
+          questions={CLUES}
+          rules={GAME_RULES.clues}
+          onBack={back}
+          placeholder="정답 입력"
+        />
       )
     case 'lineup':
       return <LineupGame gameKey="lineup" title="라인업 맞히기" questions={LINEUPS} rules={GAME_RULES.lineup} onBack={back} />

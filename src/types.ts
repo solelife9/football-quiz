@@ -8,6 +8,8 @@ export interface AnswerHint {
 export interface Top10Answer {
   rank: number
   name: string
+  /** 단서 타워형 문제에서 칸에 미리 떠 있는 단서(구장 이름·연도·별명 등) */
+  clue?: string
   /** 비어 있으면("" 또는 생략) 순위 없이 10칸으로만 표시 */
   value?: string
   hint?: AnswerHint

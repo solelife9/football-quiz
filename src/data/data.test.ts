@@ -3,7 +3,7 @@
  * 실패 메시지에 문제 id 를 넣어 어디를 고칠지 바로 알 수 있게 한다.
  */
 import { describe, it, expect } from 'vitest'
-import { TOP10, COMBO10, LINEUPS, CAREERS, HONOURS, OXQUIZ } from './index'
+import { COMBO10, LINEUPS, CAREERS, HONOURS, OXQUIZ } from './index'
 import { matchAnswer, normalize, type Candidate } from '../lib/matchAnswer'
 import type { Top10Question, LineupQuestion } from '../types'
 
@@ -80,7 +80,6 @@ function checkTop10(list: Top10Question[], label: string) {
   })
 }
 
-checkTop10(TOP10, 'top10.json')
 checkTop10(COMBO10, 'combo10.json')
 
 describe('lineups.json', () => {

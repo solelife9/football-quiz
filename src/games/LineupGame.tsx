@@ -13,6 +13,8 @@ import { Feedback, type FeedbackMsg } from '../components/Feedback'
 import { ConfirmButton } from '../components/ConfirmButton'
 import { QuestionEnd } from '../components/QuestionEnd'
 import { Header } from '../components/Header'
+import { useSessionScore } from '../hooks/useSessionScore'
+import { formatScore, scoreFor } from '../lib/score'
 
 interface Props {
   gameKey: string
@@ -33,6 +35,7 @@ const ROW_LABEL: Record<LineupPlayer['row'], string> = { 1: 'GK', 2: 'DF', 3: 'M
 
 export function LineupGame({ gameKey, title, questions, rules, onBack }: Props) {
   const { current, next, roundKey } = useQuestionQueue(gameKey, questions)
+  const score = useSessionScore(gameKey)
   if (!current) {
     return (
       <>
@@ -43,7 +46,7 @@ export function LineupGame({ gameKey, title, questions, rules, onBack }: Props) 
       </>
     )
   }
-  return <LineupRound key={roundKey} q={current} title={title} rules={rules} onNext={next} onBack={onBack} />
+  return <LineupRound key={roundKey} q={current} title={title} rules={rules} onNext={next} onBack={onBack} score={score} />
 }
 
 interface RoundProps {
@@ -52,13 +55,14 @@ interface RoundProps {
   rules: GameRules
   onNext: () => void
   onBack: () => void
+  score: ReturnType<typeof useSessionScore>
 }
 
 function playerKey(p: LineupPlayer): string {
   return `${p.row}-${p.col}`
 }
 
-function LineupRound({ q, title, rules, onNext, onBack }: RoundProps) {
+function LineupRound({ q, title, rules, onNext, onBack, score }: RoundProps) {
   const { lives, hintsLeft, loseLife, spendHint, maxLives, maxHints } = useLives(rules)
   const [found, setFound] = useState<Set<string>>(() => new Set())
   const [hintStage, setHintStage] = useState<Record<string, HintStage>>({})
@@ -93,6 +97,16 @@ function LineupRound({ q, title, rules, onNext, onBack }: RoundProps) {
   useEffect(() => {
     if ((status === 'playing' || status === 'bonus') && lives === 0) setStatus('lost')
   }, [lives, status])
+
+  const earned = scoreFor(found.size, q.players.length)
+  const [banked, setBanked] = useState(false)
+  useEffect(() => {
+    // 보너스 문제 진행 중(bonus)은 아직 끝난 게 아니다
+    if (status !== 'playing' && status !== 'bonus' && !banked) {
+      setBanked(true)
+      score.add(earned)
+    }
+  }, [status, banked, earned, score])
 
   const handleSubmit = useCallback(
     (raw: string): SubmitOutcome => {
@@ -177,7 +191,12 @@ function LineupRound({ q, title, rules, onNext, onBack }: RoundProps) {
 
   return (
     <>
-      <Header title={title} onBack={onBack} right={<Hearts lives={lives} max={maxLives} />} />
+      <Header title={title} onBack={onBack} right={
+          <div className="header-stack">
+            <Hearts lives={lives} max={maxLives} />
+            <span className="session-score">{formatScore(score.total)}점</span>
+          </div>
+        } />
       <main className="screen">
         <h2 className="q-title">{q.title}</h2>
         {q.subtitle && <p className="q-subtitle">{q.subtitle}</p>}
@@ -238,8 +257,8 @@ function LineupRound({ q, title, rules, onNext, onBack }: RoundProps) {
               status={status as 'won' | 'lost' | 'revealed'}
               summary={
                 status === 'won'
-                  ? `선발 ${q.players.length}명 전부 맞혔어요`
-                  : `${found.size}/${q.players.length} 맞힘 · 못 맞힌 칸은 표시해 뒀어요`
+                  ? `선발 ${q.players.length}명 전부 맞혔어요 · ${formatScore(earned)}점`
+                  : `${found.size}/${q.players.length} 맞힘 · ${formatScore(earned)}점`
               }
               trivia={q.trivia?.trim() || undefined}
               onNext={onNext}

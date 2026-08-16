@@ -10,6 +10,8 @@ import { Feedback, type FeedbackMsg } from '../components/Feedback'
 import { ConfirmButton } from '../components/ConfirmButton'
 import { QuestionEnd } from '../components/QuestionEnd'
 import { Header } from '../components/Header'
+import { useSessionScore } from '../hooks/useSessionScore'
+import { formatScore, scoreFor } from '../lib/score'
 
 interface Props {
   gameKey: string
@@ -27,6 +29,7 @@ type Status = 'playing' | 'won' | 'lost' | 'revealed'
  */
 export function OrderGame({ gameKey, title, questions, rules, onBack }: Props) {
   const { current, next, roundKey } = useQuestionQueue(gameKey, questions)
+  const score = useSessionScore(gameKey)
   if (!current) {
     return (
       <>
@@ -37,7 +40,7 @@ export function OrderGame({ gameKey, title, questions, rules, onBack }: Props) {
       </>
     )
   }
-  return <OrderRound key={roundKey} q={current} title={title} rules={rules} onNext={next} onBack={onBack} />
+  return <OrderRound key={roundKey} q={current} title={title} rules={rules} onNext={next} onBack={onBack} score={score} />
 }
 
 interface RoundProps {
@@ -46,9 +49,10 @@ interface RoundProps {
   rules: GameRules
   onNext: () => void
   onBack: () => void
+  score: ReturnType<typeof useSessionScore>
 }
 
-function OrderRound({ q, title, rules, onNext, onBack }: RoundProps) {
+function OrderRound({ q, title, rules, onNext, onBack, score }: RoundProps) {
   const { lives, hintsLeft, loseLife, spendHint, maxLives, maxHints } = useLives(rules)
   /** 아직 안 고른 칩(원본 인덱스). 같은 팀을 두 번 거친 경우도 있어 인덱스로 다룬다 */
   const pool = useMemo(() => shuffle(q.clubs.map((_, i) => i)), [q])
@@ -60,6 +64,15 @@ function OrderRound({ q, title, rules, onNext, onBack }: RoundProps) {
   useEffect(() => {
     if (status === 'playing' && lives === 0) setStatus('lost')
   }, [lives, status])
+
+  const earned = scoreFor(placed.length, q.clubs.length)
+  const [banked, setBanked] = useState(false)
+  useEffect(() => {
+    if (status !== 'playing' && !banked) {
+      setBanked(true)
+      score.add(earned)
+    }
+  }, [status, banked, earned, score])
 
   const nextPos = placed.length
 
@@ -93,7 +106,12 @@ function OrderRound({ q, title, rules, onNext, onBack }: RoundProps) {
 
   return (
     <>
-      <Header title={title} onBack={onBack} right={<Hearts lives={lives} max={maxLives} />} />
+      <Header title={title} onBack={onBack} right={
+          <div className="header-stack">
+            <Hearts lives={lives} max={maxLives} />
+            <span className="session-score">{formatScore(score.total)}점</span>
+          </div>
+        } />
       <main className="screen">
         <h2 className="q-title">{q.name}</h2>
         <p className="q-subtitle">거쳐 간 순서대로 눌러 주세요</p>
@@ -139,7 +157,10 @@ function OrderRound({ q, title, rules, onNext, onBack }: RoundProps) {
         {ended && (
           <QuestionEnd
             status={status as 'won' | 'lost' | 'revealed'}
-            summary={status === 'won' ? '순서 전부 맞혔어요' : `${placed.length}/${q.clubs.length}까지 맞혔어요`}
+            summary={
+              (status === 'won' ? '순서 전부 맞혔어요' : `${placed.length}/${q.clubs.length}까지 맞혔어요`) +
+              ` · ${formatScore(earned)}점`
+            }
             trivia={q.trivia?.trim() || undefined}
             onNext={onNext}
           />

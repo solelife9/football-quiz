@@ -12,6 +12,8 @@ import { Feedback, type FeedbackMsg } from '../components/Feedback'
 import { ConfirmButton } from '../components/ConfirmButton'
 import { QuestionEnd } from '../components/QuestionEnd'
 import { Header } from '../components/Header'
+import { useSessionScore } from '../hooks/useSessionScore'
+import { formatScore, scoreForSingle } from '../lib/score'
 
 interface Props {
   gameKey: string
@@ -26,6 +28,7 @@ type Status = 'playing' | 'won' | 'lost' | 'revealed'
 /** 게임 6 — 우승·수상 이력을 처음부터 전부 보여주고 누구인지 맞힌다. */
 export function HonoursGame({ gameKey, title, questions, rules, onBack }: Props) {
   const { current, next, roundKey } = useQuestionQueue(gameKey, questions)
+  const score = useSessionScore(gameKey)
   if (!current) {
     return (
       <>
@@ -36,7 +39,7 @@ export function HonoursGame({ gameKey, title, questions, rules, onBack }: Props)
       </>
     )
   }
-  return <HonoursRound key={roundKey} q={current} title={title} rules={rules} onNext={next} onBack={onBack} />
+  return <HonoursRound key={roundKey} q={current} title={title} rules={rules} onNext={next} onBack={onBack} score={score} />
 }
 
 interface RoundProps {
@@ -45,6 +48,7 @@ interface RoundProps {
   rules: GameRules
   onNext: () => void
   onBack: () => void
+  score: ReturnType<typeof useSessionScore>
 }
 
 /** 힌트 3단계: 글자 수 → 첫 글자 초성 → 전체 초성 */
@@ -56,7 +60,7 @@ function nameHint(name: string, stage: number): string | null {
   return `초성 ${toChoseong(name)}`
 }
 
-function HonoursRound({ q, title, rules, onNext, onBack }: RoundProps) {
+function HonoursRound({ q, title, rules, onNext, onBack, score }: RoundProps) {
   const { lives, hintsLeft, loseLife, spendHint, maxLives, maxHints } = useLives(rules)
   const [status, setStatus] = useState<Status>('playing')
   const [msg, setMsg] = useState<FeedbackMsg | null>(null)
@@ -67,6 +71,15 @@ function HonoursRound({ q, title, rules, onNext, onBack }: RoundProps) {
   useEffect(() => {
     if (status === 'playing' && lives === 0) setStatus('lost')
   }, [lives, status])
+
+  const earned = scoreForSingle(status === 'won', hintStage)
+  const [banked, setBanked] = useState(false)
+  useEffect(() => {
+    if (status !== 'playing' && !banked) {
+      setBanked(true)
+      score.add(earned)
+    }
+  }, [status, banked, earned, score])
 
   const handleSubmit = useCallback(
     (raw: string): SubmitOutcome => {
@@ -90,7 +103,12 @@ function HonoursRound({ q, title, rules, onNext, onBack }: RoundProps) {
 
   return (
     <>
-      <Header title={title} onBack={onBack} right={<Hearts lives={lives} max={maxLives} />} />
+      <Header title={title} onBack={onBack} right={
+          <div className="header-stack">
+            <Hearts lives={lives} max={maxLives} />
+            <span className="session-score">{formatScore(score.total)}점</span>
+          </div>
+        } />
       <main className="screen">
         <h2 className="q-title">이 커리어의 주인공은?</h2>
 
@@ -127,7 +145,7 @@ function HonoursRound({ q, title, rules, onNext, onBack }: RoundProps) {
         {ended && (
           <QuestionEnd
             status={status as 'won' | 'lost' | 'revealed'}
-            summary={status === 'won' ? '맞혔어요' : undefined}
+            summary={status === 'won' ? `맞혔어요 · ${formatScore(earned)}점` : `${formatScore(earned)}점`}
             trivia={q.trivia?.trim() || undefined}
             onNext={onNext}
           />

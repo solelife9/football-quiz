@@ -196,7 +196,7 @@ describe('CareerGame', () => {
     await user.click(screen.getByRole('button', { name: /다음 팀 보기 \(1\/4\)/ }))
     expect(screen.getByText('맨유')).toBeInTheDocument()
     await type(user, '호날두')
-    expect(screen.getByText('팀 2개 보고 맞혔어요 (2/4)')).toBeInTheDocument()
+    expect(screen.getByText(/팀 2개 보고 맞혔어요/)).toBeInTheDocument()
     // 종료 후 전체 이력 공개
     expect(screen.getByText('유벤투스')).toBeInTheDocument()
   })

@@ -12,6 +12,8 @@ import { Feedback, type FeedbackMsg } from '../components/Feedback'
 import { ConfirmButton } from '../components/ConfirmButton'
 import { QuestionEnd } from '../components/QuestionEnd'
 import { Header } from '../components/Header'
+import { useSessionScore } from '../hooks/useSessionScore'
+import { formatScore, scoreForSingle } from '../lib/score'
 
 interface Props {
   gameKey: string
@@ -25,6 +27,7 @@ type Status = 'playing' | 'won' | 'lost' | 'revealed'
 
 export function CareerGame({ gameKey, title, questions, rules, onBack }: Props) {
   const { current, next, roundKey } = useQuestionQueue(gameKey, questions)
+  const score = useSessionScore(gameKey)
   if (!current) {
     return (
       <>
@@ -35,7 +38,7 @@ export function CareerGame({ gameKey, title, questions, rules, onBack }: Props) 
       </>
     )
   }
-  return <CareerRound key={roundKey} q={current} title={title} rules={rules} onNext={next} onBack={onBack} />
+  return <CareerRound key={roundKey} q={current} title={title} rules={rules} onNext={next} onBack={onBack} score={score} />
 }
 
 interface RoundProps {
@@ -44,6 +47,7 @@ interface RoundProps {
   rules: GameRules
   onNext: () => void
   onBack: () => void
+  score: ReturnType<typeof useSessionScore>
 }
 
 /**
@@ -59,7 +63,7 @@ function nameHint(name: string, stage: number): string | null {
   return `초성 ${toChoseong(name)}`
 }
 
-function CareerRound({ q, title, rules, onNext, onBack }: RoundProps) {
+function CareerRound({ q, title, rules, onNext, onBack, score }: RoundProps) {
   const { lives, hintsLeft, loseLife, spendHint, maxLives, maxHints } = useLives(rules)
   const [shown, setShown] = useState(1)
   const [status, setStatus] = useState<Status>('playing')
@@ -74,6 +78,15 @@ function CareerRound({ q, title, rules, onNext, onBack }: RoundProps) {
   useEffect(() => {
     if (status === 'playing' && lives === 0) setStatus('lost')
   }, [lives, status])
+
+  const earned = scoreForSingle(status === 'won', hintStage)
+  const [banked, setBanked] = useState(false)
+  useEffect(() => {
+    if (status !== 'playing' && !banked) {
+      setBanked(true)
+      score.add(earned)
+    }
+  }, [status, banked, earned, score])
 
   const handleSubmit = useCallback(
     (raw: string): SubmitOutcome => {
@@ -104,7 +117,12 @@ function CareerRound({ q, title, rules, onNext, onBack }: RoundProps) {
 
   return (
     <>
-      <Header title={title} onBack={onBack} right={<Hearts lives={lives} max={maxLives} />} />
+      <Header title={title} onBack={onBack} right={
+          <div className="header-stack">
+            <Hearts lives={lives} max={maxLives} />
+            <span className="session-score">{formatScore(score.total)}점</span>
+          </div>
+        } />
       <main className="screen">
         <h2 className="q-title">이 선수는 누구?</h2>
 
@@ -151,8 +169,8 @@ function CareerRound({ q, title, rules, onNext, onBack }: RoundProps) {
             status={status as 'won' | 'lost' | 'revealed'}
             summary={
               status === 'won' && solvedAt != null
-                ? `팀 ${solvedAt}개 보고 맞혔어요 (${solvedAt}/${total})`
-                : `팀 ${shown}개까지 열었어요 (${shown}/${total})`
+                ? `팀 ${solvedAt}개 보고 맞혔어요 · ${formatScore(earned)}점`
+                : `팀 ${shown}개까지 열었어요 (${shown}/${total}) · ${formatScore(earned)}점`
             }
             trivia={q.trivia?.trim() || undefined}
             onNext={onNext}

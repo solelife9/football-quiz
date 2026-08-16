@@ -21,6 +21,17 @@ export function breakEven(total: number): number {
   return Math.ceil(total * 0.5)
 }
 
+/**
+ * 정답이 하나뿐인 문제(이적 경로·커리어 맞히기)의 점수.
+ * 맞히면 만점에서 시작해 쓴 힌트만큼 깎는다. 못 맞히면 0.
+ */
+export function scoreForSingle(solved: boolean, hintsUsed: number): number {
+  if (!solved) return 0
+  const MAX = 25000
+  const PENALTY = 6000
+  return Math.max(1000, MAX - hintsUsed * PENALTY)
+}
+
 export function formatScore(n: number): string {
   return n.toLocaleString('ko-KR')
 }

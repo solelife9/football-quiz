@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import { scoreFor, breakEven, formatScore } from './score'
+import { scoreFor, scoreForSingle, breakEven, formatScore } from './score'
 
 describe('scoreFor', () => {
   it('4개 이하는 0점 (손익분기 미만)', () => {
@@ -40,5 +40,23 @@ describe('formatScore', () => {
   it('천 단위 구분', () => {
     expect(formatScore(25000)).toBe('25,000')
     expect(formatScore(0)).toBe('0')
+  })
+})
+
+describe('scoreForSingle', () => {
+  it('못 맞히면 0', () => {
+    expect(scoreForSingle(false, 0)).toBe(0)
+    expect(scoreForSingle(false, 3)).toBe(0)
+  })
+  it('힌트를 쓸수록 깎이되 최소 1000점은 남는다', () => {
+    expect(scoreForSingle(true, 0)).toBe(25000)
+    expect(scoreForSingle(true, 1)).toBe(19000)
+    expect(scoreForSingle(true, 3)).toBe(7000)
+    expect(scoreForSingle(true, 10)).toBe(1000)
+  })
+  it('힌트가 늘수록 줄어든다', () => {
+    for (let i = 1; i <= 5; i++) {
+      expect(scoreForSingle(true, i)).toBeLessThanOrEqual(scoreForSingle(true, i - 1))
+    }
   })
 })

@@ -2,6 +2,7 @@ import type { Route } from '../hooks/useHashRoute'
 import { Header } from '../components/Header'
 import { InstallBanner } from '../components/InstallBanner'
 import { UpdateBanner } from '../components/UpdateBanner'
+import { PlayerSetup } from '../components/PlayerSetup'
 
 export interface GameCard {
   route: Exclude<Route, 'home'>
@@ -22,6 +23,7 @@ export function Home({ games, onSelect }: Props) {
       <main className="screen home">
         <UpdateBanner />
         <InstallBanner />
+        <PlayerSetup />
         <ul className="game-list">
           {games.map((g) => (
             <li key={g.route}>

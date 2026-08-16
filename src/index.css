@@ -325,3 +325,29 @@ ol, ul { padding: 0; list-style: none; }
 .ladder-text { min-height: 20px; font-size: 14px; font-variant-numeric: tabular-nums; }
 .ladder.reached .ladder-text strong { color: var(--accent); }
 .ladder.perfect .ladder-text strong { color: var(--warn); }
+
+/* ── 인원·점수판 ─────────────────────────── */
+.players { display: flex; flex-direction: column; gap: 10px; padding: 14px; border-radius: var(--radius); background: var(--surface); border: 1px solid var(--line); }
+.players-row { display: flex; flex-direction: column; gap: 8px; }
+.players-label { font-size: 13px; color: var(--muted); font-weight: 600; }
+.players-pick { display: flex; gap: 6px; flex-wrap: wrap; }
+.players-pick .pick {
+  min-height: 40px; padding: 0 12px; border-radius: 999px; cursor: pointer;
+  border: 1px solid var(--line); background: var(--surface-2); color: var(--muted); font-weight: 700;
+}
+.players-pick .pick.on { background: var(--text); color: var(--bg); border-color: var(--text); }
+.scoreboard { display: flex; flex-direction: column; gap: 6px; }
+.sb {
+  display: grid; grid-template-columns: 48px 1fr auto; align-items: center; gap: 10px;
+  min-height: 40px; padding: 0 12px; border-radius: 10px;
+  background: var(--surface-2); border: 1px solid transparent;
+}
+.sb.now { border-color: var(--accent); }
+.sb.top .pts { color: var(--warn); }
+.sb .who { font-weight: 800; }
+.sb .pts { font-variant-numeric: tabular-nums; font-weight: 700; text-align: right; }
+.sb .badge { font-size: 11px; font-weight: 800; color: var(--accent); }
+.session-score.turn { color: var(--accent); }
+.small-btn { min-height: 38px; font-size: 13px; align-self: flex-start; }
+
+.ox-points { font-size: 20px; font-weight: 800; color: var(--accent); font-variant-numeric: tabular-nums; }

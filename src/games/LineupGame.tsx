@@ -13,6 +13,7 @@ import { Feedback, type FeedbackMsg } from '../components/Feedback'
 import { ConfirmButton } from '../components/ConfirmButton'
 import { QuestionEnd } from '../components/QuestionEnd'
 import { Header } from '../components/Header'
+import { TurnChip } from '../components/TurnChip'
 import { useSessionScore } from '../hooks/useSessionScore'
 import { formatScore, scoreFor } from '../lib/score'
 
@@ -194,7 +195,7 @@ function LineupRound({ q, title, rules, onNext, onBack, score }: RoundProps) {
       <Header title={title} onBack={onBack} right={
           <div className="header-stack">
             <Hearts lives={lives} max={maxLives} />
-            <span className="session-score">{formatScore(score.total)}점</span>
+            <TurnChip total={score.total} />
           </div>
         } />
       <main className="screen">

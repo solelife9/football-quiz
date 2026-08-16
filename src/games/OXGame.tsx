@@ -4,6 +4,9 @@ import type { OXQuestion } from '../types'
 import { shuffle } from '../lib/random'
 import { loadJSON, saveJSON } from '../lib/storage'
 import { Header } from '../components/Header'
+import { TurnChip } from '../components/TurnChip'
+import { useSessionScore } from '../hooks/useSessionScore'
+import { formatScore, scoreFor } from '../lib/score'
 
 interface Props {
   title: string
@@ -43,6 +46,7 @@ interface SessionProps extends Props {
 }
 
 function OXSession({ title, questions, onBack, onRestart }: SessionProps) {
+  const sessionScore = useSessionScore('ox')
   const session = useMemo(() => shuffle(questions).slice(0, OX_QUESTIONS_PER_SESSION), [questions])
   const [index, setIndex] = useState(0)
   const [choice, setChoice] = useState<boolean | null>(null)
@@ -62,6 +66,9 @@ function OXSession({ title, questions, onBack, onRestart }: SessionProps) {
   const next = () => {
     if (index + 1 >= total) {
       setDone(true)
+      // 10문제 세션을 하나의 '문제'로 보고 같은 사다리를 적용한다 —
+      // 절반(5문제)을 넘겨야 점수가 붙는다
+      sessionScore.add(scoreFor(score, total))
       if (score > best) {
         setBest(score)
         saveJSON('ox:best', score)
@@ -83,6 +90,7 @@ function OXSession({ title, questions, onBack, onRestart }: SessionProps) {
               {score}
               <span className="of">/{total}</span>
             </p>
+            <p className="ox-points">{formatScore(scoreFor(score, total))}점</p>
             {best > 0 && <p className="muted small">최고 {best}/{OX_QUESTIONS_PER_SESSION}</p>}
             <button type="button" className="btn primary wide" onClick={onRestart} autoFocus>
               다시 하기
@@ -98,7 +106,16 @@ function OXSession({ title, questions, onBack, onRestart }: SessionProps) {
 
   return (
     <>
-      <Header title={title} onBack={onBack} right={<span className="progress">{index + 1}/{total}</span>} />
+      <Header
+        title={title}
+        onBack={onBack}
+        right={
+          <div className="header-stack">
+            <span className="progress">{index + 1}/{total}</span>
+            <TurnChip total={sessionScore.total} />
+          </div>
+        }
+      />
       <main className="screen">
         <div className="progress-bar" aria-hidden>
           <span style={{ width: `${((index + (answered ? 1 : 0)) / total) * 100}%` }} />

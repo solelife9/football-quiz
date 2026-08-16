@@ -1,5 +1,6 @@
 import { useHashRoute } from './hooks/useHashRoute'
 import { GAME_RULES } from './config'
+import { toNumericLists } from './lib/compare'
 import { COMBO10, CLUES, LINEUPS, CAREERS, HONOURS, OXQUIZ } from './data'
 import { Home, type GameCard } from './games/Home'
 import { Top10Game } from './games/Top10Game'
@@ -7,9 +8,16 @@ import { LineupGame } from './games/LineupGame'
 import { CareerGame } from './games/CareerGame'
 import { HonoursGame } from './games/HonoursGame'
 import { OrderGame } from './games/OrderGame'
+import { CompareGame } from './games/CompareGame'
+import { RankGame } from './games/RankGame'
 import { OXGame } from './games/OXGame'
 
 /** 이적 순서 게임은 4~6팀인 선수만 — 3팀은 너무 쉽고 7팀 이상은 칩이 화면을 넘는다 */
+/** 비교·줄 세우기는 기존 목록에서 파생된다 — 홈에 '몇 문제'로 보여줄 개수를 센다 */
+const NUMERIC_LISTS = toNumericLists(COMBO10)
+const COMPARE_COUNT = NUMERIC_LISTS.reduce((n, l) => n + (l.items.length * (l.items.length - 1)) / 2, 0)
+const RANK_COUNT = NUMERIC_LISTS.filter((l) => new Set(l.items.map((i) => i.value)).size >= 4).length
+
 const ORDERABLE = CAREERS.filter((c) => c.clubs.length >= 4 && c.clubs.length <= 6)
 
 const GAMES: GameCard[] = [
@@ -19,6 +27,8 @@ const GAMES: GameCard[] = [
   { route: 'career', name: '이적 경로', desc: '소속팀 이력만 보고 누구인지', count: CAREERS.length },
   { route: 'honours', name: '커리어 맞히기', desc: '우승·수상 이력만 보고 누구인지', count: HONOURS.length },
   { route: 'order', name: '이적 순서', desc: '거쳐 간 팀을 순서대로 (4~6팀)', count: ORDERABLE.length },
+  { route: 'compare', name: '누가 더 위?', desc: '둘 중 기록이 많은 쪽 고르기 (탭)', count: COMPARE_COUNT },
+  { route: 'rank', name: '줄 세우기', desc: '기록 많은 순서대로 4명 (탭)', count: RANK_COUNT },
   { route: 'ox', name: 'O/X 퀴즈', desc: '10문제, 맞다/틀리다', count: OXQUIZ.length },
 ]
 
@@ -52,6 +62,12 @@ export default function App() {
       )
     case 'order':
       return <OrderGame gameKey="order" title="이적 순서" questions={ORDERABLE} rules={GAME_RULES.order} onBack={back} />
+    case 'compare':
+      return (
+        <CompareGame gameKey="compare" title="누가 더 위?" questions={COMBO10} rules={GAME_RULES.compare} onBack={back} />
+      )
+    case 'rank':
+      return <RankGame gameKey="rank" title="줄 세우기" questions={COMBO10} rules={GAME_RULES.rank} onBack={back} />
     case 'ox':
       return <OXGame title="O/X 퀴즈" questions={OXQUIZ} onBack={back} />
     default:

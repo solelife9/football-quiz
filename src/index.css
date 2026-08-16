@@ -351,3 +351,23 @@ ol, ul { padding: 0; list-style: none; }
 .small-btn { min-height: 38px; font-size: 13px; align-self: flex-start; }
 
 .ox-points { font-size: 20px; font-weight: 800; color: var(--accent); font-variant-numeric: tabular-nums; }
+
+/* ── 누가 더 위? ─────────────────────────── */
+.vs { display: grid; grid-template-columns: 1fr auto 1fr; align-items: stretch; gap: 8px; }
+.vs-mid { align-self: center; font-weight: 800; color: var(--muted); font-size: 13px; }
+.vs-card {
+  display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px;
+  min-height: 150px; padding: 16px 10px; border-radius: var(--radius);
+  border: 1px solid var(--line); background: var(--surface); cursor: pointer;
+  transition: background 0.2s, border-color 0.2s, transform 0.08s;
+}
+.vs-card:active { transform: scale(0.98); }
+.vs-card:disabled { cursor: default; }
+.vs-name { font-size: 17px; font-weight: 800; text-align: center; overflow-wrap: anywhere; line-height: 1.25; }
+.vs-club { font-size: 12px; color: var(--muted); text-align: center; }
+.vs-value { font-size: 22px; font-weight: 800; font-variant-numeric: tabular-nums; color: var(--muted); }
+.vs-card.win { border-color: var(--accent); background: color-mix(in srgb, var(--accent) 14%, var(--surface)); }
+.vs-card.win .vs-value { color: var(--accent); }
+.vs-card.lose { opacity: 0.6; }
+.vs-card.picked.lose { border-color: var(--danger); opacity: 1; }
+.vs-card.picked.lose .vs-value { color: var(--danger); }

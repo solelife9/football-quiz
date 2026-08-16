@@ -95,7 +95,9 @@ function Top10Round({ q, title, rules, onNext, onBack }: RoundProps) {
     [status, candidates, found, q, hasRanks, loseLife],
   )
 
-  const hintable = q.answers.filter((a) => !found.has(a.rank) && !hinted.has(a.rank) && a.hint)
+  // 힌트에 쓸 내용(소속팀·국적)이 실제로 있는 칸만 대상. 빈 hint 객체는 제외한다.
+  const hasHintText = (a: (typeof q.answers)[number]) => Boolean(a.hint?.club || a.hint?.nationality)
+  const hintable = q.answers.filter((a) => !found.has(a.rank) && !hinted.has(a.rank) && hasHintText(a))
   const handleHint = () => {
     if (hintsLeft <= 0 || status !== 'playing') return
     const target = pickRandom(hintable)
@@ -117,7 +119,7 @@ function Top10Round({ q, title, rules, onNext, onBack }: RoundProps) {
         <ol className={`slots ${hasRanks ? 'ranked' : 'unranked'}`}>
           {q.answers.map((a) => {
             const open = found.has(a.rank)
-            const showHint = !open && hinted.has(a.rank) && a.hint
+            const showHint = !open && hinted.has(a.rank) && hasHintText(a)
             const missed = ended && !open
             return (
               <li key={a.rank} className={`slot ${open ? 'open' : ''} ${missed ? 'missed' : ''}`}>

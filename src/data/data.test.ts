@@ -47,7 +47,11 @@ function checkTop10(list: Top10Question[], label: string) {
           for (const a of q.answers) expect(a.name.trim(), `${q.id} rank ${a.rank}: name 비어 있음`).not.toBe('')
         })
         if (!SAMPLE_IDS.has(q.id)) {
-          it('정답 10개', () => expect(q.answers.length).toBe(10))
+          // TOP 10 이지만 10위 동률이면 11~13개가 될 수 있고, "전부" 세트는 개수가 주제마다 다르다.
+          it('정답 3~15개', () => {
+            expect(q.answers.length).toBeGreaterThanOrEqual(3)
+            expect(q.answers.length).toBeLessThanOrEqual(15)
+          })
         }
         it('rank 유일 · 1부터 연속', () => {
           const ranks = q.answers.map((a) => a.rank).sort((x, y) => x - y)

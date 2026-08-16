@@ -259,3 +259,13 @@ ol, ul { padding: 0; list-style: none; }
 .install-text b { color: var(--text); font-weight: 600; }
 .share-glyph { display: inline-block; vertical-align: -3px; color: var(--info); margin: 0 2px; }
 .install-actions { display: flex; gap: 8px; justify-content: flex-end; }
+
+/* ── 커리어(수상 이력) 맞히기 ─────────────── */
+.honours { display: flex; flex-direction: column; gap: 6px; }
+.honour {
+  display: grid; grid-template-columns: 16px 1fr; align-items: baseline; gap: 10px;
+  min-height: 40px; padding: 9px 12px; border-radius: 10px;
+  background: var(--surface); border: 1px solid var(--line);
+}
+.honour .medal { color: var(--warn); font-size: 10px; line-height: 1.6; }
+.honour-text { font-weight: 600; line-height: 1.4; overflow-wrap: anywhere; }

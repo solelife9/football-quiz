@@ -64,3 +64,13 @@ export interface OXQuestion {
   /** 정답 여부와 무관하게 항상 표시 */
   explanation: string
 }
+
+/** 게임 6 — 수상·우승 이력만 보고 선수 맞히기 (이력은 처음부터 전부 공개) */
+export interface HonoursQuestion {
+  id: string
+  name: string
+  /** 우승·수상 이력. 덜 특징적인 것부터 나열한다 */
+  honours: string[]
+  trivia?: string
+  aliases?: string[]
+}

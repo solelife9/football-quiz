@@ -3,7 +3,7 @@
  * 실패 메시지에 문제 id 를 넣어 어디를 고칠지 바로 알 수 있게 한다.
  */
 import { describe, it, expect } from 'vitest'
-import { TOP10, COMBO10, LINEUPS, CAREERS, OXQUIZ } from './index'
+import { TOP10, COMBO10, LINEUPS, CAREERS, HONOURS, OXQUIZ } from './index'
 import { matchAnswer, normalize, type Candidate } from '../lib/matchAnswer'
 import type { Top10Question, LineupQuestion } from '../types'
 
@@ -167,6 +167,38 @@ describe('careers.json', () => {
     assertNoAliasCollision(
       CAREERS.map((q) => ({ id: q.id, name: q.name, aliases: q.aliases })),
       'careers',
+    )
+  })
+})
+
+describe('honours.json', () => {
+  it('id 유일', () => uniqueIds(HONOURS, 'honours'))
+  for (const q of HONOURS) {
+    describe(q.id, () => {
+      it('이름·이력 3줄 이상', () => {
+        expect(q.name.trim()).not.toBe('')
+        expect(q.honours.length).toBeGreaterThanOrEqual(3)
+        for (const h of q.honours) expect(h.trim(), `${q.id}: 빈 줄`).not.toBe('')
+      })
+      it('이력에 정답 이름이 섞여 있지 않다', () => {
+        // "손흥민, 아시아 최초…" 처럼 이름이 들어가면 답이 그냥 보인다
+        const surname = q.name.trim().split(/\s+/).pop()!
+        for (const h of q.honours) {
+          expect(h.includes(q.name), `${q.id}: 이력에 이름 노출 — "${h}"`).toBe(false)
+          if (Array.from(surname).length >= 2) {
+            expect(h.includes(surname), `${q.id}: 이력에 성 노출 — "${h}"`).toBe(false)
+          }
+        }
+      })
+      it('이력 줄 중복 없음', () => {
+        expect(new Set(q.honours).size, `${q.id}: 같은 줄이 두 번`).toBe(q.honours.length)
+      })
+    })
+  }
+  it('선수끼리 이름/alias 가 겹치지 않음', () => {
+    assertNoAliasCollision(
+      HONOURS.map((q) => ({ id: q.id, name: q.name, aliases: q.aliases })),
+      'honours',
     )
   })
 })

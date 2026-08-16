@@ -100,7 +100,7 @@ function LineupRound({ q, title, rules, onNext, onBack }: RoundProps) {
 
       if (status === 'bonus') {
         const r = matchAnswer(raw, bonusCandidates)
-        if (r.kind === 'exact' || r.kind === 'fuzzy') {
+        if (r.kind === 'exact' || r.kind === 'fuzzy' || r.kind === 'partial') {
           setBonusSolved(true)
           setStatus('won')
           setMsg({ kind: 'ok', text: '보너스 정답!' })

@@ -1,7 +1,7 @@
 [
   {
     "id": "ucl-2006-final-arsenal",
-    "title": "2006 챔피언스리그 결승",
+    "title": "2006 챔피언스리그 결승 · 아스널 선발",
     "subtitle": "바르셀로나 vs 아스널 · 개최지 파리",
     "formation": "4-4-1-1",
     "trivia": "레만은 전반 18분 에투를 페널티 박스 밖에서 넘어뜨려 퇴장당했고, 유러피언컵 결승에서 퇴장당한 최초의 선수가 됐다.",
@@ -159,7 +159,7 @@
   },
   {
     "id": "facup-2014-final-arsenal",
-    "title": "2014 FA컵 결승",
+    "title": "2014 FA컵 결승 · 아스널 선발",
     "subtitle": "아스널 vs 헐 시티 · 개최지 런던",
     "formation": "4-3-3",
     "trivia": "헐 시티가 전반 4분 체스터, 8분 데이비스의 골로 2-0으로 앞섰지만 아스널이 카솔라·코시엘니에 이어 연장 109분 램지의 결승골로 3-2 역전승했다.",
@@ -318,7 +318,7 @@
   },
   {
     "id": "ucl-2009-final-manutd",
-    "title": "2009 챔피언스리그 결승",
+    "title": "2009 챔피언스리그 결승 · 맨체스터 유나이티드 선발",
     "subtitle": "바르셀로나 vs 맨체스터 유나이티드 · 개최지 로마",
     "formation": "4-3-3",
     "trivia": "바르셀로나가 에투(10분)와 메시(70분)의 골로 2-0 승리하며 1992년 첫 우승 이후 통산 세 번째 유러피언컵을 들었다.",
@@ -473,7 +473,7 @@
   },
   {
     "id": "ucl-2011-final-manutd",
-    "title": "2011 챔피언스리그 결승",
+    "title": "2011 챔피언스리그 결승 · 맨체스터 유나이티드 선발",
     "subtitle": "바르셀로나 vs 맨체스터 유나이티드 · 개최지 런던",
     "formation": "4-4-1-1",
     "trivia": "바르셀로나가 점유율 68%에 슈팅 22개를 기록한 반면 맨유는 슈팅이 4개에 그쳤고, 경기는 3-1 바르셀로나 승리로 끝났다.",
@@ -628,7 +628,7 @@
   },
   {
     "id": "ucl-2021-final-mancity",
-    "title": "2021 챔피언스리그 결승",
+    "title": "2021 챔피언스리그 결승 · 맨체스터 시티 선발",
     "subtitle": "맨체스터 시티 vs 첼시 · 개최지 포르투",
     "formation": "4-3-1-2",
     "trivia": "이 결승은 원래 이스탄불 아타튀르크 올림픽 경기장에서 열릴 예정이었으나 코로나19 여파로 포르투 이스타디우 두 드라강으로 옮겨 열렸다.",
@@ -785,7 +785,7 @@
   },
   {
     "id": "ucl-2023-final-mancity",
-    "title": "2023 챔피언스리그 결승",
+    "title": "2023 챔피언스리그 결승 · 맨체스터 시티 선발",
     "subtitle": "맨체스터 시티 vs 인테르 밀란 · 개최지 이스탄불",
     "formation": "3-2-4-1",
     "trivia": "로드리의 후반 68분 결승골로 1-0 승리한 시티는 프리미어리그·FA컵과 함께 잉글랜드 남자 축구 역사상 두 번째 대륙 트레블을 달성했다.",
@@ -940,7 +940,7 @@
   },
   {
     "id": "ucl-2018-final-liverpool",
-    "title": "2018 챔피언스리그 결승",
+    "title": "2018 챔피언스리그 결승 · 리버풀 선발",
     "subtitle": "레알 마드리드 vs 리버풀 · 개최지 키이우",
     "formation": "4-3-3",
     "trivia": "후반 51분 골키퍼 카리우스가 던진 공이 벤제마의 발에 맞고 그대로 골문으로 들어가 레알 마드리드의 선제골이 됐다.",
@@ -1099,7 +1099,7 @@
   },
   {
     "id": "ucl-2022-final-liverpool",
-    "title": "2022 챔피언스리그 결승",
+    "title": "2022 챔피언스리그 결승 · 리버풀 선발",
     "subtitle": "리버풀 vs 레알 마드리드 · 개최지 파리",
     "formation": "4-3-3",
     "trivia": "스타드 드 프랑스 입장 게이트에서 벌어진 혼란으로 킥오프가 예정 시각보다 지연됐고, 경기는 레알 마드리드가 1-0으로 이겼다.",
@@ -1254,7 +1254,7 @@
   },
   {
     "id": "ucl-2019-final-tottenham",
-    "title": "2019 챔피언스리그 결승",
+    "title": "2019 챔피언스리그 결승 · 토트넘 홋스퍼 선발",
     "subtitle": "토트넘 홋스퍼 vs 리버풀 · 개최지 마드리드",
     "formation": "4-2-3-1",
     "trivia": "토트넘의 첫 챔피언스리그 결승 진출이었고, 2008년 첼시 이후 처음 나온 결승 데뷔 팀이었다.",
@@ -1412,7 +1412,7 @@
   },
   {
     "id": "uel-2025-final-tottenham",
-    "title": "2025 유로파리그 결승",
+    "title": "2025 유로파리그 결승 · 토트넘 홋스퍼 선발",
     "subtitle": "토트넘 홋스퍼 vs 맨체스터 유나이티드 · 개최지 빌바오",
     "formation": "4-3-3",
     "trivia": "1-0 승리로 토트넘은 통산 세 번째 UEFA컵·유로파리그 우승을 차지했고, 1984년 이후 첫 유럽 대회 우승이자 2008년 리그컵 이후 첫 메이저 우승이었다.",
@@ -1567,7 +1567,7 @@
   },
   {
     "id": "ucl-2012-final-bayern",
-    "title": "2012 챔피언스리그 결승",
+    "title": "2012 챔피언스리그 결승 · 바이에른 뮌헨 선발",
     "subtitle": "바이에른 뮌헨 vs 첼시 · 개최지 뮌헨",
     "formation": "4-2-3-1",
     "trivia": "바이에른은 홈구장 알리안츠 아레나에서 결승을 치러 1984년 이후 처음으로 홈 이점을 안은 결승 진출팀이었지만, 승부차기에서 3-4로 졌다.",
@@ -1725,7 +1725,7 @@
   },
   {
     "id": "ucl-2021-final-chelsea",
-    "title": "2021 챔피언스리그 결승",
+    "title": "2021 챔피언스리그 결승 · 첼시 선발",
     "subtitle": "맨체스터 시티 vs 첼시 · 개최지 포르투",
     "formation": "3-4-2-1",
     "trivia": "첼시가 1-0으로 이겨 통산 두 번째 챔피언스리그 우승을 차지했고, 결승골은 전반 42분 카이 하베르츠가 넣었다.",
@@ -1881,156 +1881,8 @@
     ]
   },
   {
-    "id": "wc-2002-r16-korea",
-    "title": "2002 월드컵 16강",
-    "subtitle": "대한민국 vs 이탈리아 · 개최지 대전",
-    "formation": "3-4-3",
-    "trivia": "안정환은 전반 5분 페널티킥을 부폰에게 막혔지만, 연장 117분 헤딩 골든골로 승부를 끝냈다.",
-    "bonus": {
-      "question": "연장 117분 골든골을 넣은 선수는?",
-      "answers": [
-        "안정환",
-        "Ahn Jung-hwan"
-      ]
-    },
-    "players": [
-      {
-        "number": 1,
-        "row": 1,
-        "col": 1,
-        "name": "이운재",
-        "position": "골키퍼",
-        "nationality": "대한민국",
-        "aliases": [
-          "Lee Woon-jae",
-          "woon-jae"
-        ]
-      },
-      {
-        "number": 4,
-        "row": 2,
-        "col": 1,
-        "name": "최진철",
-        "position": "센터백",
-        "nationality": "대한민국",
-        "aliases": [
-          "Choi Jin-cheul",
-          "jin-cheul"
-        ]
-      },
-      {
-        "number": 20,
-        "row": 2,
-        "col": 2,
-        "name": "홍명보",
-        "position": "센터백",
-        "nationality": "대한민국",
-        "aliases": [
-          "Hong Myung-bo",
-          "myung-bo"
-        ]
-      },
-      {
-        "number": 7,
-        "row": 2,
-        "col": 3,
-        "name": "김태영",
-        "position": "센터백",
-        "nationality": "대한민국",
-        "aliases": [
-          "Kim Tae-young",
-          "tae-young"
-        ]
-      },
-      {
-        "number": 10,
-        "row": 3,
-        "col": 1,
-        "name": "이영표",
-        "position": "왼쪽 미드필더",
-        "nationality": "대한민국",
-        "aliases": [
-          "Lee Young-pyo",
-          "young-pyo"
-        ]
-      },
-      {
-        "number": 6,
-        "row": 3,
-        "col": 2,
-        "name": "유상철",
-        "position": "중앙 미드필더",
-        "nationality": "대한민국",
-        "aliases": [
-          "Yoo Sang-chul",
-          "sang-chul"
-        ]
-      },
-      {
-        "number": 5,
-        "row": 3,
-        "col": 3,
-        "name": "김남일",
-        "position": "중앙 미드필더",
-        "nationality": "대한민국",
-        "aliases": [
-          "Kim Nam-il",
-          "nam-il"
-        ]
-      },
-      {
-        "number": 22,
-        "row": 3,
-        "col": 4,
-        "name": "송종국",
-        "position": "오른쪽 미드필더",
-        "nationality": "대한민국",
-        "aliases": [
-          "Song Chong-gug",
-          "chong-gug"
-        ]
-      },
-      {
-        "number": 9,
-        "row": 4,
-        "col": 1,
-        "name": "설기현",
-        "position": "왼쪽 윙어",
-        "nationality": "대한민국",
-        "aliases": [
-          "Seol Ki-hyeon",
-          "ki-hyeon"
-        ]
-      },
-      {
-        "number": 19,
-        "row": 4,
-        "col": 2,
-        "name": "안정환",
-        "position": "스트라이커",
-        "nationality": "대한민국",
-        "aliases": [
-          "Ahn Jung-hwan",
-          "jung-hwan"
-        ]
-      },
-      {
-        "number": 21,
-        "row": 4,
-        "col": 3,
-        "name": "박지성",
-        "position": "오른쪽 윙어",
-        "nationality": "대한민국",
-        "aliases": [
-          "Park Ji-sung",
-          "ji-sung"
-        ]
-      }
-    ]
-  },
-  {
     "id": "ucl-2005-final-liverpool",
-    "title": "2005 챔피언스리그 결승",
+    "title": "2005 챔피언스리그 결승 · 리버풀 선발",
     "subtitle": "AC 밀란 vs 리버풀 · 개최지 이스탄불",
     "formation": "4-4-1-1",
     "trivia": "전반 0-3으로 뒤지던 리버풀은 후반 54·56·60분 6분 사이 3골로 동점을 만든 뒤 승부차기로 우승했다('이스탄불의 기적').",
@@ -2180,7 +2032,7 @@
   },
   {
     "id": "ucl-2008-final-manutd",
-    "title": "2008 챔피언스리그 결승",
+    "title": "2008 챔피언스리그 결승 · 맨체스터 유나이티드 선발",
     "subtitle": "맨체스터 유나이티드 vs 첼시 · 개최지 모스크바",
     "formation": "4-4-2",
     "trivia": "챔피언스리그 역사상 첫 잉글랜드 클럽 간 결승이었고, 러시아에서 열린 첫 결승전이었다.",
@@ -2329,7 +2181,7 @@
   },
   {
     "id": "wc-2010-final-spain",
-    "title": "2010 월드컵 결승",
+    "title": "2010 월드컵 결승 · 스페인 선발",
     "subtitle": "네덜란드 vs 스페인 · 개최지 요하네스버그",
     "formation": "4-2-3-1",
     "trivia": "이니에스타의 연장 116분 결승골로 스페인은 첫 월드컵 우승을 차지했고, 유럽 팀이 유럽 밖에서 우승한 첫 사례가 됐다.",
@@ -2478,7 +2330,7 @@
   },
   {
     "id": "wc-2014-final-germany",
-    "title": "2014 월드컵 결승",
+    "title": "2014 월드컵 결승 · 독일 선발",
     "subtitle": "독일 vs 아르헨티나 · 개최지 리우데자네이루",
     "formation": "4-3-3",
     "trivia": "케디라가 워밍업 중 종아리 부상으로 빠져 크라머가 급히 선발됐고, 그 크라머도 32분 만에 교체됐다.",
@@ -2628,7 +2480,7 @@
   },
   {
     "id": "wc-2022-final-argentina",
-    "title": "2022 월드컵 결승",
+    "title": "2022 월드컵 결승 · 아르헨티나 선발",
     "subtitle": "아르헨티나 vs 프랑스 · 개최지 루사일",
     "formation": "4-3-3",
     "trivia": "음바페는 1966년 제프 허스트 이후 월드컵 결승에서 해트트릭을 기록한 두 번째 선수가 됐지만 아르헨티나가 승부차기 4-2로 우승했다.",
@@ -2784,7 +2636,7 @@
   },
   {
     "id": "ucl-2019-final-liverpool",
-    "title": "2019 챔피언스리그 결승",
+    "title": "2019 챔피언스리그 결승 · 리버풀 선발",
     "subtitle": "토트넘 홋스퍼 vs 리버풀 · 개최지 마드리드",
     "formation": "4-3-3",
     "trivia": "살라는 경기 시작 2분 만에 페널티킥으로 선제골을 넣었고, 교체 투입된 오리기가 87분에 쐐기골을 넣었다.",
@@ -2932,7 +2784,7 @@
   },
   {
     "id": "ucl-2012-final-chelsea",
-    "title": "2012 챔피언스리그 결승",
+    "title": "2012 챔피언스리그 결승 · 첼시 선발",
     "subtitle": "바이에른 뮌헨 vs 첼시 · 개최지 뮌헨",
     "formation": "4-2-3-1",
     "trivia": "결승은 바이에른의 홈구장 알리안츠 아레나에서 열렸다 — 자기 홈에서 유러피언컵/챔피언스리그 결승을 치른 네 번째 사례였다.",
@@ -3074,155 +2926,6 @@
         "aliases": [
           "Didier Drogba",
           "drogba"
-        ]
-      }
-    ]
-  },
-  {
-    "id": "wc-2002-sf-korea",
-    "title": "2002 월드컵 4강",
-    "subtitle": "독일 vs 대한민국 · 개최지 서울",
-    "formation": "3-4-3",
-    "trivia": "발락은 71분에 경고를 받고 4분 뒤인 75분에 결승골을 넣었으며, 이 경기의 맨 오브 더 매치로 선정됐다.",
-    "bonus": {
-      "question": "75분 결승골을 넣은 독일 선수는?",
-      "answers": [
-        "발락",
-        "Michael Ballack",
-        "미하엘 발락"
-      ]
-    },
-    "players": [
-      {
-        "number": 1,
-        "row": 1,
-        "col": 1,
-        "name": "이운재",
-        "position": "골키퍼",
-        "nationality": "대한민국",
-        "aliases": [
-          "Lee Woon-jae",
-          "woon-jae"
-        ]
-      },
-      {
-        "number": 4,
-        "row": 2,
-        "col": 1,
-        "name": "최진철",
-        "position": "센터백",
-        "nationality": "대한민국",
-        "aliases": [
-          "Choi Jin-cheul",
-          "jin-cheul"
-        ]
-      },
-      {
-        "number": 20,
-        "row": 2,
-        "col": 2,
-        "name": "홍명보",
-        "position": "센터백",
-        "nationality": "대한민국",
-        "aliases": [
-          "Hong Myung-bo",
-          "myung-bo"
-        ]
-      },
-      {
-        "number": 7,
-        "row": 2,
-        "col": 3,
-        "name": "김태영",
-        "position": "센터백",
-        "nationality": "대한민국",
-        "aliases": [
-          "Kim Tae-young",
-          "tae-young"
-        ]
-      },
-      {
-        "number": 10,
-        "row": 3,
-        "col": 1,
-        "name": "이영표",
-        "position": "왼쪽 미드필더",
-        "nationality": "대한민국",
-        "aliases": [
-          "Lee Young-pyo",
-          "young-pyo"
-        ]
-      },
-      {
-        "number": 6,
-        "row": 3,
-        "col": 2,
-        "name": "유상철",
-        "position": "중앙 미드필더",
-        "nationality": "대한민국",
-        "aliases": [
-          "Yoo Sang-chul",
-          "sang-chul"
-        ]
-      },
-      {
-        "number": 21,
-        "row": 3,
-        "col": 3,
-        "name": "박지성",
-        "position": "중앙 미드필더",
-        "nationality": "대한민국",
-        "aliases": [
-          "Park Ji-sung",
-          "ji-sung"
-        ]
-      },
-      {
-        "number": 22,
-        "row": 3,
-        "col": 4,
-        "name": "송종국",
-        "position": "오른쪽 미드필더",
-        "nationality": "대한민국",
-        "aliases": [
-          "Song Chong-gug",
-          "chong-gug"
-        ]
-      },
-      {
-        "number": 14,
-        "row": 4,
-        "col": 1,
-        "name": "이천수",
-        "position": "왼쪽 윙어",
-        "nationality": "대한민국",
-        "aliases": [
-          "Lee Chun-soo",
-          "chun-soo"
-        ]
-      },
-      {
-        "number": 18,
-        "row": 4,
-        "col": 2,
-        "name": "황선홍",
-        "position": "스트라이커",
-        "nationality": "대한민국",
-        "aliases": [
-          "Hwang Sun-hong",
-          "sun-hong"
-        ]
-      },
-      {
-        "number": 16,
-        "row": 4,
-        "col": 3,
-        "name": "차두리",
-        "position": "오른쪽 윙어",
-        "nationality": "대한민국",
-        "aliases": [
-          "Cha Du-ri",
-          "du-ri"
         ]
       }
     ]

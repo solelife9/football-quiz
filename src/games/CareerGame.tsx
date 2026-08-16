@@ -80,7 +80,7 @@ function CareerRound({ q, title, rules, onNext, onBack }: RoundProps) {
       if (status !== 'playing') return 'empty'
       if (raw.trim() === '') return 'empty'
       const r = matchAnswer(raw, candidates)
-      if (r.kind === 'exact' || r.kind === 'fuzzy') {
+      if (r.kind === 'exact' || r.kind === 'fuzzy' || r.kind === 'partial') {
         setSolvedAt(shown)
         setStatus('won')
         setMsg({ kind: 'ok', text: `정답! ${q.name}` })

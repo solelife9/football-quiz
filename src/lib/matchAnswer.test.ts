@@ -169,3 +169,41 @@ describe('matchAnswer — 불변성', () => {
     expect(JSON.stringify(pool)).toBe(before)
   })
 })
+
+describe('matchAnswer — 부분 일치(성만·표기 차이)', () => {
+  const taa: Candidate = { id: 'taa', name: '트렌트 알렉산더아널드', aliases: ['알렉산더아널드'] }
+  const kane: Candidate = { id: 'kane', name: '해리 케인', aliases: [] }
+  const ramos: Candidate = { id: 'ramos', name: '세르히오 라모스', aliases: [] }
+  const pool2 = [taa, kane, ramos]
+
+  it('뒷부분만 입력해도 맞는다', () => {
+    expect(matchAnswer('알렉산더아널드', pool2).kind).toBe('exact')
+    expect(matchAnswer('케인', pool2)).toMatchObject({ kind: 'partial', id: 'kane' })
+    expect(matchAnswer('라모스', pool2)).toMatchObject({ kind: 'partial', id: 'ramos' })
+  })
+  it('표기가 조금 달라도 맞는다 (아널드 vs 아놀드)', () => {
+    expect(matchAnswer('아놀드', pool2)).toMatchObject({ kind: 'partial', id: 'taa' })
+    expect(matchAnswer('알렉산더 아놀드', pool2)).toMatchObject({ id: 'taa' })
+    expect(matchAnswer('트렌트 알렉산더 아놀드', pool2)).toMatchObject({ id: 'taa' })
+  })
+  it('앞부분만 입력해도 맞는다', () => {
+    expect(matchAnswer('트렌트', pool2)).toMatchObject({ kind: 'partial', id: 'taa' })
+    expect(matchAnswer('세르히오', pool2)).toMatchObject({ kind: 'partial', id: 'ramos' })
+  })
+  it('두 후보에 걸리면 반려(목숨 안 깎임)', () => {
+    const b: Candidate = { id: 'b', name: '베르나르두 실바', aliases: [] }
+    const d: Candidate = { id: 'd', name: '다비드 실바', aliases: [] }
+    expect(matchAnswer('실바', [b, d]).kind).toBe('ambiguous')
+  })
+  it('한 글자는 부분 일치로 인정하지 않는다', () => {
+    expect(matchAnswer('케', pool2).kind).toBe('none')
+  })
+  it('가운데 조각만으로는 인정하지 않는다', () => {
+    // "산더" 는 이름 가운데라 통과시키지 않는다(오탐 방지)
+    expect(matchAnswer('산더', pool2).kind).toBe('none')
+  })
+  it('정확·퍼지가 있으면 그쪽이 우선', () => {
+    expect(matchAnswer('해리 케인', pool2).kind).toBe('exact')
+    expect(matchAnswer('해리 케임', pool2).kind).toBe('fuzzy')
+  })
+})

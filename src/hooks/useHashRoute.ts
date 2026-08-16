@@ -1,8 +1,8 @@
 import { useCallback, useEffect, useState } from 'react'
 
-export type Route = 'home' | 'combo10' | 'lineup' | 'career' | 'honours' | 'ox'
+export type Route = 'home' | 'combo10' | 'lineup' | 'career' | 'honours' | 'order' | 'ox'
 
-const ROUTES: readonly Route[] = ['home', 'combo10', 'lineup', 'career', 'honours', 'ox']
+const ROUTES: readonly Route[] = ['home', 'combo10', 'lineup', 'career', 'honours', 'order', 'ox']
 
 function parse(hash: string): Route {
   const key = hash.replace(/^#\/?/, '')

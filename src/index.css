@@ -269,3 +269,28 @@ ol, ul { padding: 0; list-style: none; }
 }
 .honour .medal { color: var(--warn); font-size: 10px; line-height: 1.6; }
 .honour-text { font-weight: 600; line-height: 1.4; overflow-wrap: anywhere; }
+
+/* ── 이적 순서 맞히기 ─────────────────────── */
+.order-slots { display: flex; flex-direction: column; gap: 6px; }
+.order-slot {
+  display: grid; grid-template-columns: 26px 1fr; align-items: center; gap: 10px;
+  min-height: 40px; padding: 0 12px; border-radius: 10px;
+  background: var(--surface); border: 1px solid var(--line);
+  transition: background 0.2s, border-color 0.2s;
+}
+.order-slot .step-no { font-weight: 800; color: var(--muted); font-variant-numeric: tabular-nums; }
+.order-slot .club { font-weight: 600; color: var(--line); letter-spacing: 0.15em; }
+.order-slot.open { background: color-mix(in srgb, var(--accent) 16%, var(--surface)); border-color: color-mix(in srgb, var(--accent) 45%, var(--line)); }
+.order-slot.open .club { color: var(--text); letter-spacing: 0; }
+.order-slot.open .step-no { color: var(--accent); }
+.order-slot.missed { border-color: color-mix(in srgb, var(--danger) 55%, var(--line)); }
+.order-slot.missed .club { color: var(--danger); letter-spacing: 0; }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.chip {
+  min-height: 44px; padding: 0 14px; border-radius: 999px;
+  border: 1px solid var(--line); background: var(--surface-2); color: var(--text);
+  font-weight: 600; cursor: pointer; transition: transform 0.08s, opacity 0.2s;
+}
+.chip:active { transform: scale(0.96); }
+.chip.used { opacity: 0.25; cursor: default; }
+.chip.shake { animation: shake 0.4s ease; border-color: var(--danger); color: var(--danger); }

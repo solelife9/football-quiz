@@ -2,7 +2,7 @@
  * 게임별 규칙 상수. 목숨·힌트 횟수를 여기서만 조정한다.
  * O/X 퀴즈는 목숨·힌트가 없다(UI도 렌더링하지 않음).
  */
-export type GameId = 'combo10' | 'lineup' | 'career' | 'honours' | 'ox'
+export type GameId = 'combo10' | 'lineup' | 'career' | 'honours' | 'order' | 'ox'
 
 export interface GameRules {
   /** 오답 허용 횟수. 0이 되면 게임 종료 + 정답 전부 공개 */
@@ -16,6 +16,7 @@ export const GAME_RULES: Record<Exclude<GameId, 'ox'>, GameRules> = {
   lineup: { lives: 5, hints: 3 },
   career: { lives: 5, hints: 3 },
   honours: { lives: 5, hints: 3 },
+  order: { lives: 5, hints: 3 },
 }
 
 /** O/X 퀴즈 한 세션 문제 수 */

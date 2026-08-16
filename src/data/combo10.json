@@ -1,71 +1,99 @@
 [
   {
-    "id": "ballon-dor-english-clubs",
-    "title": "잉글랜드 클럽 소속으로 발롱도르를 받은 선수 전부",
-    "trivia": "일곱 명 중 네 명이 맨체스터 유나이티드 소속이었다 — 데니스 로·보비 찰턴·조지 베스트·크리스티아누 호날두.",
+    "id": "pl-most-hat-tricks",
+    "title": "프리미어리그 통산 최다 해트트릭 TOP 10 (동률 포함 15명)",
+    "trivia": "통산 1위는 아궤로(12회)이고, 한 시즌 최다 해트트릭은 시어러의 5회(1995-96)다.",
     "answers": [
       {
         "rank": 1,
-        "name": "스탠리 매슈스",
-        "value": "1956년 · 블랙풀",
+        "name": "세르히오 아궤로",
+        "value": "12회",
         "hint": {
-          "club": "블랙풀",
-          "nationality": "잉글랜드"
+          "club": "맨체스터 시티",
+          "nationality": "아르헨티나"
         },
         "aliases": [
-          "매슈스",
-          "매튜스",
-          "스탠리 매튜스",
-          "Stanley Matthews",
-          "Matthews"
+          "아궤로",
+          "Aguero",
+          "Sergio Aguero",
+          "아구에로"
         ]
       },
       {
         "rank": 2,
-        "name": "데니스 로",
-        "value": "1964년 · 맨체스터 유나이티드",
+        "name": "앨런 시어러",
+        "value": "11회",
         "hint": {
-          "club": "맨체스터 유나이티드",
-          "nationality": "스코틀랜드"
+          "club": "뉴캐슬 유나이티드",
+          "nationality": "잉글랜드"
         },
         "aliases": [
-          "Denis Law"
+          "시어러",
+          "Shearer",
+          "Alan Shearer"
         ]
       },
       {
         "rank": 3,
-        "name": "보비 찰턴",
-        "value": "1966년 · 맨체스터 유나이티드",
+        "name": "로비 파울러",
+        "value": "9회",
         "hint": {
-          "club": "맨체스터 유나이티드",
+          "club": "리버풀",
           "nationality": "잉글랜드"
         },
         "aliases": [
-          "찰턴",
-          "바비 찰턴",
-          "보비 찰튼",
-          "Bobby Charlton",
-          "Charlton"
+          "파울러",
+          "Fowler",
+          "Robbie Fowler"
         ]
       },
       {
         "rank": 4,
-        "name": "조지 베스트",
-        "value": "1968년 · 맨체스터 유나이티드",
+        "name": "엘링 홀란",
+        "value": "8회",
         "hint": {
-          "club": "맨체스터 유나이티드",
-          "nationality": "북아일랜드"
+          "club": "맨체스터 시티",
+          "nationality": "노르웨이"
         },
         "aliases": [
-          "베스트",
-          "George Best",
-          "Best"
+          "홀란",
+          "홀란드",
+          "Haaland",
+          "Erling Haaland"
         ]
       },
       {
-        "rank": 5,
+        "rank": 4,
+        "name": "티에리 앙리",
+        "value": "8회",
+        "hint": {
+          "club": "아스널",
+          "nationality": "프랑스"
+        },
+        "aliases": [
+          "앙리",
+          "Henry",
+          "Thierry Henry"
+        ]
+      },
+      {
+        "rank": 4,
+        "name": "해리 케인",
+        "value": "8회",
+        "hint": {
+          "club": "토트넘 홋스퍼",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "케인",
+          "Kane",
+          "Harry Kane"
+        ]
+      },
+      {
+        "rank": 4,
         "name": "마이클 오언",
-        "value": "2001년 · 리버풀",
+        "value": "8회",
         "hint": {
           "club": "리버풀",
           "nationality": "잉글랜드"
@@ -73,15 +101,359 @@
         "aliases": [
           "오언",
           "오웬",
-          "마이클 오웬",
-          "Michael Owen",
-          "Owen"
+          "Owen",
+          "Michael Owen"
         ]
       },
       {
-        "rank": 6,
+        "rank": 8,
+        "name": "웨인 루니",
+        "value": "7회",
+        "hint": {
+          "club": "맨체스터 유나이티드",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "루니",
+          "Rooney",
+          "Wayne Rooney"
+        ]
+      },
+      {
+        "rank": 9,
+        "name": "루이스 수아레스",
+        "value": "6회",
+        "hint": {
+          "club": "리버풀",
+          "nationality": "우루과이"
+        },
+        "aliases": [
+          "수아레스",
+          "Suarez",
+          "Luis Suarez"
+        ]
+      },
+      {
+        "rank": 10,
+        "name": "디미타르 베르바토프",
+        "value": "5회",
+        "hint": {
+          "club": "맨체스터 유나이티드",
+          "nationality": "불가리아"
+        },
+        "aliases": [
+          "베르바토프",
+          "Berbatov",
+          "Dimitar Berbatov"
+        ]
+      },
+      {
+        "rank": 10,
+        "name": "앤디 콜",
+        "value": "5회",
+        "hint": {
+          "club": "맨체스터 유나이티드",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "Andy Cole",
+          "Cole"
+        ]
+      },
+      {
+        "rank": 10,
+        "name": "뤼트 판 니스텔로이",
+        "value": "5회",
+        "hint": {
+          "club": "맨체스터 유나이티드",
+          "nationality": "네덜란드"
+        },
+        "aliases": [
+          "판 니스텔로이",
+          "반 니스텔루이",
+          "van Nistelrooy",
+          "Ruud van Nistelrooy",
+          "nistelrooy",
+          "니스텔로이"
+        ]
+      },
+      {
+        "rank": 10,
+        "name": "로빈 판 페르시",
+        "value": "5회",
+        "hint": {
+          "club": "아스널",
+          "nationality": "네덜란드"
+        },
+        "aliases": [
+          "판 페르시",
+          "반 페르시",
+          "van Persie",
+          "Robin van Persie",
+          "persie",
+          "페르시"
+        ]
+      },
+      {
+        "rank": 10,
+        "name": "라힘 스털링",
+        "value": "5회",
+        "hint": {
+          "club": "맨체스터 시티",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "스털링",
+          "Sterling",
+          "Raheem Sterling"
+        ]
+      },
+      {
+        "rank": 10,
+        "name": "이안 라이트",
+        "value": "5회",
+        "hint": {
+          "club": "아스널",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "Ian Wright",
+          "Wright",
+          "라이트"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ucl-most-winning-managers",
+    "title": "챔피언스리그 3회 이상 우승 감독 전원 (5명)",
+    "trivia": "안첼로티는 밀란에서 2회, 레알 마드리드에서 3회 우승해 유일한 5회 우승 감독이다.",
+    "answers": [
+      {
+        "rank": 1,
+        "name": "카를로 안첼로티",
+        "value": "5회 (2003·2007·2014·2022·2024)",
+        "hint": {
+          "club": "레알 마드리드",
+          "nationality": "이탈리아"
+        },
+        "aliases": [
+          "안첼로티",
+          "Ancelotti",
+          "Carlo Ancelotti"
+        ]
+      },
+      {
+        "rank": 2,
+        "name": "밥 페이즐리",
+        "value": "3회 (1977·1978·1981)",
+        "hint": {
+          "club": "리버풀",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "페이즐리",
+          "Paisley",
+          "Bob Paisley"
+        ]
+      },
+      {
+        "rank": 2,
+        "name": "지네딘 지단",
+        "value": "3회 (2016·2017·2018)",
+        "hint": {
+          "club": "레알 마드리드",
+          "nationality": "프랑스"
+        },
+        "aliases": [
+          "지단",
+          "Zidane",
+          "Zinedine Zidane"
+        ]
+      },
+      {
+        "rank": 2,
+        "name": "펩 과르디올라",
+        "value": "3회 (2009·2011·2023)",
+        "hint": {
+          "club": "바르셀로나",
+          "nationality": "스페인"
+        },
+        "aliases": [
+          "과르디올라",
+          "Guardiola",
+          "Pep Guardiola"
+        ]
+      },
+      {
+        "rank": 2,
+        "name": "루이스 엔리케",
+        "value": "3회 (2015·2025·2026)",
+        "hint": {
+          "club": "파리 생제르맹",
+          "nationality": "스페인"
+        },
+        "aliases": [
+          "엔리케",
+          "Luis Enrique",
+          "enrique"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ballon-dor-since-2005",
+    "title": "2005년 이후 발롱도르 수상자 전원 (9명)",
+    "trivia": "2008년부터 2017년까지 10년 연속으로 메시와 호날두가 번갈아 수상했다.",
+    "answers": [
+      {
+        "rank": 1,
+        "name": "리오넬 메시",
+        "value": "8회 (2009·2010·2011·2012·2015·2019·2021·2023)",
+        "hint": {
+          "club": "바르셀로나",
+          "nationality": "아르헨티나"
+        },
+        "aliases": [
+          "메시",
+          "Messi",
+          "Lionel Messi"
+        ]
+      },
+      {
+        "rank": 2,
         "name": "크리스티아누 호날두",
-        "value": "2008년 · 맨체스터 유나이티드",
+        "value": "5회 (2008·2013·2014·2016·2017)",
+        "hint": {
+          "club": "레알 마드리드",
+          "nationality": "포르투갈"
+        },
+        "aliases": [
+          "호날두",
+          "Cristiano Ronaldo",
+          "CR7",
+          "크리호",
+          "ronaldo"
+        ]
+      },
+      {
+        "rank": 3,
+        "name": "호나우지뉴",
+        "value": "1회 (2005)",
+        "hint": {
+          "club": "바르셀로나",
+          "nationality": "브라질"
+        },
+        "aliases": [
+          "호나우징요",
+          "Ronaldinho"
+        ]
+      },
+      {
+        "rank": 3,
+        "name": "파비오 칸나바로",
+        "value": "1회 (2006)",
+        "hint": {
+          "club": "레알 마드리드",
+          "nationality": "이탈리아"
+        },
+        "aliases": [
+          "칸나바로",
+          "Cannavaro",
+          "Fabio Cannavaro"
+        ]
+      },
+      {
+        "rank": 3,
+        "name": "카카",
+        "value": "1회 (2007)",
+        "hint": {
+          "club": "AC 밀란",
+          "nationality": "브라질"
+        },
+        "aliases": [
+          "Kaka"
+        ]
+      },
+      {
+        "rank": 3,
+        "name": "루카 모드리치",
+        "value": "1회 (2018)",
+        "hint": {
+          "club": "레알 마드리드",
+          "nationality": "크로아티아"
+        },
+        "aliases": [
+          "모드리치",
+          "Modric",
+          "Luka Modric"
+        ]
+      },
+      {
+        "rank": 3,
+        "name": "카림 벤제마",
+        "value": "1회 (2022)",
+        "hint": {
+          "club": "레알 마드리드",
+          "nationality": "프랑스"
+        },
+        "aliases": [
+          "벤제마",
+          "Benzema",
+          "Karim Benzema"
+        ]
+      },
+      {
+        "rank": 3,
+        "name": "로드리",
+        "value": "1회 (2024)",
+        "hint": {
+          "club": "맨체스터 시티",
+          "nationality": "스페인"
+        },
+        "aliases": [
+          "Rodri"
+        ]
+      },
+      {
+        "rank": 3,
+        "name": "우스만 뎀벨레",
+        "value": "1회 (2025)",
+        "hint": {
+          "club": "파리 생제르맹",
+          "nationality": "프랑스"
+        },
+        "aliases": [
+          "뎀벨레",
+          "Dembele",
+          "Ousmane Dembele"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "pl-player-of-the-season-multiple",
+    "title": "프리미어리그 시즌 MVP 2회 이상 수상자 전원 (5명)",
+    "trivia": "2회 수상이 최다 기록이며, 가장 최근 2회째를 채운 선수는 2024-25시즌의 살라다.",
+    "answers": [
+      {
+        "rank": 1,
+        "name": "티에리 앙리",
+        "value": "2회 (2003-04·2005-06)",
+        "hint": {
+          "club": "아스널",
+          "nationality": "프랑스"
+        },
+        "aliases": [
+          "앙리",
+          "Henry",
+          "Thierry Henry"
+        ]
+      },
+      {
+        "rank": 1,
+        "name": "크리스티아누 호날두",
+        "value": "2회 (2006-07·2007-08)",
         "hint": {
           "club": "맨체스터 유나이티드",
           "nationality": "포르투갈"
@@ -89,29 +461,550 @@
         "aliases": [
           "호날두",
           "Cristiano Ronaldo",
-          "Ronaldo",
-          "CR7"
+          "CR7",
+          "크리호",
+          "ronaldo"
+        ]
+      },
+      {
+        "rank": 1,
+        "name": "네마냐 비디치",
+        "value": "2회 (2008-09·2010-11)",
+        "hint": {
+          "club": "맨체스터 유나이티드",
+          "nationality": "세르비아"
+        },
+        "aliases": [
+          "비디치",
+          "Vidic",
+          "Nemanja Vidic"
+        ]
+      },
+      {
+        "rank": 1,
+        "name": "케빈 더 브라위너",
+        "value": "2회 (2019-20·2021-22)",
+        "hint": {
+          "club": "맨체스터 시티",
+          "nationality": "벨기에"
+        },
+        "aliases": [
+          "더 브라위너",
+          "데 브라이너",
+          "케빈 데 브라이너",
+          "De Bruyne",
+          "Kevin De Bruyne",
+          "KDB",
+          "bruyne",
+          "브라위너"
+        ]
+      },
+      {
+        "rank": 1,
+        "name": "모하메드 살라",
+        "value": "2회 (2017-18·2024-25)",
+        "hint": {
+          "club": "리버풀",
+          "nationality": "이집트"
+        },
+        "aliases": [
+          "살라",
+          "Salah",
+          "Mohamed Salah",
+          "모 살라"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "man-utd-most-trophies",
+    "title": "맨체스터 유나이티드 최다 우승 트로피 선수 TOP 10 (동률 포함 11명)",
+    "trivia": "긱스는 프리미어리그 우승만 13회로 리그 역대 최다 우승 메달 기록도 갖고 있다.",
+    "answers": [
+      {
+        "rank": 1,
+        "name": "라이언 긱스",
+        "value": "트로피 35개 (리그 13회)",
+        "hint": {
+          "club": "맨체스터 유나이티드",
+          "nationality": "웨일스"
+        },
+        "aliases": [
+          "긱스",
+          "Giggs",
+          "Ryan Giggs"
+        ]
+      },
+      {
+        "rank": 2,
+        "name": "폴 스콜스",
+        "value": "트로피 25개 (리그 11회)",
+        "hint": {
+          "club": "맨체스터 유나이티드",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "스콜스",
+          "Scholes",
+          "Paul Scholes"
+        ]
+      },
+      {
+        "rank": 3,
+        "name": "게리 네빌",
+        "value": "트로피 21개 (리그 8회)",
+        "hint": {
+          "club": "맨체스터 유나이티드",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "Gary Neville",
+          "neville",
+          "네빌"
+        ]
+      },
+      {
+        "rank": 4,
+        "name": "데니스 어윈",
+        "value": "트로피 18개 (리그 7회)",
+        "hint": {
+          "club": "맨체스터 유나이티드",
+          "nationality": "아일랜드"
+        },
+        "aliases": [
+          "어윈",
+          "Irwin",
+          "Denis Irwin"
+        ]
+      },
+      {
+        "rank": 5,
+        "name": "로이 킨",
+        "value": "트로피 17개 (리그 7회)",
+        "hint": {
+          "club": "맨체스터 유나이티드",
+          "nationality": "아일랜드"
+        },
+        "aliases": [
+          "Roy Keane",
+          "Keane"
+        ]
+      },
+      {
+        "rank": 5,
+        "name": "마이클 캐릭",
+        "value": "트로피 17개 (리그 5회)",
+        "hint": {
+          "club": "맨체스터 유나이티드",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "캐릭",
+          "Carrick",
+          "Michael Carrick"
         ]
       },
       {
         "rank": 7,
-        "name": "로드리",
-        "value": "2024년 · 맨체스터 시티",
+        "name": "웨인 루니",
+        "value": "트로피 16개 (리그 5회)",
+        "hint": {
+          "club": "맨체스터 유나이티드",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "루니",
+          "Rooney",
+          "Wayne Rooney"
+        ]
+      },
+      {
+        "rank": 8,
+        "name": "게리 팰리스터",
+        "value": "트로피 15개 (리그 4회)",
+        "hint": {
+          "club": "맨체스터 유나이티드",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "팰리스터",
+          "Pallister",
+          "Gary Pallister"
+        ]
+      },
+      {
+        "rank": 8,
+        "name": "피터 슈마이헬",
+        "value": "트로피 15개 (리그 5회)",
+        "hint": {
+          "club": "맨체스터 유나이티드",
+          "nationality": "덴마크"
+        },
+        "aliases": [
+          "슈마이헬",
+          "Schmeichel",
+          "Peter Schmeichel"
+        ]
+      },
+      {
+        "rank": 8,
+        "name": "니키 버트",
+        "value": "트로피 15개 (리그 6회)",
+        "hint": {
+          "club": "맨체스터 유나이티드",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "버트",
+          "Butt",
+          "Nicky Butt"
+        ]
+      },
+      {
+        "rank": 8,
+        "name": "네마냐 비디치",
+        "value": "트로피 15개 (리그 5회)",
+        "hint": {
+          "club": "맨체스터 유나이티드",
+          "nationality": "세르비아"
+        },
+        "aliases": [
+          "비디치",
+          "Vidic",
+          "Nemanja Vidic"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "man-city-most-trophies",
+    "title": "맨체스터 시티 최다 우승 트로피 선수 TOP 10 (동률 포함 12명)",
+    "trivia": "베르나르두 실바·포든·스톤스가 트로피 20개로 공동 1위이며, 셋 다 프리미어리그 우승 6회를 포함한다.",
+    "answers": [
+      {
+        "rank": 1,
+        "name": "베르나르두 실바",
+        "value": "트로피 20개",
+        "hint": {
+          "club": "맨체스터 시티",
+          "nationality": "포르투갈"
+        },
+        "aliases": [
+          "베르나르도 실바",
+          "Bernardo Silva"
+        ]
+      },
+      {
+        "rank": 1,
+        "name": "필 포든",
+        "value": "트로피 20개",
+        "hint": {
+          "club": "맨체스터 시티",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "포든",
+          "Foden",
+          "Phil Foden"
+        ]
+      },
+      {
+        "rank": 1,
+        "name": "존 스톤스",
+        "value": "트로피 20개",
+        "hint": {
+          "club": "맨체스터 시티",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "스톤스",
+          "Stones",
+          "John Stones"
+        ]
+      },
+      {
+        "rank": 4,
+        "name": "케빈 더 브라위너",
+        "value": "트로피 19개",
+        "hint": {
+          "club": "맨체스터 시티",
+          "nationality": "벨기에"
+        },
+        "aliases": [
+          "더 브라위너",
+          "데 브라이너",
+          "케빈 데 브라이너",
+          "De Bruyne",
+          "Kevin De Bruyne",
+          "KDB",
+          "bruyne",
+          "브라위너"
+        ]
+      },
+      {
+        "rank": 5,
+        "name": "에데르송",
+        "value": "트로피 18개",
+        "hint": {
+          "club": "맨체스터 시티",
+          "nationality": "브라질"
+        },
+        "aliases": [
+          "Ederson"
+        ]
+      },
+      {
+        "rank": 5,
+        "name": "카일 워커",
+        "value": "트로피 18개",
+        "hint": {
+          "club": "맨체스터 시티",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "워커",
+          "Walker",
+          "Kyle Walker"
+        ]
+      },
+      {
+        "rank": 7,
+        "name": "세르히오 아궤로",
+        "value": "트로피 15개",
+        "hint": {
+          "club": "맨체스터 시티",
+          "nationality": "아르헨티나"
+        },
+        "aliases": [
+          "아궤로",
+          "Aguero",
+          "Sergio Aguero",
+          "아구에로"
+        ]
+      },
+      {
+        "rank": 7,
+        "name": "에므리크 라포르트",
+        "value": "트로피 15개",
         "hint": {
           "club": "맨체스터 시티",
           "nationality": "스페인"
         },
         "aliases": [
-          "Rodri",
-          "Rodrigo Hernandez",
-          "Rodrigo Hernández"
+          "라포르트",
+          "Laporte",
+          "Aymeric Laporte"
+        ]
+      },
+      {
+        "rank": 9,
+        "name": "일카이 귄도안",
+        "value": "트로피 14개",
+        "hint": {
+          "club": "맨체스터 시티",
+          "nationality": "독일"
+        },
+        "aliases": [
+          "귄도안",
+          "Gundogan",
+          "Ilkay Gundogan"
+        ]
+      },
+      {
+        "rank": 10,
+        "name": "페르난지뉴",
+        "value": "트로피 13개",
+        "hint": {
+          "club": "맨체스터 시티",
+          "nationality": "브라질"
+        },
+        "aliases": [
+          "페르난징요",
+          "Fernandinho"
+        ]
+      },
+      {
+        "rank": 10,
+        "name": "로드리",
+        "value": "트로피 13개",
+        "hint": {
+          "club": "맨체스터 시티",
+          "nationality": "스페인"
+        },
+        "aliases": [
+          "Rodri"
+        ]
+      },
+      {
+        "rank": 10,
+        "name": "다비드 실바",
+        "value": "트로피 13개",
+        "hint": {
+          "club": "맨체스터 시티",
+          "nationality": "스페인"
+        },
+        "aliases": [
+          "David Silva"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "wc-golden-ball-since-2006",
+    "title": "2006년 이후 월드컵 골든볼(MVP) 수상자 전원 (5명)",
+    "trivia": "1982년 공식 시상 이후 골든볼을 두 번 받은 선수는 메시(2014·2022)뿐이다.",
+    "answers": [
+      {
+        "rank": 1,
+        "name": "리오넬 메시",
+        "value": "2회 (2014·2022)",
+        "hint": {
+          "club": "아르헨티나 대표팀",
+          "nationality": "아르헨티나"
+        },
+        "aliases": [
+          "메시",
+          "Messi",
+          "Lionel Messi"
+        ]
+      },
+      {
+        "rank": 2,
+        "name": "지네딘 지단",
+        "value": "1회 (2006)",
+        "hint": {
+          "club": "프랑스 대표팀",
+          "nationality": "프랑스"
+        },
+        "aliases": [
+          "지단",
+          "Zidane",
+          "Zinedine Zidane"
+        ]
+      },
+      {
+        "rank": 2,
+        "name": "디에고 포를란",
+        "value": "1회 (2010)",
+        "hint": {
+          "club": "우루과이 대표팀",
+          "nationality": "우루과이"
+        },
+        "aliases": [
+          "포를란",
+          "Forlan",
+          "Diego Forlan"
+        ]
+      },
+      {
+        "rank": 2,
+        "name": "루카 모드리치",
+        "value": "1회 (2018)",
+        "hint": {
+          "club": "크로아티아 대표팀",
+          "nationality": "크로아티아"
+        },
+        "aliases": [
+          "모드리치",
+          "Modric",
+          "Luka Modric"
+        ]
+      },
+      {
+        "rank": 2,
+        "name": "로드리",
+        "value": "1회 (2026)",
+        "hint": {
+          "club": "스페인 대표팀",
+          "nationality": "스페인"
+        },
+        "aliases": [
+          "Rodri"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "wc-golden-boot-since-2006",
+    "title": "2006년 이후 월드컵 골든부트(득점왕) 수상자 전원 (5명)",
+    "trivia": "음바페는 2022년 8골, 2026년 10골로 두 대회 연속 득점왕을 차지했다.",
+    "answers": [
+      {
+        "rank": 1,
+        "name": "킬리안 음바페",
+        "value": "2회 (2022년 8골·2026년 10골)",
+        "hint": {
+          "club": "프랑스 대표팀",
+          "nationality": "프랑스"
+        },
+        "aliases": [
+          "음바페",
+          "Mbappe",
+          "Kylian Mbappe"
+        ]
+      },
+      {
+        "rank": 2,
+        "name": "미로슬라프 클로제",
+        "value": "1회 (2006년 5골)",
+        "hint": {
+          "club": "독일 대표팀",
+          "nationality": "독일"
+        },
+        "aliases": [
+          "클로제",
+          "Klose",
+          "Miroslav Klose"
+        ]
+      },
+      {
+        "rank": 2,
+        "name": "토마스 뮐러",
+        "value": "1회 (2010년 5골)",
+        "hint": {
+          "club": "독일 대표팀",
+          "nationality": "독일"
+        },
+        "aliases": [
+          "뮐러",
+          "Muller",
+          "Thomas Muller"
+        ]
+      },
+      {
+        "rank": 2,
+        "name": "하메스 로드리게스",
+        "value": "1회 (2014년 6골)",
+        "hint": {
+          "club": "콜롬비아 대표팀",
+          "nationality": "콜롬비아"
+        },
+        "aliases": [
+          "하메스",
+          "James Rodriguez",
+          "rodriguez",
+          "로드리게스"
+        ]
+      },
+      {
+        "rank": 2,
+        "name": "해리 케인",
+        "value": "1회 (2018년 6골)",
+        "hint": {
+          "club": "잉글랜드 대표팀",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "케인",
+          "Kane",
+          "Harry Kane"
         ]
       }
     ]
   },
   {
     "id": "pl-golden-boot-multi",
-    "title": "프리미어리그 득점왕(골든부트)을 2회 이상 받은 선수 전부",
+    "title": "프리미어리그 득점왕(골든부트)을 2회 이상 받은 선수 전부 (9명)",
     "trivia": "앙리와 살라가 4회로 공동 최다이고, 홀란은 2025-26시즌 27골로 세 번째 골든부트를 받았다.",
     "answers": [
       {
@@ -255,7 +1148,7 @@
   },
   {
     "id": "pl-korean-players",
-    "title": "프리미어리그에서 뛴 대한민국 선수 전부",
+    "title": "프리미어리그에서 뛴 대한민국 선수 전부 (15명)",
     "trivia": "손흥민은 프리미어리그 333경기로 한국인 최다 출전이며, 2023년 아시아 선수 최초로 통산 100골을 넘겼다.",
     "answers": [
       {
@@ -480,7 +1373,7 @@
   },
   {
     "id": "pl-title-winning-managers",
-    "title": "프리미어리그 우승 감독 전부 (1992-93 이후)",
+    "title": "프리미어리그 우승 감독 전부 (1992-93 이후) (13명)",
     "trivia": "34시즌 동안 우승 감독은 13명뿐이며, 퍼거슨(13회)과 과르디올라(6회) 두 사람이 그중 19번을 가져갔다.",
     "answers": [
       {
@@ -673,284 +1566,6 @@
           "아르테타",
           "Mikel Arteta",
           "Arteta"
-        ]
-      }
-    ]
-  },
-  {
-    "id": "pl-30-goal-season",
-    "title": "한 시즌 프리미어리그 30골 이상을 넣은 선수 전부",
-    "trivia": "앨런 시어러는 30골 이상 시즌을 세 번(1993-94·1994-95·1995-96) 만든 유일한 선수다.",
-    "answers": [
-      {
-        "rank": 1,
-        "name": "엘링 홀란",
-        "value": "36골 · 2022-23",
-        "hint": {
-          "club": "맨체스터 시티",
-          "nationality": "노르웨이"
-        },
-        "aliases": [
-          "홀란",
-          "홀란드",
-          "엘링 홀란드",
-          "Erling Haaland",
-          "Haaland"
-        ]
-      },
-      {
-        "rank": 2,
-        "name": "앤디 콜",
-        "value": "34골 · 1993-94",
-        "hint": {
-          "club": "뉴캐슬 유나이티드",
-          "nationality": "잉글랜드"
-        },
-        "aliases": [
-          "Andy Cole",
-          "Andrew Cole",
-          "Cole"
-        ]
-      },
-      {
-        "rank": 3,
-        "name": "앨런 시어러",
-        "value": "34골 · 1994-95",
-        "hint": {
-          "club": "블랙번 로버스",
-          "nationality": "잉글랜드"
-        },
-        "aliases": [
-          "시어러",
-          "알란 시어러",
-          "Alan Shearer",
-          "Shearer"
-        ]
-      },
-      {
-        "rank": 4,
-        "name": "모하메드 살라",
-        "value": "32골 · 2017-18",
-        "hint": {
-          "club": "리버풀",
-          "nationality": "이집트"
-        },
-        "aliases": [
-          "살라",
-          "모하메드 살라흐",
-          "Mohamed Salah",
-          "Salah"
-        ]
-      },
-      {
-        "rank": 5,
-        "name": "크리스티아누 호날두",
-        "value": "31골 · 2007-08",
-        "hint": {
-          "club": "맨체스터 유나이티드",
-          "nationality": "포르투갈"
-        },
-        "aliases": [
-          "호날두",
-          "Cristiano Ronaldo",
-          "Ronaldo",
-          "CR7"
-        ]
-      },
-      {
-        "rank": 6,
-        "name": "루이스 수아레스",
-        "value": "31골 · 2013-14",
-        "hint": {
-          "club": "리버풀",
-          "nationality": "우루과이"
-        },
-        "aliases": [
-          "수아레스",
-          "Luis Suarez",
-          "Luis Suárez",
-          "Suarez",
-          "suárez"
-        ]
-      },
-      {
-        "rank": 7,
-        "name": "케빈 필립스",
-        "value": "30골 · 1999-2000",
-        "hint": {
-          "club": "선덜랜드",
-          "nationality": "잉글랜드"
-        },
-        "aliases": [
-          "필립스",
-          "Kevin Phillips",
-          "Phillips"
-        ]
-      },
-      {
-        "rank": 8,
-        "name": "티에리 앙리",
-        "value": "30골 · 2003-04",
-        "hint": {
-          "club": "아스널",
-          "nationality": "프랑스"
-        },
-        "aliases": [
-          "앙리",
-          "Thierry Henry",
-          "Henry"
-        ]
-      },
-      {
-        "rank": 9,
-        "name": "로빈 판페르시",
-        "value": "30골 · 2011-12",
-        "hint": {
-          "club": "아스널",
-          "nationality": "네덜란드"
-        },
-        "aliases": [
-          "판페르시",
-          "반 페르시",
-          "로빈 반 페르시",
-          "Robin van Persie",
-          "van Persie",
-          "persie"
-        ]
-      },
-      {
-        "rank": 10,
-        "name": "해리 케인",
-        "value": "30골 · 2017-18",
-        "hint": {
-          "club": "토트넘 홋스퍼",
-          "nationality": "잉글랜드"
-        },
-        "aliases": [
-          "케인",
-          "Harry Kane",
-          "Kane"
-        ]
-      }
-    ]
-  },
-  {
-    "id": "north-london-derby-both",
-    "title": "아스널·토트넘 양쪽 소속으로 북런던 더비에 출전한 선수 전부",
-    "trivia": "이 여덟 명 중 지미 로버트슨과 아데바요르 두 명만이 북런던 더비에서 양 팀 소속으로 모두 골을 넣었다.",
-    "answers": [
-      {
-        "rank": 1,
-        "name": "로리 브라운",
-        "value": "아스널 1961–64 · 토트넘 1964–66",
-        "hint": {
-          "club": "아스널 → 토트넘",
-          "nationality": "잉글랜드"
-        },
-        "aliases": [
-          "브라운",
-          "Laurie Brown",
-          "Brown"
-        ]
-      },
-      {
-        "rank": 2,
-        "name": "솔 캠벨",
-        "value": "토트넘 1992–2001 · 아스널 2001–06, 2010",
-        "hint": {
-          "club": "토트넘 → 아스널",
-          "nationality": "잉글랜드"
-        },
-        "aliases": [
-          "캠벨",
-          "Sol Campbell",
-          "Campbell",
-          "Sulzeer Campbell"
-        ]
-      },
-      {
-        "rank": 3,
-        "name": "데이비드 젠킨스",
-        "value": "아스널 1966–68 · 토트넘 1968–70",
-        "hint": {
-          "club": "아스널 → 토트넘",
-          "nationality": "잉글랜드"
-        },
-        "aliases": [
-          "젠킨스",
-          "David Jenkins",
-          "Jenkins"
-        ]
-      },
-      {
-        "rank": 4,
-        "name": "팻 제닝스",
-        "value": "토트넘 1964–77, 1985–86 · 아스널 1977–85",
-        "hint": {
-          "club": "토트넘 → 아스널",
-          "nationality": "북아일랜드"
-        },
-        "aliases": [
-          "제닝스",
-          "패트 제닝스",
-          "Pat Jennings",
-          "Jennings"
-        ]
-      },
-      {
-        "rank": 5,
-        "name": "지미 로버트슨",
-        "value": "토트넘 1964–68 · 아스널 1968–70",
-        "hint": {
-          "club": "토트넘 → 아스널",
-          "nationality": "스코틀랜드"
-        },
-        "aliases": [
-          "로버트슨",
-          "Jimmy Robertson",
-          "Robertson"
-        ]
-      },
-      {
-        "rank": 6,
-        "name": "윌리 영",
-        "value": "토트넘 1975–77 · 아스널 1977–81",
-        "hint": {
-          "club": "토트넘 → 아스널",
-          "nationality": "스코틀랜드"
-        },
-        "aliases": [
-          "Willie Young",
-          "Young"
-        ]
-      },
-      {
-        "rank": 7,
-        "name": "윌리엄 갈라스",
-        "value": "아스널 2006–10 · 토트넘 2010–13",
-        "hint": {
-          "club": "아스널 → 토트넘",
-          "nationality": "프랑스"
-        },
-        "aliases": [
-          "갈라스",
-          "William Gallas",
-          "Gallas"
-        ]
-      },
-      {
-        "rank": 8,
-        "name": "에마뉘엘 아데바요르",
-        "value": "아스널 2006–09 · 토트넘 2011–15",
-        "hint": {
-          "club": "아스널 → 토트넘",
-          "nationality": "토고"
-        },
-        "aliases": [
-          "아데바요르",
-          "엠마누엘 아데바요르",
-          "Emmanuel Adebayor",
-          "Adebayor"
         ]
       }
     ]

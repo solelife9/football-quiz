@@ -1,1623 +1,636 @@
 [
   {
-    "id": "arsenal-top-scorers",
-    "title": "아스널 역대 최다 득점 TOP 10",
-    "trivia": "티에리 앙리는 2005년 10월 스파르타 프라하와의 유럽 대항전에서 두 골을 넣어 이언 라이트가 8년간 갖고 있던 클럽 최다 득점 기록을 넘어섰다.",
+    "id": "pl-most-assists",
+    "title": "프리미어리그 통산 최다 도움 TOP 10",
+    "trivia": "2025-26시즌 브루누 페르난드스가 한 시즌 21도움으로 단일 시즌 신기록을 세웠지만, 통산 1위는 여전히 긱스다.",
     "answers": [
       {
         "rank": 1,
-        "name": "티에리 앙리",
-        "value": "228골",
+        "name": "라이언 긱스",
+        "value": "162도움",
         "hint": {
-          "club": "아스널",
-          "nationality": "프랑스"
+          "club": "맨체스터 유나이티드",
+          "nationality": "웨일스"
         },
         "aliases": [
-          "앙리",
-          "Thierry Henry",
-          "Henry"
+          "긱스",
+          "Ryan Giggs",
+          "Giggs"
         ]
       },
       {
         "rank": 2,
-        "name": "이언 라이트",
-        "value": "185골",
+        "name": "케빈 더 브라위너",
+        "value": "119도움",
         "hint": {
-          "club": "아스널",
-          "nationality": "잉글랜드"
+          "club": "맨체스터 시티",
+          "nationality": "벨기에"
         },
         "aliases": [
-          "라이트",
-          "이안 라이트",
-          "Ian Wright",
-          "Wright"
+          "더 브라위너",
+          "데 브라이너",
+          "케빈 데 브라이너",
+          "De Bruyne",
+          "Kevin De Bruyne",
+          "KDB",
+          "bruyne",
+          "브라위너"
         ]
       },
       {
         "rank": 3,
-        "name": "클리프 배스틴",
-        "value": "178골",
+        "name": "세스크 파브레가스",
+        "value": "111도움",
         "hint": {
           "club": "아스널",
-          "nationality": "잉글랜드"
+          "nationality": "스페인"
         },
         "aliases": [
-          "배스틴",
-          "클리프 바스틴",
-          "Cliff Bastin",
-          "Bastin"
+          "파브레가스",
+          "세스크",
+          "Fabregas",
+          "Cesc Fabregas"
         ]
       },
       {
         "rank": 4,
-        "name": "존 래드퍼드",
-        "value": "149골",
+        "name": "웨인 루니",
+        "value": "103도움",
         "hint": {
-          "club": "아스널",
+          "club": "맨체스터 유나이티드",
           "nationality": "잉글랜드"
         },
         "aliases": [
-          "래드퍼드",
-          "존 라드포드",
-          "존 래드포드",
-          "John Radford",
-          "Radford"
+          "루니",
+          "Rooney",
+          "Wayne Rooney"
         ]
       },
       {
         "rank": 5,
-        "name": "지미 브레인",
-        "value": "139골",
+        "name": "프랭크 램파드",
+        "value": "102도움",
         "hint": {
-          "club": "아스널",
+          "club": "첼시",
           "nationality": "잉글랜드"
         },
         "aliases": [
-          "브레인",
-          "Jimmy Brain",
-          "Brain"
+          "램파드",
+          "Lampard",
+          "Frank Lampard"
         ]
       },
       {
-        "rank": 5,
-        "name": "테드 드레이크",
-        "value": "139골",
-        "hint": {
-          "club": "아스널",
-          "nationality": "잉글랜드"
-        },
-        "aliases": [
-          "드레이크",
-          "Ted Drake",
-          "Drake"
-        ]
-      },
-      {
-        "rank": 7,
-        "name": "더그 리시먼",
-        "value": "137골",
-        "hint": {
-          "club": "아스널",
-          "nationality": "잉글랜드"
-        },
-        "aliases": [
-          "리시먼",
-          "더그 리쉬먼",
-          "Doug Lishman",
-          "Lishman"
-        ]
-      },
-      {
-        "rank": 8,
-        "name": "로빈 반 페르시",
-        "value": "132골",
+        "rank": 6,
+        "name": "데니스 베르캄프",
+        "value": "94도움",
         "hint": {
           "club": "아스널",
           "nationality": "네덜란드"
         },
         "aliases": [
-          "반 페르시",
-          "판 페르시",
-          "로빈 판 페르시",
-          "Robin van Persie",
-          "van Persie",
-          "persie",
-          "페르시"
-        ]
-      },
-      {
-        "rank": 9,
-        "name": "조 흄",
-        "value": "125골",
-        "hint": {
-          "club": "아스널",
-          "nationality": "잉글랜드"
-        },
-        "aliases": [
-          "조 헐름",
-          "Joe Hulme",
-          "Hulme"
-        ]
-      },
-      {
-        "rank": 10,
-        "name": "데이비드 잭",
-        "value": "124골",
-        "hint": {
-          "club": "아스널",
-          "nationality": "잉글랜드"
-        },
-        "aliases": [
-          "David Jack",
-          "Jack"
-        ]
-      }
-    ]
-  },
-  {
-    "id": "arsenal-most-appearances",
-    "title": "아스널 역대 최다 출장 TOP 10",
-    "trivia": "데이비드 오리어리는 리그 558경기, FA컵 70경기, 리그컵 70경기로 세 부문 모두 아스널 최다 출장 기록을 갖고 있다.",
-    "answers": [
-      {
-        "rank": 1,
-        "name": "데이비드 오리어리",
-        "value": "722경기",
-        "hint": {
-          "club": "아스널",
-          "nationality": "아일랜드"
-        },
-        "aliases": [
-          "오리어리",
-          "데이빗 오리어리",
-          "오레어리",
-          "David O'Leary",
-          "O'Leary"
-        ]
-      },
-      {
-        "rank": 2,
-        "name": "토니 애덤스",
-        "value": "669경기",
-        "hint": {
-          "club": "아스널",
-          "nationality": "잉글랜드"
-        },
-        "aliases": [
-          "애덤스",
-          "토니 아담스",
-          "토니 애담스",
-          "Tony Adams",
-          "Adams"
-        ]
-      },
-      {
-        "rank": 3,
-        "name": "조지 암스트롱",
-        "value": "621경기",
-        "hint": {
-          "club": "아스널",
-          "nationality": "잉글랜드"
-        },
-        "aliases": [
-          "암스트롱",
-          "George Armstrong",
-          "Armstrong"
-        ]
-      },
-      {
-        "rank": 4,
-        "name": "리 딕슨",
-        "value": "619경기",
-        "hint": {
-          "club": "아스널",
-          "nationality": "잉글랜드"
-        },
-        "aliases": [
-          "딕슨",
-          "Lee Dixon",
-          "Dixon"
-        ]
-      },
-      {
-        "rank": 5,
-        "name": "나이젤 윈터번",
-        "value": "584경기",
-        "hint": {
-          "club": "아스널",
-          "nationality": "잉글랜드"
-        },
-        "aliases": [
-          "윈터번",
-          "나이절 윈터번",
-          "Nigel Winterburn",
-          "Winterburn"
+          "베르캄프",
+          "Bergkamp",
+          "Dennis Bergkamp"
         ]
       },
       {
         "rank": 6,
-        "name": "데이비드 시먼",
-        "value": "564경기",
-        "hint": {
-          "club": "아스널",
-          "nationality": "잉글랜드"
-        },
-        "aliases": [
-          "시먼",
-          "데이비드 시맨",
-          "데이빗 시먼",
-          "David Seaman",
-          "Seaman"
-        ]
-      },
-      {
-        "rank": 7,
-        "name": "팻 라이스",
-        "value": "528경기",
-        "hint": {
-          "club": "아스널",
-          "nationality": "북아일랜드"
-        },
-        "aliases": [
-          "라이스",
-          "패트 라이스",
-          "Pat Rice",
-          "Rice"
-        ]
-      },
-      {
-        "rank": 8,
-        "name": "피터 스토리",
-        "value": "501경기",
-        "hint": {
-          "club": "아스널",
-          "nationality": "잉글랜드"
-        },
-        "aliases": [
-          "스토리",
-          "Peter Storey",
-          "Storey"
-        ]
-      },
-      {
-        "rank": 9,
-        "name": "존 래드퍼드",
-        "value": "481경기",
-        "hint": {
-          "club": "아스널",
-          "nationality": "잉글랜드"
-        },
-        "aliases": [
-          "래드퍼드",
-          "존 라드포드",
-          "존 래드포드",
-          "John Radford",
-          "Radford"
-        ]
-      },
-      {
-        "rank": 10,
-        "name": "피터 심프슨",
-        "value": "477경기",
-        "hint": {
-          "club": "아스널",
-          "nationality": "잉글랜드"
-        },
-        "aliases": [
-          "심프슨",
-          "피터 심슨",
-          "Peter Simpson",
-          "Simpson"
-        ]
-      }
-    ]
-  },
-  {
-    "id": "liverpool-top-scorers",
-    "title": "리버풀 역대 최다 득점 TOP 10",
-    "trivia": "모하메드 살라흐는 2017년 입단 후 리버풀에서 442경기 257골을 기록해 클럽 역대 3위에 올라 있다.",
-    "answers": [
-      {
-        "rank": 1,
-        "name": "이언 러시",
-        "value": "346골",
-        "hint": {
-          "club": "리버풀",
-          "nationality": "웨일스"
-        },
-        "aliases": [
-          "러시",
-          "이안 러시",
-          "Ian Rush",
-          "Rush"
-        ]
-      },
-      {
-        "rank": 2,
-        "name": "로저 헌트",
-        "value": "285골",
-        "hint": {
-          "club": "리버풀",
-          "nationality": "잉글랜드"
-        },
-        "aliases": [
-          "헌트",
-          "Roger Hunt",
-          "hunt"
-        ]
-      },
-      {
-        "rank": 3,
-        "name": "모하메드 살라흐",
-        "value": "257골",
+        "name": "모하메드 살라",
+        "value": "94도움",
         "hint": {
           "club": "리버풀",
           "nationality": "이집트"
         },
         "aliases": [
-          "살라흐",
           "살라",
-          "모하메드 살라",
-          "무함마드 살라흐",
+          "Salah",
           "Mohamed Salah",
-          "Salah"
+          "모 살라"
         ]
       },
       {
-        "rank": 4,
-        "name": "고든 호지슨",
-        "value": "241골",
+        "rank": 8,
+        "name": "다비드 실바",
+        "value": "93도움",
         "hint": {
-          "club": "리버풀",
-          "nationality": "잉글랜드"
+          "club": "맨체스터 시티",
+          "nationality": "스페인"
         },
         "aliases": [
-          "호지슨",
-          "고든 하지슨",
-          "Gordon Hodgson",
-          "Hodgson"
+          "David Silva",
+          "silva",
+          "실바"
         ]
       },
       {
-        "rank": 5,
-        "name": "빌리 리들",
-        "value": "228골",
-        "hint": {
-          "club": "리버풀",
-          "nationality": "스코틀랜드"
-        },
-        "aliases": [
-          "리들",
-          "빌리 리델",
-          "Billy Liddell",
-          "Liddell"
-        ]
-      },
-      {
-        "rank": 6,
+        "rank": 9,
         "name": "스티븐 제라드",
-        "value": "186골",
+        "value": "92도움",
         "hint": {
           "club": "리버풀",
           "nationality": "잉글랜드"
         },
         "aliases": [
           "제라드",
-          "스티브 제라드",
-          "Steven Gerrard",
-          "Gerrard"
-        ]
-      },
-      {
-        "rank": 7,
-        "name": "로비 파울러",
-        "value": "183골",
-        "hint": {
-          "club": "리버풀",
-          "nationality": "잉글랜드"
-        },
-        "aliases": [
-          "파울러",
-          "Robbie Fowler",
-          "Fowler"
-        ]
-      },
-      {
-        "rank": 8,
-        "name": "케니 달글리시",
-        "value": "172골",
-        "hint": {
-          "club": "리버풀",
-          "nationality": "스코틀랜드"
-        },
-        "aliases": [
-          "달글리시",
-          "케니 달글리쉬",
-          "달글리쉬",
-          "Kenny Dalglish",
-          "Dalglish"
-        ]
-      },
-      {
-        "rank": 9,
-        "name": "마이클 오언",
-        "value": "158골",
-        "hint": {
-          "club": "리버풀",
-          "nationality": "잉글랜드"
-        },
-        "aliases": [
-          "오언",
-          "마이클 오웬",
-          "오웬",
-          "Michael Owen",
-          "Owen"
+          "Gerrard",
+          "Steven Gerrard"
         ]
       },
       {
         "rank": 10,
-        "name": "해리 체임버스",
-        "value": "151골",
+        "name": "제임스 밀너",
+        "value": "90도움",
         "hint": {
           "club": "리버풀",
           "nationality": "잉글랜드"
         },
         "aliases": [
-          "체임버스",
-          "해리 챔버스",
-          "Harry Chambers",
-          "Chambers"
+          "밀너",
+          "Milner",
+          "James Milner"
         ]
       }
     ]
   },
   {
-    "id": "liverpool-most-appearances",
-    "title": "리버풀 역대 최다 출장 TOP 10",
-    "trivia": "이언 캘러헌은 1960년부터 1978년까지 18년간 리버풀에서만 857경기를 뛰었다.",
+    "id": "pl-most-clean-sheets",
+    "title": "프리미어리그 통산 최다 클린시트 골키퍼 TOP 10",
+    "trivia": "체흐는 2004-05시즌 첼시에서 한 시즌 24클린시트라는 리그 기록도 함께 갖고 있다.",
     "answers": [
       {
         "rank": 1,
-        "name": "이언 캘러헌",
-        "value": "857경기",
+        "name": "페트르 체흐",
+        "value": "202클린시트",
         "hint": {
-          "club": "리버풀",
-          "nationality": "잉글랜드"
+          "club": "첼시",
+          "nationality": "체코"
         },
         "aliases": [
-          "캘러헌",
-          "캘러핸",
-          "이언 캘러핸",
-          "이안 캘러헌",
-          "Ian Callaghan",
-          "Callaghan"
+          "체흐",
+          "Cech",
+          "Petr Cech"
         ]
       },
       {
         "rank": 2,
-        "name": "제이미 캐러거",
-        "value": "737경기",
+        "name": "데이비드 제임스",
+        "value": "169클린시트",
         "hint": {
           "club": "리버풀",
           "nationality": "잉글랜드"
         },
         "aliases": [
-          "캐러거",
-          "제이미 캐라거",
-          "캐라거",
-          "Jamie Carragher",
-          "Carragher"
+          "David James",
+          "james",
+          "제임스"
         ]
       },
       {
         "rank": 3,
-        "name": "스티븐 제라드",
-        "value": "710경기",
+        "name": "마크 슈워처",
+        "value": "152클린시트",
         "hint": {
-          "club": "리버풀",
-          "nationality": "잉글랜드"
+          "club": "미들즈브러",
+          "nationality": "호주"
         },
         "aliases": [
-          "제라드",
-          "스티브 제라드",
-          "Steven Gerrard",
-          "Gerrard"
+          "슈워처",
+          "슈바르처",
+          "Schwarzer",
+          "Mark Schwarzer"
         ]
       },
       {
         "rank": 4,
-        "name": "레이 클레멘스",
-        "value": "665경기",
-        "hint": {
-          "club": "리버풀",
-          "nationality": "잉글랜드"
-        },
-        "aliases": [
-          "클레멘스",
-          "레이 클레먼스",
-          "Ray Clemence",
-          "Clemence"
-        ]
-      },
-      {
-        "rank": 4,
-        "name": "엠린 휴즈",
-        "value": "665경기",
-        "hint": {
-          "club": "리버풀",
-          "nationality": "잉글랜드"
-        },
-        "aliases": [
-          "엠린 휴스",
-          "Emlyn Hughes",
-          "hughes",
-          "휴즈"
-        ]
-      },
-      {
-        "rank": 6,
-        "name": "이언 러시",
-        "value": "660경기",
-        "hint": {
-          "club": "리버풀",
-          "nationality": "웨일스"
-        },
-        "aliases": [
-          "러시",
-          "이안 러시",
-          "Ian Rush",
-          "Rush"
-        ]
-      },
-      {
-        "rank": 7,
-        "name": "필 닐",
-        "value": "650경기",
-        "hint": {
-          "club": "리버풀",
-          "nationality": "잉글랜드"
-        },
-        "aliases": [
-          "필 네알",
-          "Phil Neal",
-          "Neal"
-        ]
-      },
-      {
-        "rank": 8,
-        "name": "토미 스미스",
-        "value": "638경기",
-        "hint": {
-          "club": "리버풀",
-          "nationality": "잉글랜드"
-        },
-        "aliases": [
-          "스미스",
-          "Tommy Smith",
-          "Smith"
-        ]
-      },
-      {
-        "rank": 9,
-        "name": "브루스 그로벨라",
-        "value": "628경기",
-        "hint": {
-          "club": "리버풀",
-          "nationality": "짐바브웨"
-        },
-        "aliases": [
-          "그로벨라",
-          "그로벨라르",
-          "Bruce Grobbelaar",
-          "Grobbelaar"
-        ]
-      },
-      {
-        "rank": 10,
-        "name": "앨런 한센",
-        "value": "620경기",
-        "hint": {
-          "club": "리버풀",
-          "nationality": "스코틀랜드"
-        },
-        "aliases": [
-          "한센",
-          "알란 한센",
-          "Alan Hansen",
-          "Hansen"
-        ]
-      }
-    ]
-  },
-  {
-    "id": "manutd-top-scorers",
-    "title": "맨체스터 유나이티드 역대 최다 득점 TOP 10",
-    "trivia": "보비 찰턴의 249골은 2017년 웨인 루니가 넘어서기 전까지 맨유 역대 최다 득점 기록이었다.",
-    "answers": [
-      {
-        "rank": 1,
-        "name": "웨인 루니",
-        "value": "253골",
-        "hint": {
-          "club": "맨체스터 유나이티드",
-          "nationality": "잉글랜드"
-        },
-        "aliases": [
-          "루니",
-          "Wayne Rooney",
-          "Rooney"
-        ]
-      },
-      {
-        "rank": 2,
-        "name": "보비 찰턴",
-        "value": "249골",
-        "hint": {
-          "club": "맨체스터 유나이티드",
-          "nationality": "잉글랜드"
-        },
-        "aliases": [
-          "찰턴",
-          "바비 찰턴",
-          "보비 찰튼",
-          "Bobby Charlton",
-          "Charlton"
-        ]
-      },
-      {
-        "rank": 3,
-        "name": "데니스 로",
-        "value": "237골",
-        "hint": {
-          "club": "맨체스터 유나이티드",
-          "nationality": "스코틀랜드"
-        },
-        "aliases": [
-          "데니스 로우",
-          "Denis Law"
-        ]
-      },
-      {
-        "rank": 4,
-        "name": "잭 로울리",
-        "value": "211골",
-        "hint": {
-          "club": "맨체스터 유나이티드",
-          "nationality": "잉글랜드"
-        },
-        "aliases": [
-          "로울리",
-          "잭 롤리",
-          "Jack Rowley",
-          "Rowley"
-        ]
-      },
-      {
-        "rank": 5,
-        "name": "데니스 비올레",
-        "value": "179골",
-        "hint": {
-          "club": "맨체스터 유나이티드",
-          "nationality": "잉글랜드"
-        },
-        "aliases": [
-          "비올레",
-          "데니스 바이올렛",
-          "Dennis Viollet",
-          "Viollet"
-        ]
-      },
-      {
-        "rank": 5,
-        "name": "조지 베스트",
-        "value": "179골",
-        "hint": {
-          "club": "맨체스터 유나이티드",
-          "nationality": "북아일랜드"
-        },
-        "aliases": [
-          "베스트",
-          "George Best",
-          "Best"
-        ]
-      },
-      {
-        "rank": 7,
-        "name": "조 스펜스",
-        "value": "168골",
-        "hint": {
-          "club": "맨체스터 유나이티드",
-          "nationality": "잉글랜드"
-        },
-        "aliases": [
-          "스펜스",
-          "Joe Spence",
-          "Spence"
-        ]
-      },
-      {
-        "rank": 7,
-        "name": "라이언 긱스",
-        "value": "168골",
-        "hint": {
-          "club": "맨체스터 유나이티드",
-          "nationality": "웨일스"
-        },
-        "aliases": [
-          "긱스",
-          "긱시",
-          "Ryan Giggs",
-          "Giggs"
-        ]
-      },
-      {
-        "rank": 9,
-        "name": "마크 휴즈",
-        "value": "163골",
-        "hint": {
-          "club": "맨체스터 유나이티드",
-          "nationality": "웨일스"
-        },
-        "aliases": [
-          "휴즈",
-          "마크 휴스",
-          "Mark Hughes",
-          "Hughes"
-        ]
-      },
-      {
-        "rank": 10,
-        "name": "폴 스콜스",
-        "value": "155골",
-        "hint": {
-          "club": "맨체스터 유나이티드",
-          "nationality": "잉글랜드"
-        },
-        "aliases": [
-          "스콜스",
-          "폴 스콜즈",
-          "Paul Scholes",
-          "Scholes"
-        ]
-      }
-    ]
-  },
-  {
-    "id": "manutd-most-appearances",
-    "title": "맨체스터 유나이티드 역대 최다 출장 TOP 10",
-    "trivia": "라이언 긱스의 963경기 가운데 161경기는 교체 출전이었다.",
-    "answers": [
-      {
-        "rank": 1,
-        "name": "라이언 긱스",
-        "value": "963경기",
-        "hint": {
-          "club": "맨체스터 유나이티드",
-          "nationality": "웨일스"
-        },
-        "aliases": [
-          "긱스",
-          "긱시",
-          "Ryan Giggs",
-          "Giggs"
-        ]
-      },
-      {
-        "rank": 2,
-        "name": "보비 찰턴",
-        "value": "758경기",
-        "hint": {
-          "club": "맨체스터 유나이티드",
-          "nationality": "잉글랜드"
-        },
-        "aliases": [
-          "찰턴",
-          "바비 찰턴",
-          "보비 찰튼",
-          "Bobby Charlton",
-          "Charlton"
-        ]
-      },
-      {
-        "rank": 3,
-        "name": "폴 스콜스",
-        "value": "718경기",
-        "hint": {
-          "club": "맨체스터 유나이티드",
-          "nationality": "잉글랜드"
-        },
-        "aliases": [
-          "스콜스",
-          "폴 스콜즈",
-          "Paul Scholes",
-          "Scholes"
-        ]
-      },
-      {
-        "rank": 4,
-        "name": "빌 폴크스",
-        "value": "688경기",
-        "hint": {
-          "club": "맨체스터 유나이티드",
-          "nationality": "잉글랜드"
-        },
-        "aliases": [
-          "폴크스",
-          "빌 파울크스",
-          "Bill Foulkes",
-          "Foulkes"
-        ]
-      },
-      {
-        "rank": 5,
-        "name": "개리 네빌",
-        "value": "602경기",
-        "hint": {
-          "club": "맨체스터 유나이티드",
-          "nationality": "잉글랜드"
-        },
-        "aliases": [
-          "네빌",
-          "게리 네빌",
-          "Gary Neville",
-          "neville"
-        ]
-      },
-      {
-        "rank": 6,
-        "name": "웨인 루니",
-        "value": "559경기",
-        "hint": {
-          "club": "맨체스터 유나이티드",
-          "nationality": "잉글랜드"
-        },
-        "aliases": [
-          "루니",
-          "Wayne Rooney",
-          "Rooney"
-        ]
-      },
-      {
-        "rank": 7,
         "name": "다비드 데 헤아",
-        "value": "545경기",
+        "value": "147클린시트",
         "hint": {
           "club": "맨체스터 유나이티드",
           "nationality": "스페인"
         },
         "aliases": [
           "데 헤아",
-          "데 헤야",
+          "De Gea",
           "David de Gea",
-          "de Gea",
           "헤아"
         ]
       },
       {
-        "rank": 8,
-        "name": "알렉스 스텝니",
-        "value": "539경기",
+        "rank": 5,
+        "name": "데이비드 시먼",
+        "value": "141클린시트",
         "hint": {
-          "club": "맨체스터 유나이티드",
+          "club": "아스널",
           "nationality": "잉글랜드"
         },
         "aliases": [
-          "스텝니",
-          "알렉스 스테프니",
-          "Alex Stepney",
-          "Stepney"
+          "시먼",
+          "Seaman",
+          "David Seaman"
         ]
       },
       {
-        "rank": 9,
-        "name": "토니 던",
-        "value": "535경기",
+        "rank": 6,
+        "name": "나이젤 마틴",
+        "value": "137클린시트",
         "hint": {
-          "club": "맨체스터 유나이티드",
-          "nationality": "아일랜드"
+          "club": "리즈 유나이티드",
+          "nationality": "잉글랜드"
         },
         "aliases": [
-          "토니 더니",
-          "Tony Dunne",
-          "Dunne"
+          "마틴",
+          "Martyn",
+          "Nigel Martyn"
         ]
       },
       {
-        "rank": 10,
-        "name": "데니스 어윈",
-        "value": "529경기",
+        "rank": 7,
+        "name": "페페 레이나",
+        "value": "136클린시트",
         "hint": {
-          "club": "맨체스터 유나이티드",
-          "nationality": "아일랜드"
+          "club": "리버풀",
+          "nationality": "스페인"
         },
         "aliases": [
-          "어윈",
-          "데니스 얼윈",
-          "Denis Irwin",
-          "Irwin"
+          "레이나",
+          "Reina",
+          "Pepe Reina"
+        ]
+      },
+      {
+        "rank": 8,
+        "name": "에드빈 판 데르 사르",
+        "value": "132클린시트",
+        "hint": {
+          "club": "맨체스터 유나이티드",
+          "nationality": "네덜란드"
+        },
+        "aliases": [
+          "판 데르 사르",
+          "반 데르 사르",
+          "van der Sar",
+          "Edwin van der Sar",
+          "사르"
+        ]
+      },
+      {
+        "rank": 8,
+        "name": "팀 하워드",
+        "value": "132클린시트",
+        "hint": {
+          "club": "에버턴",
+          "nationality": "미국"
+        },
+        "aliases": [
+          "하워드",
+          "Howard",
+          "Tim Howard"
+        ]
+      },
+      {
+        "rank": 8,
+        "name": "브래드 프리델",
+        "value": "132클린시트",
+        "hint": {
+          "club": "블랙번 로버스",
+          "nationality": "미국"
+        },
+        "aliases": [
+          "프리델",
+          "Friedel",
+          "Brad Friedel"
         ]
       }
     ]
   },
   {
-    "id": "mancity-top-scorers",
-    "title": "맨체스터 시티 역대 최다 득점 TOP 10",
-    "trivia": "세르히오 아구에로는 맨시티에서 260골을 넣었고, 해트트릭 16회와 멀티골 37회도 모두 구단 최다 기록이다.",
+    "id": "pl-record-signings",
+    "title": "프리미어리그 구단 역대 최고 이적료 영입 TOP 10",
+    "trivia": "£1억 이상에 영입된 선수는 이 목록의 상위 8명뿐이다.",
     "answers": [
       {
         "rank": 1,
-        "name": "세르히오 아구에로",
-        "value": "260골",
+        "name": "알렉산더 이사크",
+        "value": "€1억 4,450만 (£1억 2,500만, 2025년)",
+        "hint": {
+          "club": "리버풀",
+          "nationality": "스웨덴"
+        },
+        "aliases": [
+          "이사크",
+          "Isak",
+          "Alexander Isak"
+        ]
+      },
+      {
+        "rank": 2,
+        "name": "모건 로저스",
+        "value": "€1억 3,730만 (£1억 1,700만, 2026년)",
+        "hint": {
+          "club": "첼시",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "로저스",
+          "Rogers",
+          "Morgan Rogers"
+        ]
+      },
+      {
+        "rank": 3,
+        "name": "엘리엇 앤더슨",
+        "value": "€1억 3,550만 (£1억 1,600만, 2026년)",
         "hint": {
           "club": "맨체스터 시티",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "앤더슨",
+          "Anderson",
+          "Elliot Anderson"
+        ]
+      },
+      {
+        "rank": 4,
+        "name": "엔소 페르난데스",
+        "value": "€1억 2,100만 (£1억 680만, 2023년)",
+        "hint": {
+          "club": "첼시",
           "nationality": "아르헨티나"
         },
         "aliases": [
-          "아구에로",
-          "세르히오 아게로",
-          "아게로",
-          "Sergio Aguero",
-          "Aguero",
-          "Sergio Agüero",
-          "agüero"
-        ]
-      },
-      {
-        "rank": 2,
-        "name": "에릭 브룩",
-        "value": "177골",
-        "hint": {
-          "club": "맨체스터 시티",
-          "nationality": "잉글랜드"
-        },
-        "aliases": [
-          "브룩",
-          "에릭 브루크",
-          "Eric Brook",
-          "Brook"
-        ]
-      },
-      {
-        "rank": 3,
-        "name": "토미 존슨",
-        "value": "166골",
-        "hint": {
-          "club": "맨체스터 시티",
-          "nationality": "잉글랜드"
-        },
-        "aliases": [
-          "존슨",
-          "토미 잔슨",
-          "Tommy Johnson",
-          "Johnson"
-        ]
-      },
-      {
-        "rank": 4,
-        "name": "엘링 홀란",
-        "value": "162골",
-        "hint": {
-          "club": "맨체스터 시티",
-          "nationality": "노르웨이"
-        },
-        "aliases": [
-          "홀란",
-          "홀란드",
-          "엘링 홀란드",
-          "얼링 홀란",
-          "Erling Haaland",
-          "Haaland"
+          "엔소",
+          "Enzo",
+          "Enzo Fernandez",
+          "fernandez",
+          "페르난데스"
         ]
       },
       {
         "rank": 5,
-        "name": "콜린 벨",
-        "value": "153골",
+        "name": "잭 그릴리시",
+        "value": "€1억 1,770만 (£1억, 2021년)",
         "hint": {
           "club": "맨체스터 시티",
           "nationality": "잉글랜드"
         },
         "aliases": [
-          "Colin Bell",
-          "Bell"
+          "그릴리시",
+          "Grealish",
+          "Jack Grealish"
         ]
       },
       {
         "rank": 6,
-        "name": "조 헤이스",
-        "value": "152골",
+        "name": "플로리안 비르츠",
+        "value": "€1억 1,750만 (£1억, 2025년)",
         "hint": {
-          "club": "맨체스터 시티",
-          "nationality": "잉글랜드"
+          "club": "리버풀",
+          "nationality": "독일"
         },
         "aliases": [
-          "헤이스",
-          "조 헤이즈",
-          "Joe Hayes",
-          "Hayes"
-        ]
-      },
-      {
-        "rank": 6,
-        "name": "빌리 메러디스",
-        "value": "152골",
-        "hint": {
-          "club": "맨체스터 시티",
-          "nationality": "웨일스"
-        },
-        "aliases": [
-          "메러디스",
-          "빌리 메레디스",
-          "Billy Meredith",
-          "Meredith"
-        ]
-      },
-      {
-        "rank": 8,
-        "name": "프랜시스 리",
-        "value": "148골",
-        "hint": {
-          "club": "맨체스터 시티",
-          "nationality": "잉글랜드"
-        },
-        "aliases": [
-          "프란시스 리",
-          "프랜시스 리이",
-          "Francis Lee"
-        ]
-      },
-      {
-        "rank": 9,
-        "name": "토미 브라우얼",
-        "value": "139골",
-        "hint": {
-          "club": "맨체스터 시티",
-          "nationality": "잉글랜드"
-        },
-        "aliases": [
-          "브라우얼",
-          "토미 브로웰",
-          "Tommy Browell",
-          "Browell"
-        ]
-      },
-      {
-        "rank": 10,
-        "name": "빌리 길레스피",
-        "value": "132골",
-        "hint": {
-          "club": "맨체스터 시티",
-          "nationality": "스코틀랜드"
-        },
-        "aliases": [
-          "길레스피",
-          "빌리 길레스파이",
-          "Billie Gillespie",
-          "Gillespie"
-        ]
-      },
-      {
-        "rank": 10,
-        "name": "프레드 틸슨",
-        "value": "132골",
-        "hint": {
-          "club": "맨체스터 시티",
-          "nationality": "잉글랜드"
-        },
-        "aliases": [
-          "틸슨",
-          "프레드 틸손",
-          "Fred Tilson",
-          "Tilson"
-        ]
-      }
-    ]
-  },
-  {
-    "id": "tottenham-top-scorers",
-    "title": "토트넘 역대 최다 득점 TOP 10",
-    "trivia": "지미 그리브스는 2023년 해리 케인에게 추월당하기 전까지 토트넘 역대 최다 득점자였다.",
-    "answers": [
-      {
-        "rank": 1,
-        "name": "해리 케인",
-        "value": "280골",
-        "hint": {
-          "club": "토트넘 홋스퍼",
-          "nationality": "잉글랜드"
-        },
-        "aliases": [
-          "케인",
-          "Harry Kane",
-          "Kane"
-        ]
-      },
-      {
-        "rank": 2,
-        "name": "지미 그리브스",
-        "value": "268골",
-        "hint": {
-          "club": "토트넘 홋스퍼",
-          "nationality": "잉글랜드"
-        },
-        "aliases": [
-          "그리브스",
-          "지미 그리브즈",
-          "Jimmy Greaves",
-          "Greaves"
-        ]
-      },
-      {
-        "rank": 3,
-        "name": "바비 스미스",
-        "value": "208골",
-        "hint": {
-          "club": "토트넘 홋스퍼",
-          "nationality": "잉글랜드"
-        },
-        "aliases": [
-          "스미스",
-          "보비 스미스",
-          "Bobby Smith",
-          "Smith"
-        ]
-      },
-      {
-        "rank": 4,
-        "name": "마틴 치버스",
-        "value": "174골",
-        "hint": {
-          "club": "토트넘 홋스퍼",
-          "nationality": "잉글랜드"
-        },
-        "aliases": [
-          "치버스",
-          "마틴 시버스",
-          "Martin Chivers",
-          "Chivers"
-        ]
-      },
-      {
-        "rank": 5,
-        "name": "손흥민",
-        "value": "173골",
-        "hint": {
-          "club": "토트넘 홋스퍼",
-          "nationality": "대한민국"
-        },
-        "aliases": [
-          "쏘니",
-          "Son Heung-min",
-          "heung-min"
-        ]
-      },
-      {
-        "rank": 6,
-        "name": "클리프 존스",
-        "value": "159골",
-        "hint": {
-          "club": "토트넘 홋스퍼",
-          "nationality": "웨일스"
-        },
-        "aliases": [
-          "존스",
-          "Cliff Jones",
-          "Jones"
+          "비르츠",
+          "Wirtz",
+          "Florian Wirtz"
         ]
       },
       {
         "rank": 7,
-        "name": "저메인 데포",
-        "value": "143골",
+        "name": "데클란 라이스",
+        "value": "€1억 1,650만 (£1억, 2023년)",
         "hint": {
-          "club": "토트넘 홋스퍼",
+          "club": "아스널",
           "nationality": "잉글랜드"
         },
         "aliases": [
-          "데포",
-          "제르맹 데포",
-          "Jermain Defoe",
-          "Defoe"
+          "라이스",
+          "Rice",
+          "Declan Rice"
         ]
       },
       {
         "rank": 8,
-        "name": "조지 헌트",
-        "value": "138골",
+        "name": "모이세스 카이세도",
+        "value": "€1억 1,630만 (£1억, 2023년)",
         "hint": {
-          "club": "토트넘 홋스퍼",
-          "nationality": "잉글랜드"
+          "club": "첼시",
+          "nationality": "에콰도르"
         },
         "aliases": [
-          "헌트",
-          "George Hunt",
-          "Hunt"
+          "카이세도",
+          "Caicedo",
+          "Moises Caicedo"
         ]
       },
       {
         "rank": 9,
-        "name": "렌 두케민",
-        "value": "134골",
-        "hint": {
-          "club": "토트넘 홋스퍼",
-          "nationality": "건지"
-        },
-        "aliases": [
-          "두케민",
-          "렌 뒤크맹",
-          "Len Duquemin",
-          "Duquemin"
-        ]
-      },
-      {
-        "rank": 10,
-        "name": "앨런 길지언",
-        "value": "133골",
-        "hint": {
-          "club": "토트넘 홋스퍼",
-          "nationality": "스코틀랜드"
-        },
-        "aliases": [
-          "길지언",
-          "알란 길지안",
-          "Alan Gilzean",
-          "Gilzean"
-        ]
-      }
-    ]
-  },
-  {
-    "id": "chelsea-top-scorers",
-    "title": "첼시 역대 최다 득점 TOP 10",
-    "trivia": "미드필더인 프랭크 램파드가 648경기 211골로 첼시 역대 최다 득점자다.",
-    "answers": [
-      {
-        "rank": 1,
-        "name": "프랭크 램파드",
-        "value": "211골",
-        "hint": {
-          "club": "첼시",
-          "nationality": "잉글랜드"
-        },
-        "aliases": [
-          "램파드",
-          "프랭크 램퍼드",
-          "람파드",
-          "Frank Lampard",
-          "Lampard"
-        ]
-      },
-      {
-        "rank": 2,
-        "name": "보비 탬블링",
-        "value": "202골",
-        "hint": {
-          "club": "첼시",
-          "nationality": "잉글랜드"
-        },
-        "aliases": [
-          "탬블링",
-          "바비 탬블링",
-          "보비 템블링",
-          "Bobby Tambling",
-          "Tambling"
-        ]
-      },
-      {
-        "rank": 3,
-        "name": "케리 딕슨",
-        "value": "193골",
-        "hint": {
-          "club": "첼시",
-          "nationality": "잉글랜드"
-        },
-        "aliases": [
-          "딕슨",
-          "케리 딕손",
-          "Kerry Dixon",
-          "Dixon"
-        ]
-      },
-      {
-        "rank": 4,
-        "name": "디디에 드로그바",
-        "value": "164골",
-        "hint": {
-          "club": "첼시",
-          "nationality": "코트디부아르"
-        },
-        "aliases": [
-          "드로그바",
-          "디디에 드록바",
-          "드록바",
-          "Didier Drogba",
-          "Drogba"
-        ]
-      },
-      {
-        "rank": 5,
-        "name": "로이 벤틀리",
-        "value": "150골",
-        "hint": {
-          "club": "첼시",
-          "nationality": "잉글랜드"
-        },
-        "aliases": [
-          "벤틀리",
-          "로이 벤틀레이",
-          "Roy Bentley",
-          "Bentley"
-        ]
-      },
-      {
-        "rank": 5,
-        "name": "피터 오스굿",
-        "value": "150골",
-        "hint": {
-          "club": "첼시",
-          "nationality": "잉글랜드"
-        },
-        "aliases": [
-          "오스굿",
-          "피터 오스구드",
-          "Peter Osgood",
-          "Osgood"
-        ]
-      },
-      {
-        "rank": 7,
-        "name": "지미 그리브스",
-        "value": "132골",
-        "hint": {
-          "club": "첼시",
-          "nationality": "잉글랜드"
-        },
-        "aliases": [
-          "그리브스",
-          "지미 그리브즈",
-          "Jimmy Greaves",
-          "Greaves"
-        ]
-      },
-      {
-        "rank": 8,
-        "name": "조지 밀스",
-        "value": "125골",
-        "hint": {
-          "club": "첼시",
-          "nationality": "잉글랜드"
-        },
-        "aliases": [
-          "밀스",
-          "조지 밀즈",
-          "George Mills",
-          "Mills"
-        ]
-      },
-      {
-        "rank": 9,
-        "name": "에덴 아자르",
-        "value": "110골",
+        "name": "로멜루 루카쿠",
+        "value": "€1억 1,500만 (£9,750만, 2021년)",
         "hint": {
           "club": "첼시",
           "nationality": "벨기에"
         },
         "aliases": [
-          "아자르",
-          "에당 아자르",
-          "하자드",
-          "Eden Hazard",
-          "Hazard"
+          "루카쿠",
+          "Lukaku",
+          "Romelu Lukaku"
         ]
       },
       {
         "rank": 10,
-        "name": "조지 힐스던",
-        "value": "108골",
+        "name": "산드로 토날리",
+        "value": "€1억 810만 (£9,250만, 2026년)",
         "hint": {
-          "club": "첼시",
-          "nationality": "잉글랜드"
+          "club": "토트넘 홋스퍼",
+          "nationality": "이탈리아"
         },
         "aliases": [
-          "힐스던",
-          "조지 힐스돈",
-          "George Hilsdon",
-          "Hilsdon"
+          "토날리",
+          "Tonali",
+          "Sandro Tonali"
         ]
       }
     ]
   },
   {
-    "id": "premier-league-top-scorers",
-    "title": "프리미어리그 역대 최다 득점 TOP 10",
-    "trivia": "한 클럽에서 넣은 프리미어리그 최다 골은 해리 케인이 토트넘에서 기록한 213골이다.",
+    "id": "world-record-transfers",
+    "title": "세계 축구 역대 최고 이적료 TOP 10",
+    "trivia": "네이마르의 €2억 2,200만은 2017년 이후 아직 깨지지 않은 세계 기록이다.",
     "answers": [
       {
         "rank": 1,
-        "name": "앨런 시어러",
-        "value": "260골",
+        "name": "네이마르",
+        "value": "€2억 2,200만 (£2억, 2017년)",
         "hint": {
-          "club": "블랙번 로버스·뉴캐슬 유나이티드",
-          "nationality": "잉글랜드"
+          "club": "파리 생제르맹",
+          "nationality": "브라질"
         },
         "aliases": [
-          "시어러",
-          "알란 시어러",
-          "쉬어러",
-          "Alan Shearer",
-          "Shearer"
+          "Neymar"
         ]
       },
       {
         "rank": 2,
-        "name": "해리 케인",
-        "value": "213골",
+        "name": "킬리안 음바페",
+        "value": "€1억 8,000만 (£1억 6,570만, 2017년)",
         "hint": {
-          "club": "토트넘 홋스퍼",
-          "nationality": "잉글랜드"
+          "club": "파리 생제르맹",
+          "nationality": "프랑스"
         },
         "aliases": [
-          "케인",
-          "Harry Kane",
-          "Kane"
+          "음바페",
+          "Mbappe",
+          "Kylian Mbappe"
         ]
       },
       {
         "rank": 3,
-        "name": "웨인 루니",
-        "value": "208골",
+        "name": "알렉산더 이사크",
+        "value": "€1억 4,450만 (£1억 2,500만, 2025년)",
         "hint": {
-          "club": "맨체스터 유나이티드·에버턴",
-          "nationality": "잉글랜드"
+          "club": "리버풀",
+          "nationality": "스웨덴"
         },
         "aliases": [
-          "루니",
-          "Wayne Rooney",
-          "Rooney"
+          "이사크",
+          "Isak",
+          "Alexander Isak"
         ]
       },
       {
         "rank": 4,
-        "name": "모하메드 살라흐",
-        "value": "193골",
-        "hint": {
-          "club": "리버풀",
-          "nationality": "이집트"
-        },
-        "aliases": [
-          "살라흐",
-          "살라",
-          "모하메드 살라",
-          "Mohamed Salah",
-          "Salah"
-        ]
-      },
-      {
-        "rank": 5,
-        "name": "앤디 콜",
-        "value": "187골",
-        "hint": {
-          "club": "맨체스터 유나이티드·뉴캐슬 유나이티드",
-          "nationality": "잉글랜드"
-        },
-        "aliases": [
-          "앤드류 콜",
-          "Andy Cole",
-          "Cole"
-        ]
-      },
-      {
-        "rank": 6,
-        "name": "세르히오 아구에로",
-        "value": "184골",
-        "hint": {
-          "club": "맨체스터 시티",
-          "nationality": "아르헨티나"
-        },
-        "aliases": [
-          "아구에로",
-          "아게로",
-          "세르히오 아게로",
-          "Sergio Aguero",
-          "Aguero",
-          "Sergio Agüero",
-          "agüero"
-        ]
-      },
-      {
-        "rank": 7,
-        "name": "프랭크 램파드",
-        "value": "177골",
+        "name": "모건 로저스",
+        "value": "€1억 3,730만 (£1억 1,700만, 2026년)",
         "hint": {
           "club": "첼시",
           "nationality": "잉글랜드"
         },
         "aliases": [
-          "램파드",
-          "람파드",
-          "프랭크 램퍼드",
-          "Frank Lampard",
-          "Lampard"
+          "로저스",
+          "Rogers",
+          "Morgan Rogers"
+        ]
+      },
+      {
+        "rank": 5,
+        "name": "엘리엇 앤더슨",
+        "value": "€1억 3,550만 (£1억 1,600만, 2026년)",
+        "hint": {
+          "club": "맨체스터 시티",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "앤더슨",
+          "Anderson",
+          "Elliot Anderson"
+        ]
+      },
+      {
+        "rank": 6,
+        "name": "주앙 펠릭스",
+        "value": "€1억 2,600만 (£1억 1,300만, 2019년)",
+        "hint": {
+          "club": "아틀레티코 마드리드",
+          "nationality": "포르투갈"
+        },
+        "aliases": [
+          "펠릭스",
+          "Felix",
+          "Joao Felix"
+        ]
+      },
+      {
+        "rank": 7,
+        "name": "얀 디오만데",
+        "value": "€1억 2,500만 (£1억 700만, 2026년)",
+        "hint": {
+          "club": "레알 마드리드",
+          "nationality": "코트디부아르"
+        },
+        "aliases": [
+          "디오만데",
+          "Diomande",
+          "Yan Diomande"
         ]
       },
       {
         "rank": 8,
-        "name": "티에리 앙리",
-        "value": "175골",
+        "name": "엔소 페르난데스",
+        "value": "€1억 2,100만 (£1억 680만, 2023년)",
         "hint": {
-          "club": "아스널",
-          "nationality": "프랑스"
+          "club": "첼시",
+          "nationality": "아르헨티나"
         },
         "aliases": [
-          "앙리",
-          "Thierry Henry",
-          "Henry"
+          "엔소",
+          "Enzo",
+          "Enzo Fernandez",
+          "fernandez",
+          "페르난데스"
         ]
       },
       {
         "rank": 9,
-        "name": "로비 파울러",
-        "value": "163골",
+        "name": "앙투안 그리즈만",
+        "value": "€1억 2,000만 (£1억 700만, 2019년)",
         "hint": {
-          "club": "리버풀",
-          "nationality": "잉글랜드"
+          "club": "바르셀로나",
+          "nationality": "프랑스"
         },
         "aliases": [
-          "파울러",
-          "Robbie Fowler",
-          "Fowler"
+          "그리즈만",
+          "Griezmann",
+          "Antoine Griezmann"
         ]
       },
       {
         "rank": 10,
-        "name": "저메인 데포",
-        "value": "162골",
+        "name": "필리피 쿠티뉴",
+        "value": "€1억 1,840만 (£1억 500만, 2018년)",
         "hint": {
-          "club": "토트넘 홋스퍼",
-          "nationality": "잉글랜드"
+          "club": "바르셀로나",
+          "nationality": "브라질"
         },
         "aliases": [
-          "데포",
-          "제르맹 데포",
-          "Jermain Defoe",
-          "Defoe"
+          "쿠티뉴",
+          "Coutinho",
+          "Philippe Coutinho"
         ]
       }
     ]
   },
   {
-    "id": "premier-league-most-appearances",
-    "title": "프리미어리그 역대 최다 출장 TOP 10",
-    "trivia": "제임스 밀너는 2002-03부터 2025-26까지 24시즌 연속 프리미어리그에 출전했고, 교체 출전 218경기도 리그 최다다.",
+    "id": "pl-most-appearances",
+    "title": "프리미어리그 통산 최다 출장 TOP 10",
+    "trivia": "밀너는 2002-03시즌부터 2025-26시즌까지 24시즌 연속으로 프리미어리그에 출전했다.",
     "answers": [
       {
         "rank": 1,
         "name": "제임스 밀너",
         "value": "658경기",
         "hint": {
-          "club": "리버풀·맨체스터 시티·애스턴 빌라 등",
+          "club": "리버풀",
           "nationality": "잉글랜드"
         },
         "aliases": [
           "밀너",
-          "밀러",
-          "James Milner",
-          "Milner"
+          "Milner",
+          "James Milner"
         ]
       },
       {
         "rank": 2,
-        "name": "개러스 배리",
+        "name": "가레스 배리",
         "value": "653경기",
         "hint": {
-          "club": "애스턴 빌라·에버턴·맨체스터 시티",
+          "club": "애스턴 빌라",
           "nationality": "잉글랜드"
         },
         "aliases": [
           "배리",
-          "가레스 배리",
-          "Gareth Barry",
-          "Barry"
+          "Barry",
+          "Gareth Barry"
         ]
       },
       {
@@ -1630,8 +643,8 @@
         },
         "aliases": [
           "긱스",
-          "Ryan Giggs",
-          "Giggs"
+          "Giggs",
+          "Ryan Giggs"
         ]
       },
       {
@@ -1644,9 +657,8 @@
         },
         "aliases": [
           "램파드",
-          "람파드",
-          "Frank Lampard",
-          "Lampard"
+          "Lampard",
+          "Frank Lampard"
         ]
       },
       {
@@ -1654,12 +666,10 @@
         "name": "데이비드 제임스",
         "value": "572경기",
         "hint": {
-          "club": "리버풀·웨스트햄·포츠머스 등",
+          "club": "리버풀",
           "nationality": "잉글랜드"
         },
         "aliases": [
-          "데이빗 제임스",
-          "데이비드 제임즈",
           "David James",
           "james",
           "제임스"
@@ -1667,17 +677,16 @@
       },
       {
         "rank": 6,
-        "name": "개리 스피드",
+        "name": "게리 스피드",
         "value": "535경기",
         "hint": {
-          "club": "리즈 유나이티드·뉴캐슬 유나이티드·에버턴",
+          "club": "뉴캐슬 유나이티드",
           "nationality": "웨일스"
         },
         "aliases": [
           "스피드",
-          "게리 스피드",
-          "Gary Speed",
-          "Speed"
+          "Speed",
+          "Gary Speed"
         ]
       },
       {
@@ -1685,14 +694,13 @@
         "name": "에밀 헤스키",
         "value": "516경기",
         "hint": {
-          "club": "레스터 시티·리버풀·애스턴 빌라",
+          "club": "리버풀",
           "nationality": "잉글랜드"
         },
         "aliases": [
           "헤스키",
-          "에밀 헤스키이",
-          "Emile Heskey",
-          "Heskey"
+          "Heskey",
+          "Emile Heskey"
         ]
       },
       {
@@ -1700,15 +708,14 @@
         "name": "마크 슈워처",
         "value": "514경기",
         "hint": {
-          "club": "미들즈브러·풀럼·첼시",
+          "club": "미들즈브러",
           "nationality": "호주"
         },
         "aliases": [
           "슈워처",
-          "마크 슈바르처",
           "슈바르처",
-          "Mark Schwarzer",
-          "Schwarzer"
+          "Schwarzer",
+          "Mark Schwarzer"
         ]
       },
       {
@@ -1721,10 +728,8 @@
         },
         "aliases": [
           "캐러거",
-          "캐라거",
-          "제이미 캐라거",
-          "Jamie Carragher",
-          "Carragher"
+          "Carragher",
+          "Jamie Carragher"
         ]
       },
       {
@@ -1732,14 +737,161 @@
         "name": "필 네빌",
         "value": "505경기",
         "hint": {
-          "club": "맨체스터 유나이티드·에버턴",
+          "club": "맨체스터 유나이티드",
           "nationality": "잉글랜드"
         },
         "aliases": [
-          "필립 네빌",
           "Phil Neville",
           "neville",
           "네빌"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "pl-top-scorers",
+    "title": "프리미어리그 통산 최다 득점 TOP 10",
+    "trivia": "1위 시어러(260골)와 2위 케인(213골)의 격차는 47골이다.",
+    "answers": [
+      {
+        "rank": 1,
+        "name": "앨런 시어러",
+        "value": "260골",
+        "hint": {
+          "club": "뉴캐슬 유나이티드",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "시어러",
+          "Shearer",
+          "Alan Shearer"
+        ]
+      },
+      {
+        "rank": 2,
+        "name": "해리 케인",
+        "value": "213골",
+        "hint": {
+          "club": "토트넘 홋스퍼",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "케인",
+          "Kane",
+          "Harry Kane"
+        ]
+      },
+      {
+        "rank": 3,
+        "name": "웨인 루니",
+        "value": "208골",
+        "hint": {
+          "club": "맨체스터 유나이티드",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "루니",
+          "Rooney",
+          "Wayne Rooney"
+        ]
+      },
+      {
+        "rank": 4,
+        "name": "모하메드 살라",
+        "value": "193골",
+        "hint": {
+          "club": "리버풀",
+          "nationality": "이집트"
+        },
+        "aliases": [
+          "살라",
+          "Salah",
+          "Mohamed Salah",
+          "모 살라"
+        ]
+      },
+      {
+        "rank": 5,
+        "name": "앤디 콜",
+        "value": "187골",
+        "hint": {
+          "club": "맨체스터 유나이티드",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "Andy Cole",
+          "Cole"
+        ]
+      },
+      {
+        "rank": 6,
+        "name": "세르히오 아궤로",
+        "value": "184골",
+        "hint": {
+          "club": "맨체스터 시티",
+          "nationality": "아르헨티나"
+        },
+        "aliases": [
+          "아궤로",
+          "Aguero",
+          "Sergio Aguero",
+          "아구에로"
+        ]
+      },
+      {
+        "rank": 7,
+        "name": "프랭크 램파드",
+        "value": "177골",
+        "hint": {
+          "club": "첼시",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "램파드",
+          "Lampard",
+          "Frank Lampard"
+        ]
+      },
+      {
+        "rank": 8,
+        "name": "티에리 앙리",
+        "value": "175골",
+        "hint": {
+          "club": "아스널",
+          "nationality": "프랑스"
+        },
+        "aliases": [
+          "앙리",
+          "Henry",
+          "Thierry Henry"
+        ]
+      },
+      {
+        "rank": 9,
+        "name": "로비 파울러",
+        "value": "163골",
+        "hint": {
+          "club": "리버풀",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "파울러",
+          "Fowler",
+          "Robbie Fowler"
+        ]
+      },
+      {
+        "rank": 10,
+        "name": "저메인 데포",
+        "value": "162골",
+        "hint": {
+          "club": "토트넘 홋스퍼",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "데포",
+          "Defoe",
+          "Jermain Defoe"
         ]
       }
     ]
@@ -1910,335 +1062,158 @@
     ]
   },
   {
-    "id": "real-madrid-top-scorers",
-    "title": "레알 마드리드 역대 최다 득점 TOP 10",
-    "trivia": "크리스티아누 호날두는 레알 마드리드에서 438경기 450골로 경기당 1골 이상을 기록했다.",
+    "id": "pl-30-goal-season",
+    "title": "한 시즌 프리미어리그 30골 이상을 넣은 선수 전부",
+    "trivia": "앨런 시어러는 30골 이상 시즌을 세 번(1993-94·1994-95·1995-96) 만든 유일한 선수다.",
     "answers": [
       {
         "rank": 1,
-        "name": "크리스티아누 호날두",
-        "value": "450골",
+        "name": "엘링 홀란",
+        "value": "36골 · 2022-23",
         "hint": {
-          "club": "레알 마드리드",
+          "club": "맨체스터 시티",
+          "nationality": "노르웨이"
+        },
+        "aliases": [
+          "홀란",
+          "홀란드",
+          "엘링 홀란드",
+          "Erling Haaland",
+          "Haaland"
+        ]
+      },
+      {
+        "rank": 2,
+        "name": "앤디 콜",
+        "value": "34골 · 1993-94",
+        "hint": {
+          "club": "뉴캐슬 유나이티드",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "Andy Cole",
+          "Andrew Cole",
+          "Cole"
+        ]
+      },
+      {
+        "rank": 3,
+        "name": "앨런 시어러",
+        "value": "34골 · 1994-95",
+        "hint": {
+          "club": "블랙번 로버스",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "시어러",
+          "알란 시어러",
+          "Alan Shearer",
+          "Shearer"
+        ]
+      },
+      {
+        "rank": 4,
+        "name": "모하메드 살라",
+        "value": "32골 · 2017-18",
+        "hint": {
+          "club": "리버풀",
+          "nationality": "이집트"
+        },
+        "aliases": [
+          "살라",
+          "모하메드 살라흐",
+          "Mohamed Salah",
+          "Salah"
+        ]
+      },
+      {
+        "rank": 5,
+        "name": "크리스티아누 호날두",
+        "value": "31골 · 2007-08",
+        "hint": {
+          "club": "맨체스터 유나이티드",
           "nationality": "포르투갈"
         },
         "aliases": [
           "호날두",
           "Cristiano Ronaldo",
-          "Ronaldo"
-        ]
-      },
-      {
-        "rank": 2,
-        "name": "카림 벤제마",
-        "value": "354골",
-        "hint": {
-          "club": "레알 마드리드",
-          "nationality": "프랑스"
-        },
-        "aliases": [
-          "벤제마",
-          "벤재마",
-          "Karim Benzema",
-          "Benzema"
-        ]
-      },
-      {
-        "rank": 3,
-        "name": "라울",
-        "value": "323골",
-        "hint": {
-          "club": "레알 마드리드",
-          "nationality": "스페인"
-        },
-        "aliases": [
-          "라울 곤살레스",
-          "라울 곤잘레스",
-          "Raul",
-          "Raul Gonzalez",
-          "Raúl"
-        ]
-      },
-      {
-        "rank": 4,
-        "name": "알프레도 디 스테파노",
-        "value": "308골",
-        "hint": {
-          "club": "레알 마드리드",
-          "nationality": "아르헨티나·스페인"
-        },
-        "aliases": [
-          "디 스테파노",
-          "Alfredo Di Stefano",
-          "Di Stefano",
-          "Alfredo Di Stéfano",
-          "stéfano",
-          "스테파노"
-        ]
-      },
-      {
-        "rank": 5,
-        "name": "산티야나",
-        "value": "290골",
-        "hint": {
-          "club": "레알 마드리드",
-          "nationality": "스페인"
-        },
-        "aliases": [
-          "산티야냐",
-          "카를로스 산티야나",
-          "Santillana",
-          "Carlos Alonso Santillana"
+          "Ronaldo",
+          "CR7"
         ]
       },
       {
         "rank": 6,
-        "name": "페렌츠 푸스카스",
-        "value": "242골",
-        "hint": {
-          "club": "레알 마드리드",
-          "nationality": "헝가리·스페인"
-        },
-        "aliases": [
-          "푸스카스",
-          "푸스카슈",
-          "Ferenc Puskas",
-          "Puskas",
-          "Ferenc Puskás",
-          "puskás"
-        ]
-      },
-      {
-        "rank": 7,
-        "name": "우고 산체스",
-        "value": "208골",
-        "hint": {
-          "club": "레알 마드리드",
-          "nationality": "멕시코"
-        },
-        "aliases": [
-          "산체스",
-          "휴고 산체스",
-          "Hugo Sanchez",
-          "Sanchez",
-          "Hugo Sánchez",
-          "sánchez"
-        ]
-      },
-      {
-        "rank": 8,
-        "name": "파코 헨토",
-        "value": "183골",
-        "hint": {
-          "club": "레알 마드리드",
-          "nationality": "스페인"
-        },
-        "aliases": [
-          "헨토",
-          "프란시스코 헨토",
-          "Paco Gento",
-          "Gento"
-        ]
-      },
-      {
-        "rank": 9,
-        "name": "피리",
-        "value": "171골",
-        "hint": {
-          "club": "레알 마드리드",
-          "nationality": "스페인"
-        },
-        "aliases": [
-          "피리이",
-          "호세 마르티네스 피리",
-          "Pirri",
-          "Jose Martinez Pirri"
-        ]
-      },
-      {
-        "rank": 10,
-        "name": "에밀리오 부트라게뇨",
-        "value": "170골",
-        "hint": {
-          "club": "레알 마드리드",
-          "nationality": "스페인"
-        },
-        "aliases": [
-          "부트라게뇨",
-          "부트라게노",
-          "Emilio Butragueno",
-          "Butragueno",
-          "Emilio Butragueño",
-          "butragueño"
-        ]
-      }
-    ]
-  },
-  {
-    "id": "barcelona-top-scorers",
-    "title": "바르셀로나 역대 최다 득점 TOP 10",
-    "trivia": "리오넬 메시의 바르셀로나 672골은 한 클럽에서 넣은 공식전 최다 골 세계 기록이다.",
-    "answers": [
-      {
-        "rank": 1,
-        "name": "리오넬 메시",
-        "value": "672골",
-        "hint": {
-          "club": "바르셀로나",
-          "nationality": "아르헨티나"
-        },
-        "aliases": [
-          "메시",
-          "리오넬 메씨",
-          "Lionel Messi",
-          "Messi"
-        ]
-      },
-      {
-        "rank": 2,
-        "name": "세사르 로드리게스",
-        "value": "232골",
-        "hint": {
-          "club": "바르셀로나",
-          "nationality": "스페인"
-        },
-        "aliases": [
-          "세자르 로드리게스",
-          "세사르",
-          "Cesar Rodriguez",
-          "Rodriguez",
-          "César Rodríguez",
-          "rodríguez",
-          "로드리게스"
-        ]
-      },
-      {
-        "rank": 3,
         "name": "루이스 수아레스",
-        "value": "198골",
+        "value": "31골 · 2013-14",
         "hint": {
-          "club": "바르셀로나",
+          "club": "리버풀",
           "nationality": "우루과이"
         },
         "aliases": [
           "수아레스",
-          "수아레즈",
           "Luis Suarez",
-          "Suarez",
           "Luis Suárez",
+          "Suarez",
           "suárez"
         ]
       },
       {
-        "rank": 4,
-        "name": "라슬로 쿠발라",
-        "value": "194골",
-        "hint": {
-          "club": "바르셀로나",
-          "nationality": "스페인(헝가리 출신)"
-        },
-        "aliases": [
-          "쿠발라",
-          "라디슬라오 쿠발라",
-          "Laszlo Kubala",
-          "Kubala",
-          "László Kubala"
-        ]
-      },
-      {
-        "rank": 5,
-        "name": "주제프 사미티에르",
-        "value": "184골",
-        "hint": {
-          "club": "바르셀로나",
-          "nationality": "스페인"
-        },
-        "aliases": [
-          "사미티에르",
-          "조셉 사미티에르",
-          "호세프 사미티에르",
-          "Josep Samitier",
-          "Samitier"
-        ]
-      },
-      {
-        "rank": 6,
-        "name": "주제프 에스콜라",
-        "value": "165골",
-        "hint": {
-          "club": "바르셀로나",
-          "nationality": "스페인"
-        },
-        "aliases": [
-          "에스콜라",
-          "조셉 에스콜라",
-          "호세프 에스콜라",
-          "Josep Escola",
-          "Escola",
-          "Josep Escolà",
-          "escolà"
-        ]
-      },
-      {
         "rank": 7,
-        "name": "파울리노 알칸타라",
-        "value": "143골",
+        "name": "케빈 필립스",
+        "value": "30골 · 1999-2000",
         "hint": {
-          "club": "바르셀로나",
-          "nationality": "필리핀·스페인"
+          "club": "선덜랜드",
+          "nationality": "잉글랜드"
         },
         "aliases": [
-          "알칸타라",
-          "파울리노 알칸타나",
-          "Paulino Alcantara",
-          "Alcantara",
-          "Paulino Alcántara",
-          "alcántara"
+          "필립스",
+          "Kevin Phillips",
+          "Phillips"
         ]
       },
       {
         "rank": 8,
-        "name": "사무엘 에토오",
-        "value": "130골",
+        "name": "티에리 앙리",
+        "value": "30골 · 2003-04",
         "hint": {
-          "club": "바르셀로나",
-          "nationality": "카메룬"
+          "club": "아스널",
+          "nationality": "프랑스"
         },
         "aliases": [
-          "에토오",
-          "에투",
-          "Samuel Eto'o",
-          "Eto'o"
+          "앙리",
+          "Thierry Henry",
+          "Henry"
         ]
       },
       {
-        "rank": 8,
-        "name": "히바우두",
-        "value": "130골",
+        "rank": 9,
+        "name": "로빈 판페르시",
+        "value": "30골 · 2011-12",
         "hint": {
-          "club": "바르셀로나",
-          "nationality": "브라질"
+          "club": "아스널",
+          "nationality": "네덜란드"
         },
         "aliases": [
-          "리발도",
-          "히바우도",
-          "Rivaldo"
+          "판페르시",
+          "반 페르시",
+          "로빈 반 페르시",
+          "Robin van Persie",
+          "van Persie",
+          "persie"
         ]
       },
       {
         "rank": 10,
-        "name": "마리아노 마르틴",
-        "value": "129골",
+        "name": "해리 케인",
+        "value": "30골 · 2017-18",
         "hint": {
-          "club": "바르셀로나",
-          "nationality": "스페인"
+          "club": "토트넘 홋스퍼",
+          "nationality": "잉글랜드"
         },
         "aliases": [
-          "마르틴",
-          "마리아노 마틴",
-          "Mariano Martin",
-          "Mariano Martín",
-          "martín"
+          "케인",
+          "Harry Kane",
+          "Kane"
         ]
       }
     ]

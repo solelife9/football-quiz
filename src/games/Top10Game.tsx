@@ -51,14 +51,15 @@ interface RoundProps {
 /** 문제 하나 = 컴포넌트 하나(key=id). 문제 바뀌면 상태가 통째로 초기화된다. */
 function Top10Round({ q, title, rules, onNext, onBack }: RoundProps) {
   const { lives, hintsLeft, loseLife, spendHint, maxLives, maxHints } = useLives(rules)
-  const [found, setFound] = useState<Set<number>>(() => new Set())
-  const [hinted, setHinted] = useState<Set<number>>(() => new Set())
+  const [found, setFound] = useState<Set<number>>(() => new Set())   // 인덱스
+  const [hinted, setHinted] = useState<Set<number>>(() => new Set()) // 인덱스
   const [status, setStatus] = useState<Status>('playing')
   const [msg, setMsg] = useState<FeedbackMsg | null>(null)
 
   const hasRanks = useMemo(() => q.answers.some((a) => a.value && a.value.trim() !== ''), [q])
+  // 식별자는 rank 가 아니라 배열 인덱스다 — 10위 동률처럼 같은 rank 가 둘일 수 있다.
   const candidates = useMemo<Candidate[]>(
-    () => q.answers.map((a) => ({ id: String(a.rank), name: a.name, aliases: a.aliases })),
+    () => q.answers.map((a, i) => ({ id: String(i), name: a.name, aliases: a.aliases })),
     [q],
   )
 
@@ -80,14 +81,14 @@ function Top10Round({ q, title, rules, onNext, onBack }: RoundProps) {
         setMsg({ kind: 'ambiguous', text: '두 명 이상에 가까워요. 조금 더 정확히 써 주세요' })
         return 'ambiguous'
       }
-      const rank = Number(r.id)
-      if (found.has(rank)) {
+      const idx = Number(r.id)
+      if (found.has(idx)) {
         setMsg({ kind: 'dup', text: '이미 맞혔어요' })
         return 'duplicate'
       }
-      const nextFound = new Set(found).add(rank)
+      const nextFound = new Set(found).add(idx)
       setFound(nextFound)
-      const a = q.answers.find((x) => x.rank === rank)!
+      const a = q.answers[idx]
       setMsg({ kind: 'ok', text: hasRanks ? `정답! ${a.rank}위 ${a.name}` : `정답! ${a.name}` })
       if (nextFound.size === q.answers.length) setStatus('won')
       return 'correct'
@@ -97,12 +98,14 @@ function Top10Round({ q, title, rules, onNext, onBack }: RoundProps) {
 
   // 힌트에 쓸 내용(소속팀·국적)이 실제로 있는 칸만 대상. 빈 hint 객체는 제외한다.
   const hasHintText = (a: (typeof q.answers)[number]) => Boolean(a.hint?.club || a.hint?.nationality)
-  const hintable = q.answers.filter((a) => !found.has(a.rank) && !hinted.has(a.rank) && hasHintText(a))
+  const hintable = q.answers
+    .map((a, i) => ({ a, i }))
+    .filter(({ a, i }) => !found.has(i) && !hinted.has(i) && hasHintText(a))
   const handleHint = () => {
     if (hintsLeft <= 0 || status !== 'playing') return
     const target = pickRandom(hintable)
     if (!target) return
-    setHinted(new Set(hinted).add(target.rank))
+    setHinted(new Set(hinted).add(target.i))
     spendHint()
     setMsg({ kind: 'info', text: '힌트를 열었어요' })
   }
@@ -117,12 +120,12 @@ function Top10Round({ q, title, rules, onNext, onBack }: RoundProps) {
         <h2 className="q-title">{q.title}</h2>
 
         <ol className={`slots ${hasRanks ? 'ranked' : 'unranked'}`}>
-          {q.answers.map((a) => {
-            const open = found.has(a.rank)
-            const showHint = !open && hinted.has(a.rank) && hasHintText(a)
+          {q.answers.map((a, i) => {
+            const open = found.has(i)
+            const showHint = !open && hinted.has(i) && hasHintText(a)
             const missed = ended && !open
             return (
-              <li key={a.rank} className={`slot ${open ? 'open' : ''} ${missed ? 'missed' : ''}`}>
+              <li key={i} className={`slot ${open ? 'open' : ''} ${missed ? 'missed' : ''}`}>
                 {hasRanks && <span className="rank">{a.rank}</span>}
                 <span className="name">
                   {open || ended ? (

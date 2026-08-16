@@ -53,9 +53,17 @@ function checkTop10(list: Top10Question[], label: string) {
             expect(q.answers.length).toBeLessThanOrEqual(15)
           })
         }
-        it('rank 유일 · 1부터 연속', () => {
-          const ranks = q.answers.map((a) => a.rank).sort((x, y) => x - y)
-          expect(ranks).toEqual(ranks.map((_, i) => i + 1))
+        it('rank 는 1부터 오름차순 (동률 허용: 1,2,3,3,5…)', () => {
+          const ranks = q.answers.map((a) => a.rank)
+          expect(ranks[0], `${q.id}: 1위부터 시작해야 함`).toBe(1)
+          for (let i = 1; i < ranks.length; i++) {
+            expect(ranks[i], `${q.id}: rank 가 줄어듦`).toBeGreaterThanOrEqual(ranks[i - 1])
+            expect(ranks[i], `${q.id}: rank 가 순번(${i + 1})을 넘음`).toBeLessThanOrEqual(i + 1)
+          }
+          // 동률이면 그 다음 순위는 건너뛴다(3,3,5). 순위가 같은 개수만큼 밀렸는지 확인
+          for (let i = 1; i < ranks.length; i++) {
+            if (ranks[i] !== ranks[i - 1]) expect(ranks[i], `${q.id}: 동률 뒤 순위가 어긋남`).toBe(i + 1)
+          }
         })
         it('value 는 전부 있거나 전부 비어야 함(반만 있으면 표시가 어색)', () => {
           const withValue = q.answers.filter((a) => a.value && a.value.trim() !== '').length

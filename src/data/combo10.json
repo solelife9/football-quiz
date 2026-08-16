@@ -1,15 +1,957 @@
 [
   {
-    "id": "salah-liverpool-english",
-    "title": "리버풀에서 살라와 가장 많이 함께 뛴 잉글랜드 선수 TOP 10",
-    "trivia": "",
+    "id": "ballon-dor-english-clubs",
+    "title": "잉글랜드 클럽 소속으로 발롱도르를 받은 선수 전부",
+    "trivia": "일곱 명 중 네 명이 맨체스터 유나이티드 소속이었다 — 데니스 로·보비 찰턴·조지 베스트·크리스티아누 호날두.",
     "answers": [
       {
         "rank": 1,
-        "name": "트렌트 알렉산더-아널드",
-        "value": "250경기",
-        "hint": { "club": "리버풀", "nationality": "잉글랜드" },
-        "aliases": ["알렉산더아널드", "트렌트", "TAA", "trent"]
+        "name": "스탠리 매슈스",
+        "value": "1956년 · 블랙풀",
+        "hint": {
+          "club": "블랙풀",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "매슈스",
+          "매튜스",
+          "스탠리 매튜스",
+          "Stanley Matthews",
+          "Matthews"
+        ]
+      },
+      {
+        "rank": 2,
+        "name": "데니스 로",
+        "value": "1964년 · 맨체스터 유나이티드",
+        "hint": {
+          "club": "맨체스터 유나이티드",
+          "nationality": "스코틀랜드"
+        },
+        "aliases": [
+          "Denis Law"
+        ]
+      },
+      {
+        "rank": 3,
+        "name": "보비 찰턴",
+        "value": "1966년 · 맨체스터 유나이티드",
+        "hint": {
+          "club": "맨체스터 유나이티드",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "찰턴",
+          "바비 찰턴",
+          "보비 찰튼",
+          "Bobby Charlton",
+          "Charlton"
+        ]
+      },
+      {
+        "rank": 4,
+        "name": "조지 베스트",
+        "value": "1968년 · 맨체스터 유나이티드",
+        "hint": {
+          "club": "맨체스터 유나이티드",
+          "nationality": "북아일랜드"
+        },
+        "aliases": [
+          "베스트",
+          "George Best",
+          "Best"
+        ]
+      },
+      {
+        "rank": 5,
+        "name": "마이클 오언",
+        "value": "2001년 · 리버풀",
+        "hint": {
+          "club": "리버풀",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "오언",
+          "오웬",
+          "마이클 오웬",
+          "Michael Owen",
+          "Owen"
+        ]
+      },
+      {
+        "rank": 6,
+        "name": "크리스티아누 호날두",
+        "value": "2008년 · 맨체스터 유나이티드",
+        "hint": {
+          "club": "맨체스터 유나이티드",
+          "nationality": "포르투갈"
+        },
+        "aliases": [
+          "호날두",
+          "Cristiano Ronaldo",
+          "Ronaldo",
+          "CR7"
+        ]
+      },
+      {
+        "rank": 7,
+        "name": "로드리",
+        "value": "2024년 · 맨체스터 시티",
+        "hint": {
+          "club": "맨체스터 시티",
+          "nationality": "스페인"
+        },
+        "aliases": [
+          "Rodri",
+          "Rodrigo Hernandez",
+          "Rodrigo Hernández"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "pl-golden-boot-multi",
+    "title": "프리미어리그 득점왕(골든부트)을 2회 이상 받은 선수 전부",
+    "trivia": "앙리와 살라가 4회로 공동 최다이고, 홀란은 2025-26시즌 27골로 세 번째 골든부트를 받았다.",
+    "answers": [
+      {
+        "rank": 1,
+        "name": "티에리 앙리",
+        "value": "4회",
+        "hint": {
+          "club": "아스널",
+          "nationality": "프랑스"
+        },
+        "aliases": [
+          "앙리",
+          "Thierry Henry",
+          "Henry"
+        ]
+      },
+      {
+        "rank": 2,
+        "name": "모하메드 살라",
+        "value": "4회",
+        "hint": {
+          "club": "리버풀",
+          "nationality": "이집트"
+        },
+        "aliases": [
+          "살라",
+          "모하메드 살라흐",
+          "Mohamed Salah",
+          "Salah"
+        ]
+      },
+      {
+        "rank": 3,
+        "name": "앨런 시어러",
+        "value": "3회",
+        "hint": {
+          "club": "블랙번 로버스 · 뉴캐슬 유나이티드",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "시어러",
+          "알란 시어러",
+          "Alan Shearer",
+          "Shearer"
+        ]
+      },
+      {
+        "rank": 4,
+        "name": "해리 케인",
+        "value": "3회",
+        "hint": {
+          "club": "토트넘 홋스퍼",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "케인",
+          "Harry Kane",
+          "Kane"
+        ]
+      },
+      {
+        "rank": 5,
+        "name": "엘링 홀란",
+        "value": "3회",
+        "hint": {
+          "club": "맨체스터 시티",
+          "nationality": "노르웨이"
+        },
+        "aliases": [
+          "홀란",
+          "홀란드",
+          "엘링 홀란드",
+          "Erling Haaland",
+          "Haaland"
+        ]
+      },
+      {
+        "rank": 6,
+        "name": "마이클 오언",
+        "value": "2회",
+        "hint": {
+          "club": "리버풀",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "오언",
+          "오웬",
+          "마이클 오웬",
+          "Michael Owen",
+          "Owen"
+        ]
+      },
+      {
+        "rank": 7,
+        "name": "지미 플로이드 하셀바잉크",
+        "value": "2회",
+        "hint": {
+          "club": "리즈 유나이티드 · 첼시",
+          "nationality": "네덜란드"
+        },
+        "aliases": [
+          "하셀바잉크",
+          "하셀바잉",
+          "지미 하셀바잉크",
+          "Jimmy Floyd Hasselbaink",
+          "Hasselbaink"
+        ]
+      },
+      {
+        "rank": 8,
+        "name": "디디에 드로그바",
+        "value": "2회",
+        "hint": {
+          "club": "첼시",
+          "nationality": "코트디부아르"
+        },
+        "aliases": [
+          "드로그바",
+          "Didier Drogba",
+          "Drogba"
+        ]
+      },
+      {
+        "rank": 9,
+        "name": "로빈 판페르시",
+        "value": "2회",
+        "hint": {
+          "club": "아스널 · 맨체스터 유나이티드",
+          "nationality": "네덜란드"
+        },
+        "aliases": [
+          "판페르시",
+          "반 페르시",
+          "로빈 반 페르시",
+          "Robin van Persie",
+          "van Persie",
+          "persie"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "pl-korean-players",
+    "title": "프리미어리그에서 뛴 대한민국 선수 전부",
+    "trivia": "손흥민은 프리미어리그 333경기로 한국인 최다 출전이며, 2023년 아시아 선수 최초로 통산 100골을 넘겼다.",
+    "answers": [
+      {
+        "rank": 1,
+        "name": "기성용",
+        "value": "스완지 시티 · 선덜랜드 · 뉴캐슬 유나이티드",
+        "hint": {
+          "club": "스완지 시티",
+          "nationality": "대한민국"
+        },
+        "aliases": [
+          "Ki Sung-yueng",
+          "Ki Sung-yong",
+          "Sung-yueng Ki",
+          "sung-yueng"
+        ]
+      },
+      {
+        "rank": 2,
+        "name": "김두현",
+        "value": "웨스트브로미치 앨비언",
+        "hint": {
+          "club": "웨스트브로미치 앨비언",
+          "nationality": "대한민국"
+        },
+        "aliases": [
+          "Kim Do-heon",
+          "Do-heon Kim",
+          "do-heon"
+        ]
+      },
+      {
+        "rank": 3,
+        "name": "김보경",
+        "value": "카디프 시티",
+        "hint": {
+          "club": "카디프 시티",
+          "nationality": "대한민국"
+        },
+        "aliases": [
+          "Kim Bo-kyung",
+          "Bo-kyung Kim",
+          "bo-kyung"
+        ]
+      },
+      {
+        "rank": 4,
+        "name": "김지수",
+        "value": "브렌트퍼드",
+        "hint": {
+          "club": "브렌트퍼드",
+          "nationality": "대한민국"
+        },
+        "aliases": [
+          "Kim Ji-soo",
+          "Ji-soo Kim",
+          "ji-soo"
+        ]
+      },
+      {
+        "rank": 5,
+        "name": "박주영",
+        "value": "아스널",
+        "hint": {
+          "club": "아스널",
+          "nationality": "대한민국"
+        },
+        "aliases": [
+          "Park Chu-young",
+          "Park Ju-young",
+          "Chu-young Park",
+          "chu-young"
+        ]
+      },
+      {
+        "rank": 6,
+        "name": "박지성",
+        "value": "맨체스터 유나이티드 · 퀸스 파크 레인저스",
+        "hint": {
+          "club": "맨체스터 유나이티드",
+          "nationality": "대한민국"
+        },
+        "aliases": [
+          "Park Ji-sung",
+          "Ji-sung Park",
+          "ji-sung"
+        ]
+      },
+      {
+        "rank": 7,
+        "name": "설기현",
+        "value": "레딩 · 풀럼",
+        "hint": {
+          "club": "레딩",
+          "nationality": "대한민국"
+        },
+        "aliases": [
+          "Seol Ki-hyeon",
+          "Seol Ki-hyun",
+          "Ki-hyeon Seol",
+          "ki-hyeon"
+        ]
+      },
+      {
+        "rank": 8,
+        "name": "손흥민",
+        "value": "토트넘 홋스퍼",
+        "hint": {
+          "club": "토트넘 홋스퍼",
+          "nationality": "대한민국"
+        },
+        "aliases": [
+          "쏘니",
+          "Son Heung-min",
+          "Heung-min Son",
+          "heung-min"
+        ]
+      },
+      {
+        "rank": 9,
+        "name": "윤석영",
+        "value": "퀸스 파크 레인저스",
+        "hint": {
+          "club": "퀸스 파크 레인저스",
+          "nationality": "대한민국"
+        },
+        "aliases": [
+          "Yun Suk-young",
+          "Yoon Suk-young",
+          "Suk-young Yun",
+          "suk-young"
+        ]
+      },
+      {
+        "rank": 10,
+        "name": "이동국",
+        "value": "미들즈브러",
+        "hint": {
+          "club": "미들즈브러",
+          "nationality": "대한민국"
+        },
+        "aliases": [
+          "Lee Dong-gook",
+          "Dong-gook Lee",
+          "dong-gook"
+        ]
+      },
+      {
+        "rank": 11,
+        "name": "이영표",
+        "value": "토트넘 홋스퍼",
+        "hint": {
+          "club": "토트넘 홋스퍼",
+          "nationality": "대한민국"
+        },
+        "aliases": [
+          "Lee Young-pyo",
+          "Young-pyo Lee",
+          "young-pyo"
+        ]
+      },
+      {
+        "rank": 12,
+        "name": "이청용",
+        "value": "볼턴 원더러스 · 크리스털 팰리스",
+        "hint": {
+          "club": "볼턴 원더러스",
+          "nationality": "대한민국"
+        },
+        "aliases": [
+          "Lee Chung-yong",
+          "Chung-yong Lee",
+          "chung-yong"
+        ]
+      },
+      {
+        "rank": 13,
+        "name": "조원희",
+        "value": "위건 애슬레틱",
+        "hint": {
+          "club": "위건 애슬레틱",
+          "nationality": "대한민국"
+        },
+        "aliases": [
+          "Cho Won-hee",
+          "Jo Won-hee",
+          "Won-hee Cho",
+          "won-hee"
+        ]
+      },
+      {
+        "rank": 14,
+        "name": "지동원",
+        "value": "선덜랜드",
+        "hint": {
+          "club": "선덜랜드",
+          "nationality": "대한민국"
+        },
+        "aliases": [
+          "Ji Dong-won",
+          "Dong-won Ji",
+          "dong-won"
+        ]
+      },
+      {
+        "rank": 15,
+        "name": "황희찬",
+        "value": "울버햄프턴 원더러스",
+        "hint": {
+          "club": "울버햄프턴 원더러스",
+          "nationality": "대한민국"
+        },
+        "aliases": [
+          "황소",
+          "Hwang Hee-chan",
+          "Hee-chan Hwang",
+          "Hwang",
+          "hee-chan"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "pl-title-winning-managers",
+    "title": "프리미어리그 우승 감독 전부 (1992-93 이후)",
+    "trivia": "34시즌 동안 우승 감독은 13명뿐이며, 퍼거슨(13회)과 과르디올라(6회) 두 사람이 그중 19번을 가져갔다.",
+    "answers": [
+      {
+        "rank": 1,
+        "name": "알렉스 퍼거슨",
+        "value": "맨체스터 유나이티드 · 13회",
+        "hint": {
+          "club": "맨체스터 유나이티드",
+          "nationality": "스코틀랜드"
+        },
+        "aliases": [
+          "퍼거슨",
+          "퍼기",
+          "Alex Ferguson",
+          "Ferguson",
+          "Sir Alex Ferguson"
+        ]
+      },
+      {
+        "rank": 2,
+        "name": "펩 과르디올라",
+        "value": "맨체스터 시티 · 6회",
+        "hint": {
+          "club": "맨체스터 시티",
+          "nationality": "스페인"
+        },
+        "aliases": [
+          "과르디올라",
+          "Pep Guardiola",
+          "Guardiola",
+          "Josep Guardiola"
+        ]
+      },
+      {
+        "rank": 3,
+        "name": "아르센 벵거",
+        "value": "아스널 · 3회",
+        "hint": {
+          "club": "아스널",
+          "nationality": "프랑스"
+        },
+        "aliases": [
+          "벵거",
+          "웽거",
+          "Arsene Wenger",
+          "Arsène Wenger",
+          "Wenger"
+        ]
+      },
+      {
+        "rank": 4,
+        "name": "조제 무리뉴",
+        "value": "첼시 · 3회",
+        "hint": {
+          "club": "첼시",
+          "nationality": "포르투갈"
+        },
+        "aliases": [
+          "무리뉴",
+          "주제 무리뉴",
+          "Jose Mourinho",
+          "José Mourinho",
+          "Mourinho"
+        ]
+      },
+      {
+        "rank": 5,
+        "name": "케니 달글리시",
+        "value": "블랙번 로버스 · 1회",
+        "hint": {
+          "club": "블랙번 로버스",
+          "nationality": "스코틀랜드"
+        },
+        "aliases": [
+          "달글리시",
+          "Kenny Dalglish",
+          "Dalglish"
+        ]
+      },
+      {
+        "rank": 6,
+        "name": "카를로 안첼로티",
+        "value": "첼시 · 1회",
+        "hint": {
+          "club": "첼시",
+          "nationality": "이탈리아"
+        },
+        "aliases": [
+          "안첼로티",
+          "Carlo Ancelotti",
+          "Ancelotti"
+        ]
+      },
+      {
+        "rank": 7,
+        "name": "로베르토 만치니",
+        "value": "맨체스터 시티 · 1회",
+        "hint": {
+          "club": "맨체스터 시티",
+          "nationality": "이탈리아"
+        },
+        "aliases": [
+          "만치니",
+          "Roberto Mancini",
+          "Mancini"
+        ]
+      },
+      {
+        "rank": 8,
+        "name": "마누엘 페예그리니",
+        "value": "맨체스터 시티 · 1회",
+        "hint": {
+          "club": "맨체스터 시티",
+          "nationality": "칠레"
+        },
+        "aliases": [
+          "페예그리니",
+          "펠레그리니",
+          "마누엘 펠레그리니",
+          "Manuel Pellegrini",
+          "Pellegrini"
+        ]
+      },
+      {
+        "rank": 9,
+        "name": "클라우디오 라니에리",
+        "value": "레스터 시티 · 1회",
+        "hint": {
+          "club": "레스터 시티",
+          "nationality": "이탈리아"
+        },
+        "aliases": [
+          "라니에리",
+          "Claudio Ranieri",
+          "Ranieri"
+        ]
+      },
+      {
+        "rank": 10,
+        "name": "안토니오 콘테",
+        "value": "첼시 · 1회",
+        "hint": {
+          "club": "첼시",
+          "nationality": "이탈리아"
+        },
+        "aliases": [
+          "콘테",
+          "Antonio Conte",
+          "Conte"
+        ]
+      },
+      {
+        "rank": 11,
+        "name": "위르겐 클롭",
+        "value": "리버풀 · 1회",
+        "hint": {
+          "club": "리버풀",
+          "nationality": "독일"
+        },
+        "aliases": [
+          "클롭",
+          "Jurgen Klopp",
+          "Jürgen Klopp",
+          "Klopp"
+        ]
+      },
+      {
+        "rank": 12,
+        "name": "아르네 슬롯",
+        "value": "리버풀 · 1회",
+        "hint": {
+          "club": "리버풀",
+          "nationality": "네덜란드"
+        },
+        "aliases": [
+          "슬롯",
+          "Arne Slot",
+          "Slot"
+        ]
+      },
+      {
+        "rank": 13,
+        "name": "미켈 아르테타",
+        "value": "아스널 · 1회",
+        "hint": {
+          "club": "아스널",
+          "nationality": "스페인"
+        },
+        "aliases": [
+          "아르테타",
+          "Mikel Arteta",
+          "Arteta"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "pl-30-goal-season",
+    "title": "한 시즌 프리미어리그 30골 이상을 넣은 선수 전부",
+    "trivia": "앨런 시어러는 30골 이상 시즌을 세 번(1993-94·1994-95·1995-96) 만든 유일한 선수다.",
+    "answers": [
+      {
+        "rank": 1,
+        "name": "엘링 홀란",
+        "value": "36골 · 2022-23",
+        "hint": {
+          "club": "맨체스터 시티",
+          "nationality": "노르웨이"
+        },
+        "aliases": [
+          "홀란",
+          "홀란드",
+          "엘링 홀란드",
+          "Erling Haaland",
+          "Haaland"
+        ]
+      },
+      {
+        "rank": 2,
+        "name": "앤디 콜",
+        "value": "34골 · 1993-94",
+        "hint": {
+          "club": "뉴캐슬 유나이티드",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "Andy Cole",
+          "Andrew Cole",
+          "Cole"
+        ]
+      },
+      {
+        "rank": 3,
+        "name": "앨런 시어러",
+        "value": "34골 · 1994-95",
+        "hint": {
+          "club": "블랙번 로버스",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "시어러",
+          "알란 시어러",
+          "Alan Shearer",
+          "Shearer"
+        ]
+      },
+      {
+        "rank": 4,
+        "name": "모하메드 살라",
+        "value": "32골 · 2017-18",
+        "hint": {
+          "club": "리버풀",
+          "nationality": "이집트"
+        },
+        "aliases": [
+          "살라",
+          "모하메드 살라흐",
+          "Mohamed Salah",
+          "Salah"
+        ]
+      },
+      {
+        "rank": 5,
+        "name": "크리스티아누 호날두",
+        "value": "31골 · 2007-08",
+        "hint": {
+          "club": "맨체스터 유나이티드",
+          "nationality": "포르투갈"
+        },
+        "aliases": [
+          "호날두",
+          "Cristiano Ronaldo",
+          "Ronaldo",
+          "CR7"
+        ]
+      },
+      {
+        "rank": 6,
+        "name": "루이스 수아레스",
+        "value": "31골 · 2013-14",
+        "hint": {
+          "club": "리버풀",
+          "nationality": "우루과이"
+        },
+        "aliases": [
+          "수아레스",
+          "Luis Suarez",
+          "Luis Suárez",
+          "Suarez",
+          "suárez"
+        ]
+      },
+      {
+        "rank": 7,
+        "name": "케빈 필립스",
+        "value": "30골 · 1999-2000",
+        "hint": {
+          "club": "선덜랜드",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "필립스",
+          "Kevin Phillips",
+          "Phillips"
+        ]
+      },
+      {
+        "rank": 8,
+        "name": "티에리 앙리",
+        "value": "30골 · 2003-04",
+        "hint": {
+          "club": "아스널",
+          "nationality": "프랑스"
+        },
+        "aliases": [
+          "앙리",
+          "Thierry Henry",
+          "Henry"
+        ]
+      },
+      {
+        "rank": 9,
+        "name": "로빈 판페르시",
+        "value": "30골 · 2011-12",
+        "hint": {
+          "club": "아스널",
+          "nationality": "네덜란드"
+        },
+        "aliases": [
+          "판페르시",
+          "반 페르시",
+          "로빈 반 페르시",
+          "Robin van Persie",
+          "van Persie",
+          "persie"
+        ]
+      },
+      {
+        "rank": 10,
+        "name": "해리 케인",
+        "value": "30골 · 2017-18",
+        "hint": {
+          "club": "토트넘 홋스퍼",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "케인",
+          "Harry Kane",
+          "Kane"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "north-london-derby-both",
+    "title": "아스널·토트넘 양쪽 소속으로 북런던 더비에 출전한 선수 전부",
+    "trivia": "이 여덟 명 중 지미 로버트슨과 아데바요르 두 명만이 북런던 더비에서 양 팀 소속으로 모두 골을 넣었다.",
+    "answers": [
+      {
+        "rank": 1,
+        "name": "로리 브라운",
+        "value": "아스널 1961–64 · 토트넘 1964–66",
+        "hint": {
+          "club": "아스널 → 토트넘",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "브라운",
+          "Laurie Brown",
+          "Brown"
+        ]
+      },
+      {
+        "rank": 2,
+        "name": "솔 캠벨",
+        "value": "토트넘 1992–2001 · 아스널 2001–06, 2010",
+        "hint": {
+          "club": "토트넘 → 아스널",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "캠벨",
+          "Sol Campbell",
+          "Campbell",
+          "Sulzeer Campbell"
+        ]
+      },
+      {
+        "rank": 3,
+        "name": "데이비드 젠킨스",
+        "value": "아스널 1966–68 · 토트넘 1968–70",
+        "hint": {
+          "club": "아스널 → 토트넘",
+          "nationality": "잉글랜드"
+        },
+        "aliases": [
+          "젠킨스",
+          "David Jenkins",
+          "Jenkins"
+        ]
+      },
+      {
+        "rank": 4,
+        "name": "팻 제닝스",
+        "value": "토트넘 1964–77, 1985–86 · 아스널 1977–85",
+        "hint": {
+          "club": "토트넘 → 아스널",
+          "nationality": "북아일랜드"
+        },
+        "aliases": [
+          "제닝스",
+          "패트 제닝스",
+          "Pat Jennings",
+          "Jennings"
+        ]
+      },
+      {
+        "rank": 5,
+        "name": "지미 로버트슨",
+        "value": "토트넘 1964–68 · 아스널 1968–70",
+        "hint": {
+          "club": "토트넘 → 아스널",
+          "nationality": "스코틀랜드"
+        },
+        "aliases": [
+          "로버트슨",
+          "Jimmy Robertson",
+          "Robertson"
+        ]
+      },
+      {
+        "rank": 6,
+        "name": "윌리 영",
+        "value": "토트넘 1975–77 · 아스널 1977–81",
+        "hint": {
+          "club": "토트넘 → 아스널",
+          "nationality": "스코틀랜드"
+        },
+        "aliases": [
+          "Willie Young",
+          "Young"
+        ]
+      },
+      {
+        "rank": 7,
+        "name": "윌리엄 갈라스",
+        "value": "아스널 2006–10 · 토트넘 2010–13",
+        "hint": {
+          "club": "아스널 → 토트넘",
+          "nationality": "프랑스"
+        },
+        "aliases": [
+          "갈라스",
+          "William Gallas",
+          "Gallas"
+        ]
+      },
+      {
+        "rank": 8,
+        "name": "에마뉘엘 아데바요르",
+        "value": "아스널 2006–09 · 토트넘 2011–15",
+        "hint": {
+          "club": "아스널 → 토트넘",
+          "nationality": "토고"
+        },
+        "aliases": [
+          "아데바요르",
+          "엠마누엘 아데바요르",
+          "Emmanuel Adebayor",
+          "Adebayor"
+        ]
       }
     ]
   }

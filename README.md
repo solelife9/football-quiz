@@ -44,6 +44,15 @@ public/                아이콘(icon.svg 원본 → png 렌더본)
 - `npm run dev` · `npm run build` · `npm run preview`
 - `npm test` — vitest · `npm run typecheck` — tsc · `npm run lint` — oxlint
 
+## 지금 들어 있는 문제 (전부 위키피디아 원문 대조, 2026-08-16)
+| 게임 | 개수 |
+|---|---|
+| TOP 10 | 14종 (빅6 클럽 최다 득점·출장, PL·UCL 통산, 레알·바르사) |
+| 조건 겹치기 | 6종 (잉글랜드 클럽 발롱도르, PL 득점왕 2회+, PL 뛴 한국 선수 전부, PL 우승 감독 전부, 한 시즌 30골+, 북런던 더비 양 팀 출전) |
+| 라인업 | 22경기 |
+| 이적 경로 | 91명 |
+| O/X | 110문항 |
+
 ## 데이터 채우기
 - `src/data/*.json` 의 샘플은 **스키마 확인용**이다. `lineups.json` 의 `TODO` 항목(등번호 0)은
   자리만 잡아 둔 것 — 실제 값으로 바꿔야 한다.
